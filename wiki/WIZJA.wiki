@@ -2,6 +2,7 @@ e-TOP FIT System e-rezerwacji w klubie fitness
 
 Wizja Projektu 
 
+
 Opis zmian: Data Wersja Opis Autor 26-03-2014 0.5 Rozpoczęcie prac E.Kunstman 27-03-2014 1.0 Wstępna wersja E.Kunstman 29-03-2014 2.0 Wersja finalna E.Kunstman 
 
 Autorzy: Ewa Kunstman emichale@student.agh.edu.pl 
