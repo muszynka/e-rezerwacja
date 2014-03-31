@@ -1,0 +1,36 @@
+=E-RAKIETA System e-rezerwacji w klubie sportowym=
+
+=Wizja Projektu=
+
+Opis zmian: 
+|| Data || Wersja || Opis || Autor ||  
+|| 30-03-2014 || 0.5 || przygotowanie dokumentu || B.Pych-Wala ||  
+|| 01-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
+||  ||  ||  ||  || 
+
+
+===AGH 2014 ===
+
+== 1 Wprowadzenie ==
+Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu oraz podstawę do jego opracowania.
+
+== 5. Scenariusze testowe ==
+
+===5.1 Specyfikacja scenariuszy testowych===
+1. Identyfikator scenariusza,
+
+2. Cel testu – opis funkcjonalności, której poprawność ma weryfikować test,
+
+3. Warunki wstępne – warunki niezbędne przed wykonaniem scenariusza.
+4. Opis przebiegu testu – wypunktowana lista czynności, jakie kolejno należy wykonać.
+
+5. Oczekiwany efekt - oczekiwany rezultat przejścia całego scenariusza,
+
+6. Tabela wyników testu - poniżej przedstawiono przykładową tabelę wyników testu:
+|| nr testu ||nazwa testu || || 
+|| ||                                       || 
+|| Uwagi:|| || 
+|| Rezultat:|| * zatwierdzono || * nie zatwierdzono||
+|| Wykonawca|| ||Zamawiający || 
+||  ||  ||  || 
+* niepotrzebne skreślić
