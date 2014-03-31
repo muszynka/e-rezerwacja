@@ -5,7 +5,7 @@
 Opis zmian: 
 || Data || Wersja || Opis || Autor ||  
 || 30-03-2014 || 0.5 || przygotowanie dokumentu || B.Pych-Wala ||  
-|| 01-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
+|| xx-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
 ||  ||  ||  ||  || 
 
 
