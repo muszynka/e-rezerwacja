@@ -56,5 +56,7 @@ Podręcznik użytkownika - Podręcznik użytkownika powinien być jasny i przejr
 1 – minimum, 10-maksimum. 
 
 * Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
+
 * Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
+
 * Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
