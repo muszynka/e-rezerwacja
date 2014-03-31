@@ -38,10 +38,11 @@ Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu 
 5. Oczekiwany efekt - oczekiwany rezultat przejścia całego scenariusza,
 
 6. Tabela wyników testu - poniżej przedstawiono przykładową tabelę wyników testu:
+
 || nr testu ||nazwa testu || 
-|| ...|| ....................  ||                                   
-|| Uwagi:||................ || 
+|| ...|| .........................||                                   
+|| Uwagi:||.............................. || 
 || Rezultat:|| * zatwierdzono || * nie zatwierdzono||
 || Wykonawca|| ||Zamawiający || 
-|| ........... ||  || .............. || 
-* niepotrzebne skreślić
+|| ................ ||  || ........................ || 
+niepotrzebne skreślić
