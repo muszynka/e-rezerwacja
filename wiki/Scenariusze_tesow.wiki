@@ -1,6 +1,6 @@
 =E-RAKIETA System e-rezerwacji w klubie sportowym=
 
-=Wizja Projektu=
+=TESTY AKCEPTACYJNE=
 
 Opis zmian: 
 || Data || Wersja || Opis || Autor ||  
@@ -13,6 +13,17 @@ Opis zmian:
 
 == 1 Wprowadzenie ==
 Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu oraz podstawę do jego opracowania.
+
+==2. Organizacja testów==
+
+===2.1. Harmonogram testów ===
+
+===3.1. Klasyfikacja błędów===
+
+
+==3. Rodzaje testów==
+
+== 4. Plan testów==
 
 == 5. Scenariusze testowe ==
 
@@ -27,10 +38,10 @@ Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu 
 5. Oczekiwany efekt - oczekiwany rezultat przejścia całego scenariusza,
 
 6. Tabela wyników testu - poniżej przedstawiono przykładową tabelę wyników testu:
-|| nr testu ||nazwa testu || || 
-|| ||                                       || 
-|| Uwagi:|| || 
+|| nr testu ||nazwa testu || 
+|| ...|| ....................  ||                                   
+|| Uwagi:||................ || 
 || Rezultat:|| * zatwierdzono || * nie zatwierdzono||
 || Wykonawca|| ||Zamawiający || 
-||  ||  ||  || 
+|| ........... ||  || .............. || 
 * niepotrzebne skreślić
