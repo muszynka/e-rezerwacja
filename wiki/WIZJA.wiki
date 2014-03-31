@@ -2,8 +2,8 @@
 
 =Wizja Projektu=
 
-
-|| Opis zmian: || Data || Wersja || Opis || Autor ||  
+Opis zmian: 
+|| Data || Wersja || Opis || Autor ||  
 || 26-03-2014 || 0.5 || Rozpoczęcie prac || E.Kunstman ||  
 || 27-03-2014 || 1.0 || Wstępna wersja || E.Kunstman || 
 || 29-03-2014 || 2.0 || Wersja 2.0 || E.Kunstman || 
@@ -50,10 +50,11 @@ Interakcja z użytkownikiem musi przebiegać w czasie możliwie zbliżonym do rz
 Kod powinien powstać zgodnie z notacją popularyzowaną w Java Beans oraz Programowanie przez Intencję. Zostaną zastosowane znane i wypróbowane wzorce projektowe. Dokumentacja powstanie w oparciu o metodologię RUP przystosowaną do prowadzenia zajęć projektowych dla słuchaczy studiów podyplomowych ‘Projektowanie i Eksploatacja Systemów’ prowadzonych na katedrze Informatyki AGH przez dr Romana Dębskiego. Wymagania systemowe i technologiczne - Kod systemu powinien móc być przetłumaczony bezproblemowo na język VHDL, który jest popularnym językiem programatorów logicznych. 
 
 ==8 Wymagania stawiane dokumentacji ==
-Podręcznik użytkownika - Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności ,,krok po kroku'' czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. Podręcznik instalacji i konfiguracji - Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą ,,krok po kroku'' nawet przez zupełnego laika. Dokumentacja techniczna - Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 2.1. 
+Podręcznik użytkownika - Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności "krok po kroku" czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. Podręcznik instalacji i konfiguracji - Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą "krok po kroku" nawet przez zupełnego laika. Dokumentacja techniczna - Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 2.1. 
 
 ==9 Wstępna analiza ryzyka ==
 1 – minimum, 10-maksimum. 
-Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
-Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
-Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
+
+*Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
+*Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
+*Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
