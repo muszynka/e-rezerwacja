@@ -55,8 +55,8 @@ Podręcznik użytkownika - Podręcznik użytkownika powinien być jasny i przejr
 ==9 Wstępna analiza ryzyka ==
 *1 – minimum, 10-maksimum. *
 
-# Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
+  * Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
 
-# Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
+  * Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
 
-# Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
+  * Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
