@@ -18,7 +18,7 @@ Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu 
 
 ===2.1. Harmonogram testów ===
 
-===3.1. Klasyfikacja błędów===
+===2.2. Klasyfikacja błędów===
 
 
 ==3. Rodzaje testów==
