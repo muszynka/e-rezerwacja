@@ -53,10 +53,10 @@ Kod powinien powstać zgodnie z notacją popularyzowaną w Java Beans oraz Progr
 Podręcznik użytkownika - Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności "krok po kroku" czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. Podręcznik instalacji i konfiguracji - Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą "krok po kroku" nawet przez zupełnego laika. Dokumentacja techniczna - Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 2.1. 
 
 ==9 Wstępna analiza ryzyka ==
-1 – minimum, 10-maksimum. 
+*1 – minimum, 10-maksimum. *
 
-* Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
+# Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
 
-* Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
+# Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
 
-* Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
+# Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
