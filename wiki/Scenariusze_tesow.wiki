@@ -1,3 +1,5 @@
+#summary TESTY.
+
 =E-RAKIETA System e-rezerwacji w klubie sportowym=
 
 =TESTY AKCEPTACYJNE=
