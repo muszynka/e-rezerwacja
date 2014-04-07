@@ -8,6 +8,7 @@ Opis zmian:
 || Data || Wersja || Opis || Autor ||  
 || 30-03-2014 || 0.5 || przygotowanie dokumentu || B.Pych-Wala ||  
 || 07-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
+|| 07-04-2014 || 1.1 || TESTY etap 1 || B.Pych-Wala || 
 ||  ||  ||  ||  || 
 
 
