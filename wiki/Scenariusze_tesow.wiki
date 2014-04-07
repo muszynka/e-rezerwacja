@@ -20,14 +20,16 @@ Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu 
 
 ===2.1. Harmonogram testów ===
 Etap 1 do 2013-04-12
-Etap 2 do 2013-05-17 	
+
+Etap 2 do 2013-05-17 
+	
 Etap 3 do 2013-05-31
 
 ===2.2. Klasyfikacja błędów===
 
 
 ==3. Rodzaje testów==
-Testy akceptacje
+Testy funkcjonalności i użytkownika (akceptacje)
 Testy automatyczne
 
 == 4. Plan testów==
@@ -42,32 +44,41 @@ Etap II
 
 Etap III
 
-===5.1 Specyfikacja scenariuszy testowych===
-==1. Identyfikator scenariusza==
 
+===5.1 Specyfikacja scenariuszy testowych Etap 1===
 
-=TEST nr 1=
+===5.1.1===
+*1. Identyfikator scenariusza*
+TEST nr 1
 
-==2. Cel testu – opis funkcjonalności, której poprawność ma weryfikować test==
+*2. Cel testu – (opis funkcjonalności, której poprawność ma weryfikować test)*
 Celem testu jest sprawdzenie możliwości rejestracji klienta poprzez stronę www
 
-==3. Warunki wstępne – warunki niezbędne przed wykonaniem scenariusza.==
+*3. Warunki wstępne – (warunki niezbędne przed wykonaniem scenariusza).*
 Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
 
-==4. Opis przebiegu testu – wypunktowana lista czynności, jakie kolejno należy wykonać.==
+*4. Opis przebiegu testu – (wypunktowana lista czynności, jakie kolejno należy wykonać).*
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
-2. klient uzupełnia wymagane pola o zakres e-mail ..............hasło.
+
+2. klient uzupełnia wymagane pola: imię, nazwisko, e-mail, nr telefonu, hasło.
+*Sygnalizacja błędu* - nieprawidłowo (np. adres e-mail) lub
+niekompletnie wpisanych danych rejestracyjnych (np. brak imienia).
+ - użytkownik istnieje w bazie wpisanie danych: adres poczty elektronicznej, nazwy użytkownika
+
 3. po rejestracji klient otrzymuje maila na podane podczas rejestracji konto z potwierdzeniem rejestracji
 
-==5. Oczekiwany efekt - oczekiwany rezultat przejścia całego scenariusza,==
+4. Dane klienta zostają zapisane w Bazie
+
+*5. Oczekiwany efekt - (oczekiwany rezultat przejścia całego scenariusza)*
 Klient został zarejestrowany w systemie 
 
 6. Tabela wyników testu - poniżej przedstawiono przykładową tabelę wyników testu:
 
 || nr testu ||nazwa testu || 
 || ...|| .........................||                                   
-|| Uwagi:||.............................. || 
-|| Rezultat:|| * zatwierdzono || * nie zatwierdzono||
-|| Wykonawca|| ||Zamawiający || 
+|| Uwagi:||.............................. ||
+|| ................................................. ||
+|| Rezultat:||  * zatwierdzono ||  * nie zatwierdzono||
+|| Wykonawca||  ||Zamawiający || 
 || ................ ||  || ........................ || 
 niepotrzebne skreślić
