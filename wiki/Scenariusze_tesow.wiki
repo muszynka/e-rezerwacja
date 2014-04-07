@@ -89,7 +89,6 @@ Klient został zarejestrowany w systemie
 
 
 
-
 ===5.1.2 Identyfikator scenariusza===
 *TEST nr 2*
 
@@ -112,10 +111,49 @@ Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowa
 3. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  
 
 
-*5. Oczekiwany efekt* -
+*4. Oczekiwany efekt* -
 Klient został zalogowany w systemie 
 
-6. Tabela wyników testu - 
+5. Tabela wyników testu - 
+
+
+||  nr testu            || nazwa testu              ||
+||  Uwagi:              || .........................||
+|| .....................|| .........................||
+|| *Rezultat:*          ||                          ||
+||  zatwierdzono        ||  nie zatwierdzono        ||
+|| .................... ||  ........................|| 
+||  Wykonawca           ||  Zamawiający             || 
+|| .................... ||  ........................|| 
+
+
+
+
+===5.1.3 Identyfikator scenariusza===
+*TEST nr 3*
+
+*Cel testu *–
+Celem testu jest sprawdzenie procedury przypomnij hasło na stronie www
+
+*Warunki wstępne* – 
+Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
+
+*Opis przebiegu testu* – 
+
+1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej logowania/przypomnij hasło.
+
+2. klient uzupełnia pola imię, nazwisko i uruchamia przycisk "wyślij zapytanie"
+
+3. klient otrzymuje na adres e-mail podany podczas rejestracji zapisane w bazie hasło.
+
+*Sygnalizacja błędu* 
+  * nieprawidłowo niekompletnie wpisanych danych 
+  * użytkownik nie istnieje w bazie danych
+
+*4. Oczekiwany efekt* -
+Klient otrzymał przypomnienie "hasła" 
+
+5. Tabela wyników testu - 
 
 
 ||  nr testu            || nazwa testu              ||
