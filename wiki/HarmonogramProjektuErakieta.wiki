@@ -1,0 +1,11 @@
+#summary Harmonogram dla projektu - planowanie czasowe.
+#labels Phase-Requirements
+
+= Introduction =
+
+Ten dokument zawiera rozpiskę harmonogramu z openproj.
+
+
+= Details =
+
+tu należy przekleić harmonogram
