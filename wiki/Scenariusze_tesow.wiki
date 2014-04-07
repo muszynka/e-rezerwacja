@@ -2,18 +2,18 @@
 
 =E-RAKIETA System e-rezerwacji w klubie sportowym=
 
-=TESTY AKCEPTACYJNE=
+=TESTY=
 
 Opis zmian: 
 || Data || Wersja || Opis || Autor ||  
 || 30-03-2014 || 0.5 || przygotowanie dokumentu || B.Pych-Wala ||  
-|| xx-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
+|| 07-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
 ||  ||  ||  ||  || 
 
 
 ===AGH 2014 ===
 
-== 1 Wprowadzenie ==
+== 1. Wprowadzenie ==
 Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu oraz podstawę do jego opracowania.
 
 ==2. Organizacja testów==
@@ -21,7 +21,8 @@ Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu 
 ===2.1. Harmonogram testów ===
 Etap 1 do 2013-04-12
 
-Etap 2 do 2013-05-17 
+Etap 2 do 2013-05-17
+
 	
 Etap 3 do 2013-05-31
 
@@ -30,15 +31,15 @@ Etap 3 do 2013-05-31
 
 ==3. Rodzaje testów==
 Testy funkcjonalności i użytkownika (akceptacje)
+
 Testy automatyczne
 
 == 4. Plan testów==
-
 Etap 1
 weryfikacja poprawności:
- - rejestracji klienta do portali
- - logowania klienta do portalu
- - opcja przypomnienia hasła
+  * rejestracji klienta do portali
+  * logowania klienta do portalu
+  * opcja przypomnienia hasła
 
 Etap II
 
@@ -47,38 +48,81 @@ Etap III
 
 ===5.1 Specyfikacja scenariuszy testowych Etap 1===
 
-===5.1.1===
-*1. Identyfikator scenariusza*
-TEST nr 1
+===5.1.1 Identyfikator scenariusza===
+*TEST nr 1*
 
-*2. Cel testu – (opis funkcjonalności, której poprawność ma weryfikować test)*
+*Cel testu *–
 Celem testu jest sprawdzenie możliwości rejestracji klienta poprzez stronę www
 
-*3. Warunki wstępne – (warunki niezbędne przed wykonaniem scenariusza).*
+*Warunki wstępne* – 
 Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
 
-*4. Opis przebiegu testu – (wypunktowana lista czynności, jakie kolejno należy wykonać).*
+*Opis przebiegu testu* – 
+
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 
 2. klient uzupełnia wymagane pola: imię, nazwisko, e-mail, nr telefonu, hasło.
-*Sygnalizacja błędu* - nieprawidłowo (np. adres e-mail) lub
-niekompletnie wpisanych danych rejestracyjnych (np. brak imienia).
- - użytkownik istnieje w bazie wpisanie danych: adres poczty elektronicznej, nazwy użytkownika
+
+*Sygnalizacja błędu* 
+  * nieprawidłowo (np. adres e-mail) lub niekompletnie wpisanych danych rejestracyjnych (np. brak imienia).
+  * użytkownik istnieje w bazie wpisanie danych: adres poczty elektronicznej, nazwy użytkownika
 
 3. po rejestracji klient otrzymuje maila na podane podczas rejestracji konto z potwierdzeniem rejestracji
 
 4. Dane klienta zostają zapisane w Bazie
 
-*5. Oczekiwany efekt - (oczekiwany rezultat przejścia całego scenariusza)*
+*5. Oczekiwany efekt* -
 Klient został zarejestrowany w systemie 
 
-6. Tabela wyników testu - poniżej przedstawiono przykładową tabelę wyników testu:
+6. Tabela wyników testu - 
 
-|| nr testu ||nazwa testu || 
-|| ...|| .........................||                                   
-|| Uwagi:||.............................. ||
-|| ................................................. ||
-|| Rezultat:||  * zatwierdzono ||  * nie zatwierdzono||
-|| Wykonawca||  ||Zamawiający || 
-|| ................ ||  || ........................ || 
-niepotrzebne skreślić
+
+||  nr testu            || nazwa testu              ||
+||  Uwagi:              || .........................||
+|| .....................|| .........................||
+|| *Rezultat:*          ||                          ||
+||  zatwierdzono        ||  nie zatwierdzono        ||
+|| .................... ||  ........................|| 
+||  Wykonawca           ||  Zamawiający             || 
+|| .................... ||  ........................|| 
+
+
+
+
+
+===5.1.2 Identyfikator scenariusza===
+*TEST nr 2*
+
+*Cel testu *–
+Celem testu jest sprawdzenie możliwości logowania klienta poprzez stronę www
+
+*Warunki wstępne* – 
+Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
+
+*Opis przebiegu testu* – 
+
+1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
+
+2. klient uzupełnia wymagane pola: e-mail, hasło.
+
+*Sygnalizacja błędu* 
+  * nieprawidłowo niekompletnie wpisanych danych (np. brak hasła) lub niezgodność hasła z e-mail.
+  * użytkownik nie istnieje w bazie wpisanie danych
+
+3. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  
+
+
+*5. Oczekiwany efekt* -
+Klient został zalogowany w systemie 
+
+6. Tabela wyników testu - 
+
+
+||  nr testu            || nazwa testu              ||
+||  Uwagi:              || .........................||
+|| .....................|| .........................||
+|| *Rezultat:*          ||                          ||
+||  zatwierdzono        ||  nie zatwierdzono        ||
+|| .................... ||  ........................|| 
+||  Wykonawca           ||  Zamawiający             || 
+|| .................... ||  ........................|| 
