@@ -1,6 +1,13 @@
 #summary Harmonogram dla projektu - planowanie czasowe.
 #labels Phase-Requirements
 
+
+Opis zmian: 
+|| Data || Wersja || Opis || Autor ||  
+|| 07-04-2014 || 0.5 || Rozpoczęcie prac || E.Kunstman ||  
+|| 07-04-2014 || 1.0 || Wstępna wersja || E.Kunstman || 
+ 
+
 = Introduction =
 
 Ten dokument zawiera rozpiskę harmonogramu z openproj.
