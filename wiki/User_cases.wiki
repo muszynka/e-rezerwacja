@@ -1,69 +1,186 @@
-<p align="center" class="MsoTitle" style="text-align: center;"><span style="font-size: 18pt;"><strong>E-RAKIETA System e-rezerwacji w klubie sportowym</strong></span></p>
-<p align="center" class="MsoSubtitle" style="text-align: center;"><span style="font-size: 14pt;">Specyfikacja wymagań</span></p>
-Opis zmian:
+ 
+E-RAKIETA System
+e-rezerwacji w klubie sportowym
 
-Data	 Wersja	 Opis	 Autor
-30-03-2014	 0.5	 przygotowanie dokumentu	 
-07-04-2014	 1.0	 Wstępna wersja	 
-07-04-2014	 1.1	 TESTY etap 1	
+ 
+Specyfikacja
+wymagań
 
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 14pt;">Wersja 1.0 &ndash; 2014-04-09</span></p>
-<p class="MsoNormal">&nbsp;</p>
-<p class="MsoTocHeading"><span lang="EN-US">Contents</span><span style="font-size: 11pt; line-height: 115%; color: windowtext;"></span></p>
-<p class="MsoToc1"><font color="#0000ee"><u>1. E-rakieta &ndash; informacje og&oacute;lne</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>1.1. &nbsp; &nbsp; Architektura logiczna i funkcjonalna</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>1.1.1. &nbsp; &nbsp; Warstwa bazy danych</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>1.1.2. &nbsp; &nbsp; Warstwa interfejsu użytkownika</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>1.2. &nbsp; &nbsp; Architektura techniczna</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>1.2.1. &nbsp; &nbsp; Wymagania</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>1.2.2. &nbsp; &nbsp; Wymagania &ndash; stanowisko użytkownika końcowego systemu</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>2. Cele wdrożenia</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>3. Etapy wdrożenia</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>3.1. &nbsp; &nbsp; Etapy wdrożenia, pracochłonność oraz terminy.</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4. Scenariusze użycia</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.1. &nbsp; &nbsp; Rejestracja użytkownika</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.1.1. &nbsp; &nbsp; Pola formularza</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.1.2. &nbsp; &nbsp; Akcje</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.1.3. &nbsp; &nbsp; Prezentacja graficzna</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.2. &nbsp; &nbsp; Logowanie do systemu</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.2.1. &nbsp; &nbsp; Pola formularza</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.2.2. &nbsp; &nbsp; Akcje</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.2.3. &nbsp; &nbsp; Prezentacja graficzna</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.3. &nbsp; &nbsp; Przypomnienie hasła</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.3.1. &nbsp; &nbsp; Pola formularza</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.3.2. &nbsp; &nbsp; Akcje</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.3.3. &nbsp; &nbsp; Prezentacja graficzna</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.1. &nbsp; &nbsp; Rezerwacja terminu trenera</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.2. &nbsp; &nbsp; Rezerwacja Sali</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.3. &nbsp; &nbsp; Od rezerwowanie Sali</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.4. &nbsp; &nbsp; Od rezerwowanie terminu trenera</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.5. &nbsp; &nbsp; Sprawdzenie rezerwacji u danego trenera lub Sali</u></font></p>
-<p class="MsoToc1"><font color="#0000ee"><u>4.6. &nbsp; &nbsp; Raport z godzin przepracowanych przez trenera</u></font></p>
-<p class="MsoNormal"><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->&nbsp;</p>
-<h1><a name="_Toc384845543"><!--[if !supportLists]-->1. <!--[endif]-->E-rakieta &ndash; informacje og&oacute;lne</a></h1>
-<h2><a name="_Toc384845544">&nbsp;</a><a name="_Toc372201739"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc002e;">1.1.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Architektura logiczna i funkcjonalna</a></h2>
-<p class="Normal2">Rozwiązanie zostanie oparte o autorski silnik stworzony w oparciu o jeżyk Java. System stanowi aplikację dedykowaną stworzona na życzenie Klienta.</p>
-<h3><a name="_Toc384845545">&nbsp;</a><a name="_Toc372201740"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040;">1.1.1.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Warstwa bazy danych</a></h3>
-<p class="Normal2" style="margin-left: 4.0cm;"><a>Do uzupełnienia informacjami o bazie. Na czym to stoi.&nbsp;</a></p>
-<h3><a name="_Toc384845546">&nbsp;</a><a name="_Toc372201742"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040;">1.1.2.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Warstwa interfejsu użytkownika</a></h3>
-<p class="Normal2" style="margin-left: 4.0cm;">Podstawowy interfejs użytkownika stanowi zestaw stron dostępny przez przeglądarkę internetową. Zestaw ten stanowią strony z formularzami oraz raportami dedykowanymi.</p>
-<h2><a name="_Toc384845547">&nbsp;</a><a name="_Toc372201746"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc002e;">1.2.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Architektura techniczna</a></h2>
-<p class="Normal2"><a>Opis architektury technicznej.&nbsp;</a></p>
-<h3><a name="_Toc372201747">&nbsp;</a><a name="_Toc384845548"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040;">1.2.1.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Wymagania</a></h3>
-<p class="Normal2"><a>Wymagania techniczne do obsługi aplikacji. </a><span class="MsoCommentReference"><span style="font-size: 8.0pt; line-height: 115%; mso-ansi-language: PL;">&nbsp;</span></span></p>
-<h3><a name="_Toc384845549">&nbsp;</a><a name="_Toc372201748"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040;">1.2.2.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Wymagania &ndash; stanowisko użytkownika końcowego systemu</a></h3>
-<p class="Normal2">Przeglądarka internetowa Internet Explorer, Mozilla Firefox, Opera, Chrome.</p>
-<h1><a name="_Toc384845550"><!--[if !supportLists]-->2. <!--[endif]-->Cele wdrożenia</a></h1>
-<p class="MsoNormal">Wdrożenie systemu e-rezerwacji w klubie sportowym ma na celu:</p>
-<p class="MsoListParagraphCxSpFirst" style="margin-bottom: 10.0pt; mso-add-space: auto; text-indent: -18.0pt; mso-list: l1 level1 lfo2;"><!--[if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;">&middot;<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Usprawnienie rezerwacji sal sportowych przez klient&oacute;w zewnętrznych.</p>
-<p class="MsoListParagraphCxSpMiddle" style="margin-bottom: 10.0pt; mso-add-space: auto; text-indent: -18.0pt; mso-list: l1 level1 lfo2;"><!--[if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;">&middot;<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Usprawnienie rezerwacji termin&oacute;w dla trener&oacute;w poszczeg&oacute;lnych dyscyplin przez klient&oacute;w zewnętrznych klubu.</p>
-<p class="MsoListParagraphCxSpMiddle" style="margin-bottom: 10.0pt; mso-add-space: auto; text-indent: -18.0pt; mso-list: l1 level1 lfo2;"><!--[if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;">&middot;<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Usprawnienie zarządzania aktualnymi rezerwacjami trener&oacute;w oraz sal sportowych.</p>
-<p class="MsoListParagraphCxSpMiddle" style="margin-bottom: 10.0pt; mso-add-space: auto; text-indent: -18.0pt; mso-list: l1 level1 lfo2;"><!--[if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;">&middot;<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Usprawnienie kontroli i walidacji termin&oacute;w rezerwacji.</p>
-<p class="MsoListParagraphCxSpLast" style="margin-bottom: 10.0pt; mso-add-space: auto; text-indent: -18.0pt; mso-list: l1 level1 lfo2;"><!--[if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;">&middot;<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Usprawnię kontroli czasu pracy poszczeg&oacute;lnych trener&oacute;w.</p>
-<h1><a name="_Toc384845551"><!--[if !supportLists]-->3. <!--[endif]-->Etapy wdrożenia</a></h1>
-<p class="Normal2">Poniżej tabela z etapami projektu wraz z ich pracochłonnością oraz terminami wykonania.</p>
-<h2><a name="_Toc384845552"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc002e;">3.1.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Etapy wdrożenia, pracochłonność oraz terminy.</a></h2>
-<p align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;"><strong><span style="font-size: 8.0pt; font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;;">&nbsp;</span></strong></p>
+ 
+Patrycja Minor
+
+ 
+Wersja 1.0 
+2014-04-09
+
+   
+Contents
+
+
+[1. E-rakieta – informacje ogólne. ]
+
+ 
+[1.1.     Architektura logiczna i funkcjonalna. ]
+
+ 
+[1.1.1.     Warstwa bazy danych. ]
+
+ 
+[1.1.2.     Warstwa interfejsu użytkownika. ]
+
+ 
+[1.2.     Architektura techniczna. ]
+
+ 
+[1.2.1.     Wymagania. ]
+
+ 
+[1.2.2.     Wymagania – stanowisko użytkownika końcowego systemu. ]
+
+ 
+[2. Cele wdrożenia. ]
+
+ 
+[3. Etapy wdrożenia. ]
+
+ 
+[3.1.     Etapy wdrożenia, pracochłonność oraz terminy. ]
+
+ 
+[4. Scenariusze użycia. ]
+
+ 
+[4.1.     Rejestracja użytkownika. ]
+
+ 
+[4.1.1.     Pola formularza. ]
+
+ 
+[4.1.2.     Akcje. ]
+
+ 
+[4.1.3.     Prezentacja graficzna. ]
+
+ 
+[4.2.     Logowanie do systemu. ]
+
+ 
+[4.2.1.     Pola formularza. ]
+
+ 
+[4.2.2.     Akcje. ]
+
+ 
+[4.2.3.     Prezentacja graficzna. ]
+
+ 
+[4.3.     Przypomnienie hasła. ]
+
+ 
+[4.3.1.     Pola formularza. ]
+
+ 
+[4.3.2.     Akcje. ]
+
+ 
+[4.3.3.     Prezentacja graficzna. ]
+
+ 
+[4.1.     Rezerwacja terminu trenera. ]
+
+ 
+[4.2.     Rezerwacja Sali ]
+
+ 
+[4.3.     Od rezerwowanie Sali ]
+
+ 
+[4.4.     Od rezerwowanie terminu trenera. ]
+
+ 
+[4.5.     Sprawdzenie rezerwacji u danego trenera lub Sali ]
+
+ 
+[4.6.     Raport z godzin przepracowanych przez trenera. ]
+
+   
+= 1. E-rakieta – informacje ogólne =
+ 
+== 1.1.        Architektura logiczna i funkcjonalna ==
+ 
+Rozwiązanie zostanie oparte o autorski silnik stworzony w
+oparciu o jeżyk Java. System stanowi aplikację dedykowaną stworzona na życzenie
+Klienta.
+
+ 
+=== 1.1.1.        Warstwa bazy danych ===
+ 
+Do uzupełnienia informacjami o
+bazie. Na czym to stoi. 
+
+ 
+=== 1.1.2.        Warstwa interfejsu użytkownika ===
+ 
+Podstawowy interfejs użytkownika
+stanowi zestaw stron dostępny przez przeglądarkę internetową. Zestaw ten
+stanowią strony z formularzami oraz raportami dedykowanymi. 
+
+ 
+== 1.2.        Architektura techniczna ==
+ 
+Opis architektury technicznej. 
+
+ 
+=== 1.2.1.        Wymagania ===
+ 
+Wymagania techniczne do obsługi aplikacji. 
+
+ 
+=== 1.2.2.        Wymagania – stanowisko użytkownika końcowego systemu ===
+ 
+Przeglądarka internetowa Internet Explorer, Mozilla Firefox,
+Opera, Chrome.
+
+ 
+= 2. Cele wdrożenia =
+ 
+Wdrożenie systemu e-rezerwacji w klubie sportowym ma na
+celu:
+
+ 
+·        
+Usprawnienie rezerwacji sal sportowych przez klientów
+zewnętrznych.
+
+ 
+·        
+Usprawnienie rezerwacji terminów dla trenerów poszczególnych
+dyscyplin przez klientów zewnętrznych klubu. 
+
+ 
+·        
+Usprawnienie zarządzania aktualnymi rezerwacjami trenerów oraz
+sal sportowych. 
+
+ 
+·        
+Usprawnienie kontroli i walidacji terminów rezerwacji. 
+
+ 
+·        
+Usprawnię kontroli czasu pracy poszczególnych trenerów. 
+
+ 
+= 3. Etapy wdrożenia =
+ 
+Poniżej tabela z etapami projektu wraz z ich pracochłonnością
+oraz terminami wykonania. 
+
+ 
+== 3.1.        Etapy wdrożenia, pracochłonność oraz terminy. ==
+                                                  
+
+<div class="WordSection1">
 <div align="center">
 <table border="1" cellpadding="0" cellspacing="0" class="MsoTableMediumShading1Accent2" style="border-collapse: collapse; border: none; width: 576px;">
 <tbody>
@@ -93,7 +210,7 @@ Data	 Wersja	 Opis	 Autor
 <td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
 <p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP Ib: TWORZENIEKO ORAZ NFIGURACJA PROGRAMU</span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></p>
 <p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- stworzenie oraz konfiguracja systemu   e-rezerwacji zgodnie z dokumentem RAN</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">-przekazanie systemu do test&oacute;w </span></p>
+<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">-przekazanie systemu do testów </span></p>
 </td>
 <td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
 <p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">10</span></p>
@@ -104,9 +221,9 @@ Data	 Wersja	 Opis	 Autor
 </tr>
 <tr style="mso-yfti-irow: 2; height: 62.8pt;">
 <td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP Ic: TESTY WEWNETRZNE&nbsp; </span></strong></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">przeprowadzenie test&oacute;w wewnętrznych zgodnie z dokumentem testowym</span></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">&nbsp;</span></strong></p>
+<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP Ic: TESTY WEWNETRZNE </span></strong></p>
+<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">przeprowadzenie testów wewnętrznych zgodnie z dokumentem testowym</span></p>
+<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></strong></p>
 </td>
 <td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
 <p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">5</span></p>
@@ -117,8 +234,8 @@ Data	 Wersja	 Opis	 Autor
 </tr>
 <tr style="mso-yfti-irow: 3; height: 62.8pt;">
 <td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP IIa: SZKOLENIE UŻYTKOWNIK&Oacute;W KOŃCOWYCH</span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- szkolenie grupy wiodącej (1x4h) w siedzibie   Zamawiającego &ndash; obsługa systemu<strong></strong></span></p>
+<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP IIa: SZKOLENIE UŻYTKOWNIKÓW KOŃCOWYCH</span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></p>
+<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- szkolenie grupy wiodącej (1x4h) w   siedzibie Zamawiającego  obsługa systemu<strong></strong></span></p>
 </td>
 <td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
 <p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">1</span></p>
@@ -130,10 +247,10 @@ Data	 Wersja	 Opis	 Autor
 <tr style="mso-yfti-irow: 4; height: 62.8pt;">
 <td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
 <p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP IB: TESTY UAT</span></strong></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">przekazanie do test&oacute;w zewnętrznych użytkownik&oacute;w końcowych</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- przeprowadzenie test&oacute;w zgodnie ze   scenariuszami z pkt. 4 niniejszego dokumentu</span></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">asysta przy realizacji przez Klienta test&oacute;w systemu</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- 3 dni test&oacute;w zakończonych   zgłoszeniem uwag </span></p>
+<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">przekazanie do testów zewnętrznych użytkowników końcowych</span></p>
+<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- przeprowadzenie testów zgodnie ze   scenariuszami z pkt. 4 niniejszego dokumentu</span></p>
+<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">asysta przy realizacji przez Klienta testów systemu</span></p>
+<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- 3 dni testów zakończonych   zgłoszeniem uwag </span></p>
 <p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- 2 dni na wprowadzenie poprawek</span></p>
 <p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- 2 dni na ponowne testy i akceptację   systemu</span></p>
 </td>
@@ -178,25 +295,46 @@ Data	 Wersja	 Opis	 Autor
 <p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 2;"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">27 RD</span></strong></p>
 </td>
 <td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: double #F19D64 2.25pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 22.95pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 2;"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">&nbsp;</span></strong></p>
+<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 2;"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></strong></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="MsoNormal">&nbsp;</p>
-<p class="MsoNormal">&nbsp;</p>
-<p class="MsoNormal">&nbsp;</p>
-<h1><a name="_Toc384845553"><!--[if !supportLists]-->4. <!--[endif]-->Scenariusze użycia</a></h1>
-<p class="Normal2">Poniżej przedstawiono przykłady użycia programu oraz jego wszystkie funkcjonalności.</p>
-<h2><a name="_Toc384845554"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc002e;">4.1.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Rejestracja użytkownika</a></h2>
-<p class="Normal2">Rejestracja nowego użytkownika odbywa się poprzez dedykowana stronę WWW. Przejść na nią można za pomocą linku &bdquo;Zarejestruj się&rdquo; dostępnego na witrynie logowania. Ten sam link może być udostępniony r&oacute;wnież w innych miejscach systemu.</p>
-<p class="Normal2">Wygląd witryny:</p>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2"><a><em>Uzupełnić wyglądem witryny</em></a></p>
-<p class="Normal2"><em>&nbsp;</em></p>
-<p class="Normal2">Użytkownik, kt&oacute;ry chce się zarejestrować wypełnia odpowiednie pola w formularzu:</p>
-<h3><a name="_Toc384845555"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040; font-weight: normal; mso-bidi-font-weight: bold;">4.1.1.<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Pola formularza</a><span style="font-weight: normal; mso-bidi-font-weight: bold;"></span></h3>
+</div>
+  
+ 
+
+     
+= 4. Scenariusze użycia =
+ 
+Poniżej przedstawiono przykłady użycia programu oraz jego
+wszystkie funkcjonalności. 
+
+ 
+== 4.1.        Rejestracja użytkownika ==
+ 
+Rejestracja nowego użytkownika odbywa się poprzez dedykowana
+stronę WWW. Przejść na nią można za pomocą linku „Zarejestruj się” dostępnego
+na witrynie logowania. Ten sam link może być udostępniony również w innych
+miejscach systemu. 
+
+ 
+Wygląd witryny:
+
+   
+_Uzupełnić wyglądem witryny_
+
+   
+Użytkownik, który chce się zarejestrować wypełnia odpowiednie
+pola w formularzu:
+
+ 
+=== 4.1.1.        Pola formularza ===
+                                            
+
+<div class="WordSection1">
+<div align="center">
 <table border="0" cellpadding="0" cellspacing="0" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
 <tbody>
 <tr>
@@ -204,7 +342,7 @@ Data	 Wersja	 Opis	 Autor
 <p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa pola</span></strong></p>
 </td>
 <td style="width: 47.9pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">&nbsp;</span></strong></p>
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"></span></strong></p>
 </td>
 <td style="width: 106.3pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Typ pola</span></strong></p>
@@ -294,320 +432,331 @@ Data	 Wersja	 Opis	 Autor
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole checbox</span></p>
 </td>
 <td style="width: 8.0cm; border: none; border-bottom: solid #C00000 2.25pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Zaznaczenie pola jest   r&oacute;wnoznaczne z akceptacja regulaminu. </span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Zaznaczenie pola jest   równoznaczne z akceptacja regulaminu. </span></p>
 </td>
 </tr>
 </tbody>
 </table>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2">Następnie klika przycisk &bdquo;Rejestruj&rdquo;.</p>
-<p class="Normal2">System automatycznie wykona następujące akcje:</p>
-<p class="Normal2" style="margin-left: 0cm;">&nbsp;</p>
-<h3><a name="_Toc384845556"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040; font-weight: normal; mso-bidi-font-weight: bold;">4.1.2.<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Akcje</a><span style="font-weight: normal; mso-bidi-font-weight: bold;"></span></h3>
-<table border="0" cellpadding="0" cellspacing="0" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
-<tbody>
-<tr>
-<td style="width: 92.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa   akcji</span></strong></p>
-</td>
-<td style="width: 155.95pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Opis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></p>
-</td>
-<td style="width: 97.25pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Poprawne   wykonanie </span></strong></p>
-</td>
-<td style="width: 115.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Błąd</span></strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 92.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja wymaganych   p&oacute;l</span></strong></p>
-</td>
-<td style="width: 155.95pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System sprawdza czy wszystkie pola określone w formularzu,   jako wymagane &bdquo;<span style="color: red;">[W]</span>&rdquo; są uzupełnione. Jeśli nie   zgłasza błąd. </span></p>
-</td>
-<td style="width: 97.25pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do kolejnych akcji. </span></p>
-</td>
-<td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat &rdquo;Wypełnij wszystkie pola, kt&oacute;re   są oznaczone, jako wymagane.&rdquo;</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 92.15pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja adresu   e-mail</span></strong></p>
-</td>
-<td style="width: 155.95pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy adres e-mail podany w   formularzu istnieje już w bazie danych. W przypadku wykrycia zgłasza błąd.</span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 97.25pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do następnej akcji. </span></p>
-</td>
-<td style="width: 115.15pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu &bdquo;Podany adres e-mail już jest   zarejestrowany podaj inny lub przejdź do przypomnienia hasła&rdquo;</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 92.15pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Wysłanie   powiadomienia użytkownikowi</span></strong></p>
-</td>
-<td style="width: 155.95pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System po wpisaniu danych użytkownika do bazy   klient&oacute;w wysyła na adres e-mail podany w formularzu mail z potwierdzeniem   rejestracji.&nbsp; </span></p>
-</td>
-<td style="width: 97.25pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Zalogowanie użytkownika oraz przejście do panelu   zarządzania klienta. </span></p>
-</td>
-<td style="width: 115.15pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wysłanie administratorowi systemu wiadomości o błędzie   wysłania wiadomości e-mail. </span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2">Po poprawnej rejestracji użytkownik dostaje dostęp do panelu klienta, gdzie może zarządzać kontem oraz dokonywać rejestracji.</p>
-<p class="Normal2">&nbsp;</p>
-<h3><a name="_Toc384845557"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040;">4.1.3.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Prezentacja graficzna</a></h3>
-<p class="Normal2"><a><em>Uzupełnić BPM 2.0-owym wykresem procesu rejestracji.</em></a></p>
-<p class="Normal2">&nbsp;</p>
-<h2><a name="_Toc384845558"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc002e;">4.2.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Logowanie do systemu</a></h2>
-<p class="Normal2">Logowanie do systemu istniejącego użytkownika odbywa się poprzez dedykowana stronę WWW &bdquo;Logowanie&rdquo;. Przejść na nią można za pomocą linku &bdquo;Zaloguj się&rdquo; dostępnego na witrynie Klienta. Ten sam link może być udostępniony r&oacute;wnież w innych miejscach strony www Klienta.</p>
-<p class="Normal2">Wygląd witryny:</p>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2"><a><em>Uzupełnić wyglądem witryny</em></a><span class="MsoCommentReference"><span style="font-size: 8.0pt; line-height: 115%; mso-ansi-language: PL;">&nbsp;</span></span></p>
-<p class="Normal2"><em>&nbsp;</em></p>
-<p class="Normal2">Użytkownik, kt&oacute;ry chce się zalogować wypełnia odpowiednie pola w formularzu:</p>
-<h3><a name="_Toc384845559"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040; font-weight: normal; mso-bidi-font-weight: bold;">4.2.1.<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Pola formularza</a><span style="font-weight: normal; mso-bidi-font-weight: bold;"></span></h3>
-<table border="0" cellpadding="0" cellspacing="0" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
-<tbody>
-<tr>
-<td style="width: 106.35pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa pola</span></strong></p>
-</td>
-<td style="width: 47.9pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">&nbsp;</span></strong></p>
-</td>
-<td style="width: 106.3pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Typ pola</span></strong></p>
-</td>
-<td style="width: 8.0cm; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Uwagi</span></strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 106.35pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">e-mail</span></strong></p>
-</td>
-<td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [W]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
-</td>
-<td style="width: 8.0cm; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Adres e-mail osoby logującej się.   System sprawdza czy adres e-mail istnieje w bazie. </span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 106.35pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Hasło</span></strong></p>
-</td>
-<td style="width: 47.9pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [W]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 106.3pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole typu hasło</span></p>
-</td>
-<td style="width: 8.0cm; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole hasło ukrywanie   automatycznie podczas wpisywania. </span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2">Następnie klika przycisk &bdquo;Zaloguj&rdquo;.</p>
-<p class="Normal2">System automatycznie wykona następujące akcje:</p>
-<p class="Normal2" style="margin-left: 0cm;">&nbsp;</p>
-<h3><a name="_Toc384845560"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040; font-weight: normal; mso-bidi-font-weight: bold;">4.2.2.<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Akcje</a><span style="font-weight: normal; mso-bidi-font-weight: bold;"></span></h3>
-<table border="0" cellpadding="0" cellspacing="0" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
-<tbody>
-<tr>
-<td style="width: 92.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa   akcji</span></strong></p>
-</td>
-<td style="width: 155.95pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Opis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></p>
-</td>
-<td style="width: 97.25pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Poprawne   wykonanie </span></strong></p>
-</td>
-<td style="width: 115.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Błąd</span></strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 92.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja wymaganych   p&oacute;l</span></strong></p>
-</td>
-<td style="width: 155.95pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System sprawdza czy wszystkie pola określone w formularzu,   jako wymagane &bdquo;<span style="color: red;">[W]</span>&rdquo; są uzupełnione. Jeśli nie   zgłasza błąd. </span></p>
-</td>
-<td style="width: 97.25pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do kolejnych akcji. </span></p>
-</td>
-<td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat &rdquo;Wypełnij wszystkie pola, kt&oacute;re   są oznaczone, jako wymagane.&rdquo;</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 92.15pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja adresu   e-mail</span></strong></p>
-</td>
-<td style="width: 155.95pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy adres e-mail podany w   formularzu istnieje w bazie danych. W przypadku nie wykrycia zgłasza błąd.</span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 97.25pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do następnej akcji. </span></p>
-</td>
-<td style="width: 115.15pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu &bdquo;Podanego adresu e-mail nie ma w   naszej bazie, popraw go lub zarejestruj nowego użytkownika&rdquo; Wyświetlany jest   r&oacute;wnież link &bdquo;Przypomnij hasło&rdquo;</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 92.15pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja hasła</span></strong></p>
-</td>
-<td style="width: 155.95pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy hasło podane w formularzu   istnieje w bazie danych oraz czy adres e-mail jest jego &bdquo;parą&rdquo;. W przypadku   nie wykrycia lub błędnej pary zgłasza błąd.</span></p>
-</td>
-<td style="width: 97.25pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Zalogowanie użytkownika oraz przejście do panelu   zarządzania klienta. </span></p>
-</td>
-<td style="width: 115.15pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu &bdquo;Podane hasło nie zgadza się z   wpisanych adresem e-mail. Sprawdź hasło.&rdquo;</span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2">Po poprawnym logowaniu użytkownik system przenosi go do panelu klienta.</p>
-<p class="Normal2">&nbsp;</p>
-<h3><a name="_Toc384845561"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040;">4.2.3.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Prezentacja graficzna</a></h3>
-<p class="Normal2"><a><em>Uzupełnić BPM 2.0-owym wykresem procesu logowania.</em></a><span class="MsoCommentReference"><em><span style="font-size: 8.0pt; line-height: 115%; mso-ansi-language: PL;">&nbsp;</span></em></span></p>
-<p class="Normal2">&nbsp;</p>
-<h2><a name="_Toc384845562"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc002e;">4.3.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Przypomnienie hasła</a></h2>
-<p class="Normal2">Użytkownik, kt&oacute;ry chce zalogować się od swojego konta jednak zapomniał swojego hasła może skorzystać z przypomnienia. Przypomnienie hasła jest witryną dedykowaną. Przejść na nią można za pomocą linku &bdquo;Przypomnij hasło&rdquo; wyświetlanego w trakcie nieudanego logowania. Ten sam link może być udostępniony r&oacute;wnież w innych miejscach systemu.</p>
-<p class="Normal2">Wygląd witryny:</p>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2"><a><em>Uzupełnić wyglądem witryny</em></a><span class="MsoCommentReference"><span style="font-size: 8.0pt; line-height: 115%; mso-ansi-language: PL;">&nbsp;</span></span></p>
-<p class="Normal2"><em>&nbsp;</em></p>
-<p class="Normal2">Użytkownik, kt&oacute;ry zapomniał hasła musi wypełnić pola:</p>
-<h3><a name="_Toc384845563"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040; font-weight: normal; mso-bidi-font-weight: bold;">4.3.1.<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Pola formularza</a><span style="font-weight: normal; mso-bidi-font-weight: bold;"></span></h3>
-<table border="0" cellpadding="0" cellspacing="0" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
-<tbody>
-<tr>
-<td style="width: 106.35pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa pola</span></strong></p>
-</td>
-<td style="width: 47.9pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">&nbsp;</span></strong></p>
-</td>
-<td style="width: 106.3pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Typ pola</span></strong></p>
-</td>
-<td style="width: 8.0cm; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Uwagi</span></strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 106.35pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Imię </span></strong></p>
-</td>
-<td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [W]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
-</td>
-<td style="width: 8.0cm; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Imię osoby.</span></p>
-</td>
-</tr>
-<tr>
-<td style="width: 106.35pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko</span></strong></p>
-</td>
-<td style="width: 47.9pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [W]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 106.3pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
-</td>
-<td style="width: 8.0cm; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko osoby.</span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2">Następnie klika przycisk &bdquo;Wyślij zapytanie&rdquo;.</p>
-<p class="Normal2">System automatycznie wykona następujące akcje:</p>
-<p class="Normal2" style="margin-left: 0cm;">&nbsp;</p>
-<h3><a name="_Toc384845564"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040; font-weight: normal; mso-bidi-font-weight: bold;">4.3.2.<span style="font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Akcje</a><span style="font-weight: normal; mso-bidi-font-weight: bold;"></span></h3>
-<table border="0" cellpadding="0" cellspacing="0" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
-<tbody>
-<tr>
-<td style="width: 92.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa   akcji</span></strong></p>
-</td>
-<td style="width: 155.95pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Opis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong></p>
-</td>
-<td style="width: 97.25pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Poprawne   wykonanie </span></strong></p>
-</td>
-<td style="width: 115.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Błąd</span></strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 92.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja wymaganych   p&oacute;l</span></strong></p>
-</td>
-<td style="width: 155.95pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System sprawdza czy wszystkie pola określone w formularzu,   jako wymagane &bdquo;<span style="color: red;">[W]</span>&rdquo; są uzupełnione. Jeśli nie   zgłasza błąd. </span></p>
-</td>
-<td style="width: 97.25pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do kolejnych akcji. </span></p>
-</td>
-<td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat &rdquo;Wypełnij wszystkie pola, kt&oacute;re   są oznaczone, jako wymagane.&rdquo;</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes; height: 130.35pt;">
-<td style="width: 92.15pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja Imienia i   nazwiska</span></strong></p>
-</td>
-<td style="width: 155.95pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy dane wpisane w polach   &bdquo;Imię&rdquo; i &bdquo;Nazwisko&rdquo; występują w bazie klient&oacute;w. Sprawdzi on r&oacute;wnież czy   występuje, choć jedna taka para. Jeśli nie zgłosi błąd. W przypadku wykrycia   wykona działania. </span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 97.25pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System utworzy notyfikacje mailową, w kt&oacute;rej wpisze dane z   kolumny &bdquo;Hasło&rdquo; oraz wyśle ją pod adres podany w kolumnie &bdquo;e-mail&rdquo; dla danego   użytkownika. </span></p>
-</td>
-<td style="width: 115.15pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu &bdquo;Podanego użytkownika nie ma w   naszej bazie, popraw go lub zarejestruj nowego użytkownika&rdquo;</span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p class="Normal2">&nbsp;</p>
-<p class="Normal2">Wy wysłaniu informacji mailowo system przechodzi do ekranu logowania.</p>
-<p class="Normal2">&nbsp;</p>
-<h3><a name="_Toc384845565"><!--[if !supportLists]--><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #dc0040;">4.3.3.<span style="font-weight: normal; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Prezentacja graficzna</a></h3>
-<p class="Normal2"><a><em>Uzupełnić BPM 2.0-owym wykresem procesu przypomnienia.</em></a><span class="MsoCommentReference"><em><span style="font-size: 8.0pt; line-height: 115%; mso-ansi-language: PL;">&nbsp;</span></em></span></p>
-<p>&nbsp;</p>
-<div><!--[if !supportAnnotations]--> <br />
-<div>
-<div class="msocomtxt" id="_com_9"><!--[if !supportAnnotations]--></div>
-<!--[endif]--></div>
 </div>
+</div>
+   
+Następnie klika przycisk „Rejestruj”.
+
+ 
+System automatycznie wykona następujące akcje:
+
+   
+=== 4.1.2.        Akcje ===
+                          
+| **Nazwa akcji** | **Opis                                     ** | **Poprawne wykonanie** | **Błąd** |
+| **Walidacja wymaganych pól** | System sprawdza czy wszystkie pola określone w formularzu, jako wymagane „[W]” są uzupełnione. Jeśli nie zgłasza błąd. | System przechodzi do kolejnych akcji. | System wyświetla komunikat ”Wypełnij wszystkie pola, które są oznaczone, jako wymagane.” |
+| **Walidacja adresu e-mail** | System sprawdza czy adres e-mail podany w formularzu istnieje już w bazie danych. W przypadku wykrycia zgłasza błąd. | System przechodzi do następnej akcji. | Wyświetlenie komunikatu „Podany adres e-mail już jest zarejestrowany podaj inny lub przejdź do przypomnienia hasła” |
+| **Wysłanie powiadomienia użytkownikowi** | System po wpisaniu danych użytkownika do bazy klientów wysyła na adres e-mail podany w formularzu mail z potwierdzeniem rejestracji.  | Zalogowanie użytkownika oraz przejście do panelu zarządzania klienta. | Wysłanie administratorowi systemu wiadomości o błędzie wysłania wiadomości e-mail. |
+
+   
+Po poprawnej rejestracji użytkownik dostaje dostęp do panelu
+klienta, gdzie może zarządzać kontem oraz dokonywać rejestracji. 
+
+   
+=== 4.1.3.        Prezentacja graficzna ===
+ 
+_Uzupełnić BPM 2.0-owym wykresem procesu rejestracji._
+
+   
+== 4.2.        Logowanie do systemu ==
+ 
+Logowanie do systemu istniejącego użytkownika odbywa się
+poprzez dedykowana stronę WWW „Logowanie”. Przejść na nią można za pomocą linku
+„Zaloguj się” dostępnego na witrynie Klienta. Ten sam link może być
+udostępniony również w innych miejscach strony www Klienta. 
+
+ 
+Wygląd witryny:
+
+   
+_Uzupełnić wyglądem witryny_
+
+   
+Użytkownik, który chce się zalogować wypełnia odpowiednie pola
+w formularzu:
+
+ 
+=== 4.2.1.        Pola formularza ===
+                    
+|| 
+*Nazwa pola*
+
+ ||   || 
+*Typ pola*
+
+ || 
+*Uwagi*
+
+ ||
+|| 
+*e-mail*
+
+ || 
+[E] [W]
+
+ || 
+Pole
+  tekstowe
+
+ || 
+Adres
+  e-mail osoby logującej się. System sprawdza czy adres e-mail istnieje w
+  bazie. 
+
+ ||
+|| 
+*Hasło*
+
+ || 
+[E] [W]
+
+ || 
+Pole typu
+  hasło
+
+ || 
+Pole hasło
+  ukrywanie automatycznie podczas wpisywania. 
+
+ ||
+   
+Następnie klika przycisk „Zaloguj”.
+
+ 
+System automatycznie wykona następujące akcje:
+
+   
+=== 4.2.2.        Akcje ===
+                          
+|| 
+*Nazwa
+  akcji*
+
+ || 
+*Opis                                      *
+
+ || 
+*Poprawne
+  wykonanie *
+
+ || 
+*Błąd*
+
+ ||
+|| 
+*Walidacja
+  wymaganych pól*
+
+ || 
+System
+  sprawdza czy wszystkie pola określone w formularzu, jako wymagane „[W]” są uzupełnione. Jeśli nie zgłasza błąd. 
+
+ || 
+System
+  przechodzi do kolejnych akcji. 
+
+ || 
+System wyświetla
+  komunikat ”Wypełnij wszystkie pola, które są oznaczone, jako wymagane.”
+
+ ||
+|| 
+*Walidacja
+  adresu e-mail*
+
+ || 
+System
+  sprawdza czy adres e-mail podany w formularzu istnieje w bazie danych. W
+  przypadku nie wykrycia zgłasza błąd.
+
+ || 
+System
+  przechodzi do następnej akcji. 
+
+ || 
+Wyświetlenie
+  komunikatu „Podanego adresu e-mail nie ma w naszej bazie, popraw go lub
+  zarejestruj nowego użytkownika” Wyświetlany jest również link „Przypomnij
+  hasło”
+
+ ||
+|| 
+*Walidacja
+  hasła*
+
+ || 
+System
+  sprawdza czy hasło podane w formularzu istnieje w bazie danych oraz czy adres
+  e-mail jest jego „parą”. W przypadku nie wykrycia lub błędnej pary zgłasza
+  błąd.
+
+ || 
+Zalogowanie
+  użytkownika oraz przejście do panelu zarządzania klienta. 
+
+ || 
+Wyświetlenie
+  komunikatu „Podane hasło nie zgadza się z wpisanych adresem e-mail. Sprawdź
+  hasło.”
+
+ ||
+   
+Po poprawnym logowaniu użytkownik system przenosi go do panelu
+klienta.
+
+   
+=== 4.2.3.        Prezentacja graficzna ===
+ 
+_Uzupełnić BPM 2.0-owym wykresem procesu logowania._
+
+   
+== 4.3.        Przypomnienie hasła ==
+ 
+Użytkownik, który chce zalogować się od swojego konta jednak
+zapomniał swojego hasła może skorzystać z przypomnienia. Przypomnienie hasła
+jest witryną dedykowaną. Przejść na nią można za pomocą linku „Przypomnij
+hasło” wyświetlanego w trakcie nieudanego logowania. Ten sam link może być
+udostępniony również w innych miejscach systemu. 
+
+ 
+Wygląd witryny:
+
+   
+_Uzupełnić wyglądem witryny_
+
+   
+Użytkownik, który zapomniał hasła musi wypełnić pola:
+
+ 
+=== 4.3.1.        Pola formularza ===
+                    
+|| 
+*Nazwa pola*
+
+ ||   || 
+*Typ pola*
+
+ || 
+*Uwagi*
+
+ ||
+|| 
+*Imię *
+
+ || 
+[E] [W]
+
+ || 
+Pole
+  tekstowe
+
+ || 
+Imię
+  osoby.
+
+ ||
+|| 
+*Nazwisko*
+
+ || 
+[E] [W]
+
+ || 
+Pole
+  tekstowe
+
+ || 
+Nazwisko
+  osoby.
+
+ ||
+   
+Następnie klika przycisk „Wyślij zapytanie”.
+
+ 
+System automatycznie wykona następujące akcje:
+
+   
+=== 4.3.2.        Akcje ===
+                    
+|| 
+*Nazwa
+  akcji*
+
+ || 
+*Opis                                      *
+
+ || 
+*Poprawne
+  wykonanie *
+
+ || 
+*Błąd*
+
+ ||
+|| 
+*Walidacja
+  wymaganych pól*
+
+ || 
+System
+  sprawdza czy wszystkie pola określone w formularzu, jako wymagane „[W]” są uzupełnione. Jeśli nie zgłasza błąd. 
+
+ || 
+System
+  przechodzi do kolejnych akcji. 
+
+ || 
+System
+  wyświetla komunikat ”Wypełnij wszystkie pola, które są oznaczone, jako
+  wymagane.”
+
+ ||
+|| 
+*Walidacja
+  Imienia i nazwiska*
+
+ || 
+System
+  sprawdza czy dane wpisane w polach „Imię” i „Nazwisko” występują w bazie
+  klientów. Sprawdzi on również czy występuje, choć jedna taka para. Jeśli nie
+  zgłosi błąd. W przypadku wykrycia wykona działania. 
+
+ || 
+System
+  utworzy notyfikacje mailową, w której wpisze dane z kolumny „Hasło” oraz
+  wyśle ją pod adres podany w kolumnie „e-mail” dla danego użytkownika. 
+
+ || 
+Wyświetlenie
+  komunikatu „Podanego użytkownika nie ma w naszej bazie, popraw go lub
+  zarejestruj nowego użytkownika”
+
+ ||
+   
+Wy wysłaniu informacji mailowo system przechodzi do ekranu
+logowania. 
+
+   
+=== 4.3.3.        Prezentacja graficzna ===
+ 
+_Uzupełnić BPM 2.0-owym wykresem procesu przypomnienia._
+
+   
+== 4.1.        Rezerwacja terminu trenera ==
+ 
+== 4.2.        Rezerwacja Sali ==
+ 
+== 4.3.        Od rezerwowanie Sali ==
+ 
+== 4.4.        Od rezerwowanie terminu trenera ==
+ 
+== 4.5.        Sprawdzenie rezerwacji u danego trenera lub Sali ==
+ 
+== 4.6.        Raport z godzin przepracowanych przez trenera ==
+      
