@@ -1,7 +1,12 @@
 <p align="center" class="MsoTitle" style="text-align: center;"><span style="font-size: 18pt;"><strong>E-RAKIETA System e-rezerwacji w klubie sportowym</strong></span></p>
 <p align="center" class="MsoSubtitle" style="text-align: center;"><span style="font-size: 14pt;">Specyfikacja wymagań</span></p>
-<p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 14pt;">Patrycja Minor</span></p>
-<p align="center" class="MsoTitle" style="text-align: center;">&nbsp;</p>
+Opis zmian:
+
+Data	 Wersja	 Opis	 Autor
+30-03-2014	 0.5	 przygotowanie dokumentu	 
+07-04-2014	 1.0	 Wstępna wersja	 
+07-04-2014	 1.1	 TESTY etap 1	
+
 <p align="center" class="MsoNormal" style="text-align: center;"><span style="font-size: 14pt;">Wersja 1.0 &ndash; 2014-04-09</span></p>
 <p class="MsoNormal">&nbsp;</p>
 <p class="MsoTocHeading"><span lang="EN-US">Contents</span><span style="font-size: 11pt; line-height: 115%; color: windowtext;"></span></p>
