@@ -49,4 +49,4 @@ Ten dokument zawiera rozpiskę harmonogramu z openproj.
 	handover	0 days	5/30/14 5:00 PM	5/30/14 5:00 PM	30	Ewa;Patrycja;Michal;Beata;Tomasz
 	prezentacja koncowa	0.2 days?	5/31/14 8:00 AM	6/2/14 9:36 AM	30	Ewa;Patrycja;Michal;Beata;Tomasz
 
-[https://e-rezerwacja.googlecode.com/svn/wiki/harmonogram%20ERakieta.jpg]
+[http://e-rezerwacja.googlecode.com/svn/wiki/harmonogram%20ERakieta.jpg]
