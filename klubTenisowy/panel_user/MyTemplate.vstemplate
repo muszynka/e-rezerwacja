@@ -1,0 +1,67 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>membership</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>membership</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.aspx">About.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.aspx.cs">About.aspx.cs</ProjectItem>
+      <Folder Name="Account" TargetFolderName="Account">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangePassword.aspx">ChangePassword.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangePassword.aspx.cs">ChangePassword.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangePasswordSuccess.aspx">ChangePasswordSuccess.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangePasswordSuccess.aspx.cs">ChangePasswordSuccess.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx">Login.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx.cs">Login.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx">Register.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx.cs">Register.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <Folder Name="App_Data" TargetFolderName="App_Data">
+        <ProjectItem ReplaceParameters="false" TargetFileName="ASPNETDB.MDF">ASPNETDB.MDF</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="aspnetdb_log.ldf">aspnetdb_log.ldf</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx">Login.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx.cs">Login.aspx.cs</ProjectItem>
+      <Folder Name="MemberPages" TargetFolderName="MemberPages">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangePassword.aspx">ChangePassword.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangePassword.aspx.cs">ChangePassword.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Members.aspx">Members.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Members.aspx.cs">Members.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Rezerwacja.aspx">Rezerwacja.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Rezerwacja.aspx.cs">Rezerwacja.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Profiles.aspx">Profiles.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Profiles.aspx.cs">Profiles.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RecoverPassword.aspx">RecoverPassword.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RecoverPassword.aspx.cs">RecoverPassword.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx">Register.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx.cs">Register.aspx.cs</ProjectItem>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1-vsdoc.js">jquery-1.4.1-vsdoc.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Site.master">Site.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Site.master.cs">Site.master.cs</ProjectItem>
+      <Folder Name="Styles" TargetFolderName="Styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
