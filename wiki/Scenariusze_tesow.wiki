@@ -62,13 +62,13 @@ Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowa
 
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 
-2. klient uzupełnia wymagane pola: imię, nazwisko, e-mail, nr telefonu, hasło.
+2. klient uzupełnia wymagane pola: nazwa użytkownika, e-mail, hasło, powtórz hasło.
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo (np. adres e-mail) lub niekompletnie wpisanych danych rejestracyjnych (np. brak imienia).
+  * nieprawidłowo (np. nazwa użytkownika) lub niekompletnie wpisanych danych rejestracyjnych (np. brak nazwa użytkownika).
   * użytkownik istnieje w bazie wpisanie danych: adres poczty elektronicznej, nazwy użytkownika
 
-3. po rejestracji klient otrzymuje maila na podane podczas rejestracji konto z potwierdzeniem rejestracji
+3. po rejestracji klient automatycznie uzyskuje dostęp do panelu
 
 4. Dane klienta zostają zapisane w Bazie
 
@@ -103,10 +103,10 @@ Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowa
 
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 
-2. klient uzupełnia wymagane pola: e-mail, hasło.
+2. klient uzupełnia wymagane pola: nazwa użytkownika, hasło.
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo niekompletnie wpisanych danych (np. brak hasła) lub niezgodność hasła z e-mail.
+  * nieprawidłowo niekompletnie wpisanych danych (np. brak hasła) lub niezgodność hasła z nazwą użytkownika.
   * użytkownik nie istnieje w bazie wpisanie danych
 
 3. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  
@@ -143,12 +143,12 @@ Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowa
 
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej logowania/przypomnij hasło.
 
-2. klient uzupełnia pola imię, nazwisko i uruchamia przycisk "wyślij zapytanie"
+2. klient uzupełnia pola nazwa użytkownika i uruchamia przycisk "przypomnij"
 
 3. klient otrzymuje na adres e-mail podany podczas rejestracji zapisane w bazie hasło.
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo niekompletnie wpisanych danych 
+  * nieprawidłowo -niekompletne wpisane danych 
   * użytkownik nie istnieje w bazie danych
 
 *4. Oczekiwany efekt* -
