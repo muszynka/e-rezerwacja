@@ -25,7 +25,7 @@ Celem niniejszego dokumentu jest wyznaczenie przewidywanego harmonogramu prac or
 || Osoba	|| Rola||
 || Ewa Kunstman	|| Zarządzanie projektem||
 || Patrycja Minor ||	Analityk ||
-|| Beata Pych - Wala ||	Tester ||
+|| Beata Pych - Wala ||	Configuration Manager, Tester ||
 || Michał Słabicki || Software development || 
 || Tomasz Wojsław || Architekt || 
 
