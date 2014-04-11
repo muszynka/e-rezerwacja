@@ -1,13 +1,12 @@
 #summary wizualizacja.
 
-= Introduction =
+= Wizualizacja stron e-RAKIETA
 
-Add your content here.
+== strona główna www ==
+
+[http://e-rezerwacja.googlecode.com/svn/wiki/index_screen.png]
 
 
-= Details =
+== strona panelu użytkownika ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[http://e-rezerwacja.googlecode.com/svn/wiki/panel_glowna.png]
