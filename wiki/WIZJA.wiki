@@ -60,18 +60,21 @@ Samo uruchomienie zapisów internetowych na zajęcia spowoduje, że pracownicy r
 
 
 ==3 Opis użytkownika i zewnętrznych podsystemów ==
-  *3.1 Klient*
+*3.1 Klient*
+
 Przewiduje się, że głównym użytkownikiem systemu będą klienci klubu Raquet s.c., którzy będą mogli uzyskać informacje oraz zapisać się na dogodny termin przy użyciu przeglądarki internetowej. 
 
-Klientem może być każda osoba powyżej 16 roku życia. Klient ma dostęp do strony Klubu za pomocą przeglądarki www. Po zalogowaniu Klient ma podstawowy widok systemu i dostęp do ograniczonych funkcjonalności (opisane w wymaganiach). Klient może dokonać rejestracji poprzez stronę www. Klient ma możliwość z korzystania z formularza do odzyskannia hasła
-  
-  *3.2 Obsługa*
+Klientem może być każda osoba powyżej 16 roku życia. Klient ma dostęp do strony Klubu za pomocą przeglądarki www. Po zalogowaniu Klient ma podstawowy widok systemu i dostęp do ograniczonych funkcjonalności (opisane w wymaganiach). Klient może dokonać rejestracji poprzez stronę www. Klient ma możliwość z korzystania z formularza do odzyskania hasła.
+
+*3.2 Obsługa*
+
 Drugi typ użytkownika to *obsługa klubu* – rejestratorki, trenerzy i właściciele, którzy uzyskają wgląd w rzeczywiste obłożenie zajęć, będą też mieli wgląd w bazę danych użytkowników i informacje o tych najbardziej aktywnych. 
 
 Pracownicy mają dostęp do systemu z poziomu przeglądarki www po uprzednim zalogowaniu się. Pracownik ma rozszerzony widok systemu i dostęp do pełnych funkcjonalności m.in. ma możliwość usuwania kont użytkowników, nadawania uprawnień nowym pracownikom, dodawania nowych placówek i kortów (opisane w wymaganiach).
 
-  *Zewnętrzne podsystemy*
-Współpraca z bazą dancyh w MsSQL 
+*Zewnętrzne podsystemy*
+
+Współpraca z bazą danych w MsSQL 
 
 ==4 Opis produktu ==
 E-rezerwacje e-RAKIETA to przyjazny system, umieszczony w formie interaktywnego kalendarza rezerwacji na stronie www klubu. Umożliwia samodzielne dokonanie rezerwacji terminu zajęć, podgląd zrobionych rezerwacji i śledzenie zwalniających się terminów. Ma służyć głównie wygodzie użytkowników klubu i zwiększeniu ich zadowolenia z korzystania z tej akurat firmy. Kalendarz dostępności jest interaktywny, pobiera i wyświetla dane o dostępności, "w locie", z centralnego serwera systemu rezerwacji. Rezerwujący może przeglądać (w cyklach tygodniowych) stan dostępności terminów zajęć, a w przypadku wolnego terminu, klikając na konkretnej godzinie i rodzaju zajęć i zostaje przeniesiony do systemu rezerwacji, gdzie proces jest kontynuowany przez potwierdzenie danych użytkownika i potwierdzenie dokonania rezerwacji terminu. 
@@ -120,36 +123,50 @@ System umożliwia wykonanie następujących czynności:
   # wysyłka maila z informacją o anulowaniu rezerwacji przez klub z powodu zawodów 
   # Potwierdzanie realizacji rezerwacji (potrzebne do statystyk) 
   # statystyki o klientach: 
-  *liczba klientów 
-  *klienci aktywni (klienci, których łączna ilość zrealizowanych rezerwacji jest powyżej x otrzymują rabat, informacja jest przypisana do konta ). 
+  * liczba klientów 
+  * klienci aktywni (klienci, których łączna ilość zrealizowanych rezerwacji jest powyżej x otrzymują rabat, informacja jest przypisana do konta). 
 
 
 ==6 Wymagania jakościowe ==
-  * Interakcja z użytkownikiem musi przebiegać w czasie możliwie zbliżonym do rzeczywistego – oraz uniemożliwiać dublowanie rezerwacji tego samego użytkownika na jeden termin. 
-  * System musi być w stanie obsłużyć co najmniej 1200 klientów, w tym bsłużyć równolegle co najmniej 20 klientów.
-  * Kalendarz musi bezproblemowo ładować się razem ze stroną internetową i dopasowywać do monitora, tak aby zawsze wyświetlić pełny harmonogram w bieżącym widoku. Musi działać w przeglądarkach IE, Mozilla, Chrome – na dzień dzisiejszy nie przewiduje się wersji dla urządzeń mobilnych
-  * System musi działać dostatecznie szybko na komputerze o minimalnej specyfikacji: Procesor Pentium® 4, 2 GHz,1 GB RAM, 
-Wymagana przestrzeń dyskowa na instalację 20MB 
+
+Interakcja z użytkownikiem musi przebiegać w czasie możliwie zbliżonym do rzeczywistego – oraz uniemożliwiać dublowanie rezerwacji tego samego użytkownika na jeden termin. 
+
+System musi być w stanie obsłużyć co najmniej 1200 klientów, w tym bsłużyć równolegle co najmniej 20 klientów.
+
+Kalendarz musi bezproblemowo ładować się razem ze stroną internetową i dopasowywać do monitora, tak aby zawsze wyświetlić pełny harmonogram w bieżącym widoku. Musi działać w przeglądarkach IE, Mozilla, Chrome – na dzień dzisiejszy nie przewiduje się wersji dla urządzeń mobilnych
+
+System musi działać dostatecznie szybko na komputerze o minimalnej specyfikacji: Procesor Pentium® 4, 2 GHz,1 GB RAM. 
+Wymagana przestrzeń dyskowa na instalację 20MB.
 
 
 ==7 Inne wymagania ==
-==Stosowane standardy==
+
+*Stosowane standardy*
+
 Zostaną zastosowane znane i wypróbowane wzorce projektowe. Dokumentacja powstanie w oparciu o metodologię RUP przystosowaną do prowadzenia zajęć projektowych dla słuchaczy studiów podyplomowych ‘Projektowanie i Eksploatacja Systemów’ prowadzonych na katedrze Informatyki AGH przez dr Romana Dębskiego. 
 
-==Wymagania systemowe i technologiczne ==
+*Wymagania systemowe i technologiczne*
+
 brak. 
+
 
 ==8 Wymagania stawiane dokumentacji ==
   
-  # *Podręcznik użytkownika* - Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności "krok po kroku" czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. 
+*Podręcznik użytkownika*
 
-  # *Podręcznik instalacji i konfiguracji* - Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą "krok po kroku" nawet przez zupełnego laika. 
+Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności "krok po kroku" czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. 
 
-  # *Dokumentacja techniczna* - Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 
+*Podręcznik instalacji i konfiguracji*
+
+Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą "krok po kroku" nawet przez zupełnego laika. 
+
+*Dokumentacja techniczna*
+
+Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 
 
 
 ==9 Wstępna analiza ryzyka ==
-*1 – minimum, 10-maksimum. *
+1 – minimum, 10-maksimum.
 
   * Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
 
