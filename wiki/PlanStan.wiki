@@ -1,0 +1,66 @@
+#summary PlanStan to opis wykonanych prac i stanu na moment bieżący.
+#labels Featured
+
+= Introduction =
+
+e-RAKIETA
+System e-rezerwacji w klubie tenisowym
+Stan Prac  - PLAN STAN
+AGH 20014
+
+Opis zmian:
+|| Data	      || Wersja	|| Opis	        || Autor ||
+|| 17.03.2014 || 1.0	|| Rozpoczęcie	||E.Kunstman ||
+|| 11.04.2014 || 2.0	|| Pierwsze podsumowanie ||	E.Kunstman||
+
+= Details =
+
+
+1.	Wstęp
+
+Celem niniejszego dokumentu jest wyznaczenie przewidywanego harmonogramu prac oraz sprawozdanie jego realizacji dla projektu e-RAKIETA
+
+1.1.	Role w projekcie
+
+|| Osoba	|| Rola||
+|| Ewa Kunstman	|| Zarządzanie projektem||
+|| Patrycja Minor ||	Analityk ||
+|| Beata Pych - Wala ||	Tester ||
+|| Michał Słabicki || Software development || 
+|| Tomasz Wojsław || Architekt || 
+
+1.2.	Odnośniki
+
+https://code.google.com/p/e-rezerwacja/
+
+2.	Harmonogram
+ 
+|| Faza || Iteracja || Główne cele || Produkty || Termin ||
+|| Inception || I1 || Badanie wykonalności projektu, Rozpoznanie możliwości rozwoju || Dokumenty Wizji i Stanu Prac || 17.03.2014-25.03.2014 ||
+|| Elaboration	|| E1 || ustalenie repozytorium, Implementacja strony www oraz wstępnych funkcji systemu(logowanie, rejestrowanie i przypomnienie hasła || Repozytorium, Test case’y 1 etapu, Use case’y 1 etapu, || 26.03.2014-11.04.2014 ||
+|| Elaboration || E2 || dodatkowe funkcje systemu|| Test case’y 2 etapu, Use case’y 2 etapu,|| 12.04.2014 – 16.04.2014||
+|| Construction	|| C1 || implementacja dodatkowych funkcji, testy	|| Raport testów, działające funkcje po stronie klienta|| 16.04.2014 – 05.05.2014||
+|| Construction	|| C2 || Implementacja dodatkowych funkcji dla obsługi systemu|| Raport testów, działające funkcje po stronie klienta|| 06.05.2014 – 20.05.2014||
+|| Construction	|| C3	|| Poprawa usterek	|| Bezbłędnie działający prototyp, pozwala na pełną e-rezerwacje kortów i panel administratora|| 20.05.2014 – 30.05.2014||
+|| Transition	|| T1	|| Testy akceptacyjne, przekazanie do klienta|| Wdrożony system, usunięte błędy	|| 30.05.2014 – 31.05.2014 ||
+
+
+
+3.	Realizacja iteracji I0
+3.1.	Zadania i spodziewany produkt
+	Stworzenie dokumentu wizji oraz dokumentu stanu prac
+3.2.	Wykonane testy
+	Brak
+3.3.	Efekty realizacji
+	Analiza stanu zastanego, problemów które ma rozwiązać system, konstrukcja wstępnych wymagań funkcjonalnych i niefunkcjonalnych.
+
+4.	Realizacja iteracji I1
+4.1.	Zadania i spodziewany produkt
+	Stworzenie dokumentu test case’ów i use case’ów
+4.2.	Wykonane testy
+  * Testy rejestracji
+  * Testy logowania
+  * Testy przypomnienia hasła
+
+1.3.	Efekty realizacji
+	
