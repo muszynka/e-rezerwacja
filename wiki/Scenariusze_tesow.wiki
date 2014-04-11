@@ -9,7 +9,7 @@ Opis zmian:
 || 30-03-2014 || 0.5 || przygotowanie dokumentu || B.Pych-Wala ||  
 || 07-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
 || 07-04-2014 || 1.1 || TESTY etap 1 || B.Pych-Wala || 
-|| 09-04-2014 || 1.2 || TESTY etap 1 - przeprowadzone z wynikiem polzytywnym || B.Pych-Wala || 
+|| 09-04-2014 || 1.2 || TESTY etap 1 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
 ||  ||  ||  ||  || 
 
 
@@ -160,7 +160,7 @@ Klient otrzymał nowe "hasło"
 5. Tabela wyników testu - 
 
 ||  nr testu                 || nazwa testu                         ||
-||      ...32 ...             || .przypomnienie hasła klienta        ||
+||      ...3 ...             || .przypomnienie hasła klienta        ||
 || ......Uwagi:..............|| ....................................||
 ||    *Rezultat:*            ||                                     ||
 ||  zatwierdzono             || nie zatwierdzono                    ||
