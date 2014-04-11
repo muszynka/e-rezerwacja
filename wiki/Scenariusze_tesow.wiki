@@ -9,6 +9,7 @@ Opis zmian:
 || 30-03-2014 || 0.5 || przygotowanie dokumentu || B.Pych-Wala ||  
 || 07-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
 || 07-04-2014 || 1.1 || TESTY etap 1 || B.Pych-Wala || 
+|| 09-04-2014 || 1.2 || TESTY etap 1 - przeprowadzone z wynikiem polzytywnym || B.Pych-Wala || 
 ||  ||  ||  ||  || 
 
 
@@ -78,15 +79,15 @@ Klient został zarejestrowany w systemie
 6. Tabela wyników testu - 
 
 
-||  nr testu            || nazwa testu              ||
-||  Uwagi:              || .........................||
-|| .....................|| .........................||
-|| *Rezultat:*          ||                          ||
-||  zatwierdzono        ||  nie zatwierdzono        ||
-|| .................... ||  ........................|| 
-||  Wykonawca           ||  Zamawiający             || 
-|| .................... ||  ........................|| 
-
+||  nr testu                 || nazwa testu                         ||
+||      ...1 ...             || .rejestracja klienta na stronie www.||
+|| ......Uwagi:..............|| ....................................||
+||    *Rezultat:*            ||                                     ||
+||  zatwierdzono             || nie zatwierdzono                    ||
+|| ...   TEST POZYTYWNY  ... ||  ...................................|| 
+||        Wykonawca          ||             Zamawiający             || 
+|| ..AGH - B. Pych - Wala... ||  ...................................||
+||     09-04-2014            ||  ...................................|| 
 
 
 
@@ -118,14 +119,16 @@ Klient został zalogowany w systemie
 5. Tabela wyników testu - 
 
 
-||  nr testu            || nazwa testu              ||
-||  Uwagi:              || .........................||
-|| .....................|| .........................||
-|| *Rezultat:*          ||                          ||
-||  zatwierdzono        ||  nie zatwierdzono        ||
-|| .................... ||  ........................|| 
-||  Wykonawca           ||  Zamawiający             || 
-|| .................... ||  ........................|| 
+
+||  nr testu                 || nazwa testu                         ||
+||      ...2 ...             || .logowanie klienta na stronie www.||
+|| ......Uwagi:..............|| ....................................||
+||    *Rezultat:*            ||                                     ||
+||  zatwierdzono             || nie zatwierdzono                    ||
+|| ...   TEST POZYTYWNY  ... ||  ...................................|| 
+||        Wykonawca          ||             Zamawiający             || 
+|| ..AGH - B. Pych - Wala... ||  ...................................||
+||     09-04-2014            ||  ...................................||
 
 
 
@@ -156,12 +159,12 @@ Klient otrzymał nowe "hasło"
 
 5. Tabela wyników testu - 
 
-
-||  nr testu            || nazwa testu              ||
-||  Uwagi:              || .........................||
-|| .....................|| .........................||
-|| *Rezultat:*          ||                          ||
-||  zatwierdzono        ||  nie zatwierdzono        ||
-|| .................... ||  ........................|| 
-||  Wykonawca           ||  Zamawiający             || 
-|| .................... ||  ........................|| 
+||  nr testu                 || nazwa testu                         ||
+||      ...32 ...             || .przypomnienie hasła klienta        ||
+|| ......Uwagi:..............|| ....................................||
+||    *Rezultat:*            ||                                     ||
+||  zatwierdzono             || nie zatwierdzono                    ||
+|| ...   TEST POZYTYWNY  ... ||  ...................................|| 
+||        Wykonawca          ||             Zamawiający             || 
+|| ..AGH - B. Pych - Wala... ||  ...................................||
+||     09-04-2014            ||  ...................................|| 
