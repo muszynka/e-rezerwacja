@@ -1,6 +1,6 @@
 #summary wizualizacja.
 
-= Wizualizacja stron e-RAKIETA
+= Wizualizacja stron e-RAKIETA =
 
 == strona główna www ==
 
