@@ -10,13 +10,14 @@ Opis zmian:
 || 29-03-2014 || 2.0 || Wersja 2.0 || E.Kunstman || 
 || 29-03-2014 || 2.1 || Wersja 2.1 || B.Pych-Wala || 
 || 30-03-2014 || 2.2 || Wersja 2.2 || E.Kunstman || 
+||10-04-2014 || 3.0 || Wersja 3.0 || E.Kunstman||
 
 
 ===AGH 2014 ===
 
 ==1 Wstęp ==
 
-Celem niniejszego dokumentu jest ogólne nakreślenie i scharakteryzowanie projektu, którego efektem końcowym będzie stworzenie systemu do obsługi e-rezerwacji dla sieci klubów sportowych– Raquet s.c. Dokument ‘Project vision’ dostarczy informacji na temat ogólnego przeznaczenia systemu i sposobu w jaki będzie wykorzystywany a także komu głównie ma służyć i jaki sposób będzie realizował te założenia. 
+Celem niniejszego dokumentu jest ogólne nakreślenie i scharakteryzowanie projektu, którego efektem końcowym będzie stworzenie systemu do obsługi e-rezerwacji dla sieci klubów sportowych– Raquet s.c. Dokument ‘Project vision’ dostarczy informacji na temat ogólnego przeznaczenia systemu i sposobu w jaki będzie wykorzystywany a także komu głównie ma służyć i jaki sposób będzie realizował te założenia. Wszelkie decyzje implementacyjne nie są tu podejmowane i opisane zostaną w następnych dokumentach.
 
 ===1.1. Słownik ===
 
@@ -24,34 +25,128 @@ Celem niniejszego dokumentu jest ogólne nakreślenie i scharakteryzowanie proje
 || Użytkownik ||  Klient klubu korzystający z zajęć, zapisujący się na terminy || 
 || Termin || konkretny dzień i godzina zajęć || 
 || Trener ||  Prowadzący zajęcia || 
-|| Rejestratorka ||  Osoba obsługująca system z ramienia klubu || 
+|| Rejestratorka ||  Osoba obsługująca system z ramienia klubu ||
+|| Rejestracja	|| Proces podczas którego Klient staje się użytkownikiem systemu ||
+|| Logowanie ||	Dostęp do systemu dla zarejestrowanych użytkowników za pomocą adresu e-mail i hasła||
+|| Rezerwacja || Zamówienie określonego Kortu w danym terminie||
+ 
+===1.2 Odnośniki ===
+
+Literatura:
+Panfil R., Zarządzanie produktem klubu sportowego. Akademia Umiejętności Management & Coaching, Wrocław 2004.
+Panfil R., Produkt profesjonalnego klubu sportowego. [W:] Zarządzanie i kierowanie w grach zespołowych. WTN, Wrocław 2004
+Perechuda K., Zarządzanie firmą sportową. Leopoldinum, Wrocław 1999
+Panfil R., Zarządzanie przedsiębiorczością w instytucji sportowej. [W:] Zarządzanie firmą sportową. Leopoldinum, Wrocław 1999
+
+Metodologia: 
+Rational Unified Process (RUP)
+Microsoft Solution Framework  (MSF)ver. 3 
 
 ==2 Opis problemu ==
 
-*Problem* – Obecny system rezerwacji terminów wymaga od klientów klubu kontaktu telefonicznego, wysłania maila lub osobistej wizyty w klubie. Klient musi ustnie przekazać rejestratorce, które zajęcia i jaki termin oraz którego trenera chce wybrać a ona po sprawdzeniu dostępności miejsc w kalendarzu elektronicznym udziela informacji o dostępnych terminach i dokonuje zapisu. Nie udostępniony został klientom żaden interfejs umożliwiający im samodzielny podgląd dostępnych miejsc/terminów lub dobór zajęć u ulubionego trenera. Klienci narzekają na długi czas oczekiwania na połączenie telefoniczne i brak możliwości samodzielnego sprawdzenia dostępnych terminów. Właściciel obiektu jest zmuszony prowadzić niewygodny rejestr rezerwacji oraz często odbiera zbędne zapytania telefoniczne, o dawno już zajęte terminy. Przyjmowanie zgłoszeń telefonicznych ograniczone jest do godzin pracy recepcji, a przede wszystkim niepotrzebnie absorbuje recepcjonistę. 
+*Problem* 
+Obecny system rezerwacji terminów wymaga od klientów klubu kontaktu telefonicznego, wysłania maila lub osobistej wizyty w klubie. Klient musi ustnie przekazać rejestratorce, które zajęcia i jaki termin oraz którego trenera chce wybrać a ona po sprawdzeniu dostępności miejsc w kalendarzu elektronicznym udziela informacji o dostępnych terminach i dokonuje zapisu. Nie udostępniony został klientom żaden interfejs umożliwiający im samodzielny podgląd dostępnych miejsc/terminów lub dobór zajęć u ulubionego trenera. Klienci narzekają na długi czas oczekiwania na połączenie telefoniczne i brak możliwości samodzielnego sprawdzenia dostępnych terminów. Właściciel obiektu jest zmuszony prowadzić niewygodny rejestr rezerwacji oraz często odbiera zbędne zapytania telefoniczne, o dawno już zajęte terminy. Przyjmowanie zgłoszeń telefonicznych ograniczone jest do godzin pracy recepcji, a przede wszystkim niepotrzebnie absorbuje recepcjonistę. 
+Dodatkowo brak jest łatwodostępnej informacji o klientach korzystających z usług klubu.
 
-*Rozwiązanie* - Zastosowanie systemu e-rezerwacji umożliwi podniesienie standardu usług klubu Raquet s.c., poprzez wyeliminowanie przestarzałych metod rejestracji, których prowadzenie zabiera zazwyczaj dużo czasu oraz angażuje wielu pracowników, oraz może być frustrujące dla użytkowników klubu, oraz zastąpienie ich nowoczesną formą komunikacji przez Internet. Nowoczesny sposób komunikacji z użytkownikami wpłynie znacząco na podniesienie prestiżu firmy dając jej klientom poczucie zrozumienia i otwartości ze strony klubu. System e-rezerwacji może stać się kluczowym narzędziem komunikacji z użytkownikami oraz przyczyni się do łatwiejszego zarządzania klubem gdyż umożliwi uzyskanie rzetelniejszej informacji o rzeczywistym stanie rezerwacji, umożliwiając klientom łatwiejsze zapisywanie się na zajęcia jak i rezygnację z dokonanej rezerwacji. 
+*Przyczyna* 
+W związku z dynamicznym rozwojem Klubu nastąpiło zwiększanie się ilości klientów, co utrudnia a czasami wręcz uniemożliwia obsługę klientów w formie „papierowej”. 
+Planowana rozbudowa klubu o kolejne placówki w całej Polsce.
+
+*Rozwiązanie* 
+Zastosowanie systemu e-rezerwacji umożliwi podniesienie standardu usług klubu Raquet s.c., poprzez wyeliminowanie przestarzałych metod rejestracji, których prowadzenie zabiera zazwyczaj dużo czasu oraz angażuje wielu pracowników, oraz może być frustrujące dla użytkowników klubu, oraz zastąpienie ich nowoczesną formą komunikacji przez Internet. Nowoczesny sposób komunikacji z użytkownikami wpłynie znacząco na podniesienie prestiżu firmy dając jej klientom poczucie zrozumienia i otwartości ze strony klubu. System e-rezerwacji może stać się kluczowym narzędziem komunikacji z użytkownikami oraz przyczyni się do łatwiejszego zarządzania klubem gdyż umożliwi uzyskanie rzetelniejszej informacji o rzeczywistym stanie rezerwacji, umożliwiając klientom łatwiejsze zapisywanie się na zajęcia jak i rezygnację z dokonanej rezerwacji. 
+Możliwe będzie usprawnienie procesu obsługi rezerwacji przez recepcję Klubu zarówno dla klientów indywidualnych jak również umożliwi organizację i sprawne prowadzenie zawodów.
+System ponadto da możliwość zbierania podstawowych informacji i statystyk o klientach.
+Samo uruchomienie zapisów internetowych na zajęcia spowoduje, że pracownicy recepcji będą mieć więcej czasu na opiekę nad klientami i sprzedaż nowych produktów.
+
 
 ==3 Opis użytkownika i zewnętrznych podsystemów ==
+  *3.1 Klient*
 Przewiduje się, że głównym użytkownikiem systemu będą klienci klubu Raquet s.c., którzy będą mogli uzyskać informacje oraz zapisać się na dogodny termin przy użyciu przeglądarki internetowej. 
-Drugi typ użytkownika to obsługa klubu – rejestratorki, trenerzy i właściciele, którzy uzyskają wgląd w rzeczywiste obłożenie zajęć, będą też mieli wgląd w bazę danych użytkowników i informacje o tych najbardziej aktywnych. 
 
-System będzie połączony z bazą danych opartą o MS SQL. System napisany w jezyku JBOSS. Strona internetowa HTML. 
+Klientem może być każda osoba powyżej 16 roku życia. Klient ma dostęp do strony Klubu za pomocą przeglądarki www. Po zalogowaniu Klient ma podstawowy widok systemu i dostęp do ograniczonych funkcjonalności (opisane w wymaganiach). Klient może dokonać rejestracji poprzez stronę www. Klient ma możliwość z korzystania z formularza do odzyskannia hasła
+  
+  *3.2 Obsługa*
+Drugi typ użytkownika to *obsługa klubu* – rejestratorki, trenerzy i właściciele, którzy uzyskają wgląd w rzeczywiste obłożenie zajęć, będą też mieli wgląd w bazę danych użytkowników i informacje o tych najbardziej aktywnych. 
+
+Pracownicy mają dostęp do systemu z poziomu przeglądarki www po uprzednim zalogowaniu się. Pracownik ma rozszerzony widok systemu i dostęp do pełnych funkcjonalności m.in. ma możliwość usuwania kont użytkowników, nadawania uprawnień nowym pracownikom, dodawania nowych placówek i kortów (opisane w wymaganiach).
+
+  *Zewnętrzne podsystemy*
+Współpraca z bazą dancyh w MsSQL 
 
 ==4 Opis produktu ==
 E-rezerwacje e-RAKIETA to przyjazny system, umieszczony w formie interaktywnego kalendarza rezerwacji na stronie www klubu. Umożliwia samodzielne dokonanie rezerwacji terminu zajęć, podgląd zrobionych rezerwacji i śledzenie zwalniających się terminów. Ma służyć głównie wygodzie użytkowników klubu i zwiększeniu ich zadowolenia z korzystania z tej akurat firmy. Kalendarz dostępności jest interaktywny, pobiera i wyświetla dane o dostępności, "w locie", z centralnego serwera systemu rezerwacji. Rezerwujący może przeglądać (w cyklach tygodniowych) stan dostępności terminów zajęć, a w przypadku wolnego terminu, klikając na konkretnej godzinie i rodzaju zajęć i zostaje przeniesiony do systemu rezerwacji, gdzie proces jest kontynuowany przez potwierdzenie danych użytkownika i potwierdzenie dokonania rezerwacji terminu. 
 
 ==5 Wymagania funkcjonalne i ich priorytety ==
-System umożliwia wykonanie następujących czynności: dostępność 24h na dobę – szybszy i prostszy kontakt z klientami klubu pełna automatyzacja dokonywania rezerwacji terminów definiowania nieograniczonej liczby harmonogramów zajęć łatwa niezależna edycja dla każdego obiektu, edycja wszystkich parametrów (nazwa i opis zajęć, nazwisko trenera, liczba dostępnych miejsc), precyzyjne wskazywanie wolnych terminów oraz jednoznaczne oznaczenie tych, już w pełni zabukowanych podwójny mechanizm wyboru terminu: wyszukiwanie terminów (wolnych obiektów) na podstawie nazwy zajęć lub nazwiska trenera lub przeglądanie graficznego kalendarza zajęć czytelny kalendarz/terminarz informujący o wolnych/zajętych terminach, działający w czasie rzeczywistym możliwość dokonania rezerwacji wybranego terminu możliwość usunięcia uprzednio dokonanej rezerwacji możliwość ustawienia monitów dla terminów, które ulegną zwolnieniu zabezpieczenie przed możliwością jednoczesnego zarezerwowania (w tym samym terminie) obiektu przez 2 lub więcej osób, łatwa integracja systemu ze stroną internetową klubu Raquet s.c. możliwość przesyłania raportów z harmonogramem na kolejne dni automatyczne notyfikacje przez SMSy/emaile w momencie potwierdzenia rezerwacji wsparcie przyjmowania rezerwacji telefonicznych – możliwe ustawienie rezerwacji za użytkownika możliwość eksportu zgłoszonych rezerwacji do pliku w formacie .xls (Excel).
+System umożliwia wykonanie następujących czynności: 
+
+  * dostępność 24h na dobę – szybszy i prostszy kontakt z klientami klubu pełna automatyzacja dokonywania rezerwacji terminów
+  * możliwość definiowania nieograniczonej liczby harmonogramów zajęć łatwa niezależna edycja dla każdego obiektu, edycja wszystkich parametrów (nazwa i opis zajęć, nazwisko trenera, liczba dostępnych miejsc)
+  * precyzyjne wskazywanie wolnych terminów oraz jednoznaczne oznaczenie tych, już w pełni zabukowanych
+  * podwójny mechanizm wyboru terminu: wyszukiwanie terminów (wolnych obiektów) na podstawie nazwy zajęć lub nazwiska trenera lub przeglądanie graficznego kalendarza zajęć
+  * czytelny kalendarz/terminarz informujący o wolnych/zajętych terminach, działający w czasie rzeczywistym
+  * możliwość dokonania rezerwacji wybranego terminu możliwość usunięcia uprzednio dokonanej rezerwacji
+  * możliwość ustawienia monitów dla terminów, które ulegną zwolnieniu
+  * zabezpieczenie przed możliwością jednoczesnego zarezerwowania (w tym samym terminie) obiektu przez 2 lub więcej osób
+  * łatwa integracja systemu ze stroną internetową klubu Raquet s.c.
+  * możliwość przesyłania raportów z harmonogramem na kolejne dni
+  * automatyczne notyfikacje przez SMSy/emaile w momencie potwierdzenia rezerwacji wsparcie przyjmowania rezerwacji telefonicznych – możliwe ustawienie rezerwacji za użytkownika możliwość eksportu zgłoszonych rezerwacji do pliku w formacie .xls (Excel).
+
+*5.1. Funkcjonalności dla klientów:* 
+  # zakładanie konta (rejestracja)
+  # logowanie do konta 
+  # edycja konta 
+  # odzyskiwanie hasła do konta
+  # rezerwacja kortu 
+  # anulowanie rezerwacji kortu
+  # wysyłka maila z informacją o rezerwacji lub anulowaniu rezerwacji na adres mailowy klienta
+
+
+*5.2. Funkcjonalności dla pracowników:* 
+  # logowanie do sytemu 
+  # zakładanie konta klienta 
+  # edycja konta klienta 
+  # wyszukiwanie klienta (po nr konta, po nazwisku) 
+  # dodawanie do systemu nowych placówek klubu tenisowego nadawanie placówkom nazwy
+  # dodawanie do systemu nowych kortów w ramach danej placówki nadawanie kortom nazwy 
+  # nadawania uprawnień nowym pracownikom 
+  # usuwania kont użytkowników 
+  # rezerwacja kortu 
+  # anulowanie rezerwacji kortu 
+  # rezerwacja zawodów 
+  # anulowanie rezerwacji zawodów 
+  # tworzenie listy konfliktów rezerwacji z zawodami 
+  # tworzenie listy dystrybucyjnej wszystkich klientów 
+  # wysyłka maila z informacją o rezerwacji na adres mailowy klienta 
+  # wysyłka maila z informacją o anulowaniu rezerwacji przez klub z powodu zawodów 
+  # Potwierdzanie realizacji rezerwacji (potrzebne do statystyk) 
+  # statystyki o klientach: 
+  *liczba klientów 
+  *klienci aktywni (klienci, których łączna ilość zrealizowanych rezerwacji jest powyżej x otrzymują rabat, informacja jest przypisana do konta ). 
+
 
 ==6 Wymagania jakościowe ==
-Interakcja z użytkownikiem musi przebiegać w czasie możliwie zbliżonym do rzeczywistego – oraz uniemożliwiać dublowanie rezerwacji tego samego użytkownika na jeden termin. Kalendarz musi bezproblemowo ładować się razem ze stroną internetową i dopasowywać do monitora, tak aby zawsze wyświetlić pełny harmonogram w bieżącym widoku. 
+  * Interakcja z użytkownikiem musi przebiegać w czasie możliwie zbliżonym do rzeczywistego – oraz uniemożliwiać dublowanie rezerwacji tego samego użytkownika na jeden termin. 
+  * System musi być w stanie obsłużyć co najmniej 1200 klientów, w tym bsłużyć równolegle co najmniej 20 klientów.
+  * Kalendarz musi bezproblemowo ładować się razem ze stroną internetową i dopasowywać do monitora, tak aby zawsze wyświetlić pełny harmonogram w bieżącym widoku. Musi działać w przeglądarkach IE, Mozilla, Chrome – na dzień dzisiejszy nie przewiduje się wersji dla urządzeń mobilnych
+  * System musi działać dostatecznie szybko na komputerze o minimalnej specyfikacji: Procesor Pentium® 4, 2 GHz,1 GB RAM, 
+Wymagana przestrzeń dyskowa na instalację 20MB 
 
-==7 Inne wymagania Stosowane standardy==
-Kod powinien powstać zgodnie z notacją popularyzowaną w Java Beans oraz Programowanie przez Intencję. Zostaną zastosowane znane i wypróbowane wzorce projektowe. Dokumentacja powstanie w oparciu o metodologię RUP przystosowaną do prowadzenia zajęć projektowych dla słuchaczy studiów podyplomowych ‘Projektowanie i Eksploatacja Systemów’ prowadzonych na katedrze Informatyki AGH przez dr Romana Dębskiego. Wymagania systemowe i technologiczne - Kod systemu powinien móc być przetłumaczony bezproblemowo na język VHDL, który jest popularnym językiem programatorów logicznych. 
+
+==7 Inne wymagania ==
+==Stosowane standardy==
+Zostaną zastosowane znane i wypróbowane wzorce projektowe. Dokumentacja powstanie w oparciu o metodologię RUP przystosowaną do prowadzenia zajęć projektowych dla słuchaczy studiów podyplomowych ‘Projektowanie i Eksploatacja Systemów’ prowadzonych na katedrze Informatyki AGH przez dr Romana Dębskiego. 
+
+==Wymagania systemowe i technologiczne ==
+brak. 
 
 ==8 Wymagania stawiane dokumentacji ==
-Podręcznik użytkownika - Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności "krok po kroku" czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. Podręcznik instalacji i konfiguracji - Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą "krok po kroku" nawet przez zupełnego laika. Dokumentacja techniczna - Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 2.1. 
+  
+  # *Podręcznik użytkownika* - Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności "krok po kroku" czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. 
+
+  # *Podręcznik instalacji i konfiguracji* - Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą "krok po kroku" nawet przez zupełnego laika. 
+
+  # *Dokumentacja techniczna* - Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 
+
 
 ==9 Wstępna analiza ryzyka ==
 *1 – minimum, 10-maksimum. *
@@ -61,3 +156,5 @@ Podręcznik użytkownika - Podręcznik użytkownika powinien być jasny i przejr
   * Opóźnienie związane z chorobą głównego programisty, prawdopodobieństwo: 4, skutki: 7 
 
   * Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
+
+ * zbyt krótki czas realizacji, prawdopodobieństwo (4), skutki (8)
