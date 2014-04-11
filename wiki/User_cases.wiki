@@ -276,7 +276,7 @@ pola w formularzu:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko</span></strong></p>
 </td>
 <td style="width: 47.9pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Data i godzina</span></p>
@@ -290,7 +290,7 @@ pola w formularzu:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">e-mail</span></strong></p>
 </td>
 <td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
@@ -304,7 +304,7 @@ pola w formularzu:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Telefon</span></strong></p>
 </td>
 <td style="width: 47.9pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span></p>
 </td>
 <td style="width: 106.3pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole liczba całkowita</span></p>
@@ -318,7 +318,7 @@ pola w formularzu:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Hasło</span></strong></p>
 </td>
 <td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole typu hasło</span></p>
@@ -332,7 +332,7 @@ pola w formularzu:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Akceptacja regulaminu</span></strong></p>
 </td>
 <td style="width: 47.9pt; border: none; border-bottom: solid #C00000 2.25pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; border: none; border-bottom: solid #C00000 2.25pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole checbox</span></p>
@@ -469,7 +469,7 @@ w formularzu:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">e-mail</span></strong></p>
 </td>
 <td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
@@ -483,7 +483,7 @@ w formularzu:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Hasło</span></strong></p>
 </td>
 <td style="width: 47.9pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole typu hasło</span></p>
@@ -616,7 +616,7 @@ Użytkownik, który zapomniał hasła musi wypełnić pola:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Imię </span></strong></p>
 </td>
 <td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
@@ -630,7 +630,7 @@ Użytkownik, który zapomniał hasła musi wypełnić pola:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko</span></strong></p>
 </td>
 <td style="width: 47.9pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">[E]</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> [R]</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
