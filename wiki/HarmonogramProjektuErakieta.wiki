@@ -7,6 +7,8 @@ Opis zmian:
 || 07-04-2014 || 0.5 || Rozpoczęcie prac || E.Kunstman ||  
 || 07-04-2014 || 1.0 || Wstępna wersja || E.Kunstman ||  
 || 10-04-2014 || 2.0 || wersja z tabelka z openproj || E.Kunstman ||
+|| 13-04-2014 || 3.0 || poprawione iteracjie || E.Kunstman ||
+|| 15-04-2014 || Recenzja || || P.Minor ||
  
 
 = Introduction =
