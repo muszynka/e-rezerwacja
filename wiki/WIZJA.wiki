@@ -4,13 +4,14 @@
 =Wizja Projektu=
 
 Opis zmian: 
-|| Data || Wersja || Opis || Autor ||  
+|| Data || Wersja || Opis || Autor/Recenzent ||  
 || 26-03-2014 || 0.5 || Rozpoczęcie prac || E.Kunstman ||  
 || 27-03-2014 || 1.0 || Wstępna wersja || E.Kunstman || 
 || 29-03-2014 || 2.0 || Wersja 2.0 || E.Kunstman || 
 || 29-03-2014 || 2.1 || Wersja 2.1 || B.Pych-Wala || 
 || 30-03-2014 || 2.2 || Wersja 2.2 || E.Kunstman || 
 ||10-04-2014 || 3.0 || Wersja 3.0 || E.Kunstman||
+||13-04-2014 || 3.5 || Recenzja || B.Pych-Wala||
 
 
 ===AGH 2014 ===
@@ -74,10 +75,10 @@ Pracownicy mają dostęp do systemu z poziomu przeglądarki www po uprzednim zal
 
 *Zewnętrzne podsystemy*
 
-Współpraca z bazą danych w MsSQL 
+Brak zewnętrznych podsystemów.
 
 ==4 Opis produktu ==
-E-rezerwacje e-RAKIETA to przyjazny system, umieszczony w formie interaktywnego kalendarza rezerwacji na stronie www klubu. Umożliwia samodzielne dokonanie rezerwacji terminu zajęć, podgląd zrobionych rezerwacji i śledzenie zwalniających się terminów. Ma służyć głównie wygodzie użytkowników klubu i zwiększeniu ich zadowolenia z korzystania z tej akurat firmy. Kalendarz dostępności jest interaktywny, pobiera i wyświetla dane o dostępności, "w locie", z centralnego serwera systemu rezerwacji. Rezerwujący może przeglądać (w cyklach tygodniowych) stan dostępności terminów zajęć, a w przypadku wolnego terminu, klikając na konkretnej godzinie i rodzaju zajęć i zostaje przeniesiony do systemu rezerwacji, gdzie proces jest kontynuowany przez potwierdzenie danych użytkownika i potwierdzenie dokonania rezerwacji terminu. 
+E-rezerwacje e-RAKIETA to system, umieszczony w formie interaktywnego kalendarza rezerwacji na stronie www klubu. Umożliwia samodzielne dokonanie rezerwacji terminu zajęć, podgląd zrobionych rezerwacji i śledzenie zwalniających się terminów. Ma służyć głównie wygodzie użytkowników klubu i zwiększeniu ich zadowolenia z korzystania z tej akurat firmy. Kalendarz dostępności jest interaktywny, pobiera i wyświetla dane o dostępności "w locie", z centralnego serwera systemu rezerwacji. Rezerwujący może przeglądać (w cyklach tygodniowych) stan dostępności terminów zajęć, a w przypadku wolnego terminu, klikając na konkretnej godzinie i rodzaju zajęć i zostaje przeniesiony do systemu rezerwacji, gdzie proces jest kontynuowany przez potwierdzenie danych użytkownika i potwierdzenie dokonania rezerwacji terminu. 
 
 ==5 Wymagania funkcjonalne i ich priorytety ==
 System umożliwia wykonanie następujących czynności: 
@@ -94,7 +95,7 @@ System umożliwia wykonanie następujących czynności:
   * możliwość przesyłania raportów z harmonogramem na kolejne dni
   * automatyczne notyfikacje przez SMSy/emaile w momencie potwierdzenia rezerwacji wsparcie przyjmowania rezerwacji telefonicznych – możliwe ustawienie rezerwacji za użytkownika możliwość eksportu zgłoszonych rezerwacji do pliku w formacie .xls (Excel).
 
-*5.1. Funkcjonalności dla klientów:* 
+*5.1. Funkcje dostępne dla klientów:* 
   # zakładanie konta (rejestracja)
   # logowanie do konta 
   # edycja konta 
@@ -104,7 +105,7 @@ System umożliwia wykonanie następujących czynności:
   # wysyłka maila z informacją o rezerwacji lub anulowaniu rezerwacji na adres mailowy klienta
 
 
-*5.2. Funkcjonalności dla pracowników:* 
+*5.2. Funkcje dostępne dla pracowników:* 
   # logowanie do sytemu 
   # zakładanie konta klienta 
   # edycja konta klienta 
@@ -133,39 +134,17 @@ Interakcja z użytkownikiem musi przebiegać w czasie możliwie zbliżonym do rz
 
 System musi być w stanie obsłużyć co najmniej 1200 klientów, w tym bsłużyć równolegle co najmniej 20 klientów.
 
-Kalendarz musi bezproblemowo ładować się razem ze stroną internetową i dopasowywać do monitora, tak aby zawsze wyświetlić pełny harmonogram w bieżącym widoku. Musi działać w przeglądarkach IE, Mozilla, Chrome – na dzień dzisiejszy nie przewiduje się wersji dla urządzeń mobilnych
 
-System musi działać dostatecznie szybko na komputerze o minimalnej specyfikacji: Procesor Pentium® 4, 2 GHz,1 GB RAM. 
-Wymagana przestrzeń dyskowa na instalację 20MB.
-
-
-==7 Inne wymagania ==
-
-*Stosowane standardy*
-
-Zostaną zastosowane znane i wypróbowane wzorce projektowe. Dokumentacja powstanie w oparciu o metodologię RUP przystosowaną do prowadzenia zajęć projektowych dla słuchaczy studiów podyplomowych ‘Projektowanie i Eksploatacja Systemów’ prowadzonych na katedrze Informatyki AGH przez dr Romana Dębskiego. 
-
-*Wymagania systemowe i technologiczne*
-
-brak. 
-
-
-==8 Wymagania stawiane dokumentacji ==
+==7 Wymagana dokumentacja ==
   
-*Podręcznik użytkownika*
-
-Podręcznik użytkownika powinien być jasny i przejrzysty, zawierać zarówno opis czynności "krok po kroku" czyli tzw. tutorial, jak i skorowidz wszystkich znanych pojęć związanych z działaniem systemu. Podręcznik powinien być przekazany klientowi w formie drukowanej, elektronicznej oraz udostępniony na stronie WWW producenta. 
-
-*Podręcznik instalacji i konfiguracji*
-
-Podręcznik instalacji i konfiguracji powinien zawierać przejrzyste zdjęcia z odpowiednim komentarzem oraz zrzuty ekranu w celu umożliwienia wykonania instalacji metodą "krok po kroku" nawet przez zupełnego laika. 
+*Instrukcja  dla użytkownika*
 
 *Dokumentacja techniczna*
 
 Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zostać wykonane przy użyciu narzędzia CASE – Visual Paradigm lub dowolnego innego wspierającego UML 
 
 
-==9 Wstępna analiza ryzyka ==
+==8 Wstępna analiza ryzyka ==
 1 – minimum, 10-maksimum.
 
   * Niezgodność tworzonego oprogramowania z niektórymi przeglądarkami, prawdopodobieństwo: 3, skutki: 10. 
@@ -174,4 +153,6 @@ Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zos
 
   * Nieprawidłowo przeprowadzona analiza wymagań, prawdopodobieństwo: 2, skutki: 9 
 
- * zbyt krótki czas realizacji, prawdopodobieństwo (4), skutki (8)
+  * zbyt krótki czas realizacji, prawdopodobieństwo (4), skutki (8)
+
+  * zmiana wymagan ze strony klienta w trakcie realizacji projektu, prawdopodobieństwo (9), skutki (8)
