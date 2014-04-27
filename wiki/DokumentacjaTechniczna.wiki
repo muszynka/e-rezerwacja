@@ -1,4 +1,4 @@
-1.	Wprowadzenie
+<b>1.	Wprowadzenie</b>
 
 Dokument ten opisuje charakterystykę techniczną aplikacji E-RAKIETA. Wymienione są główne fukcje aplikacji, opisany interfejs użytkownika, kod aplikacji, a także sposób przechowywania informacji w bazie danych.
 
