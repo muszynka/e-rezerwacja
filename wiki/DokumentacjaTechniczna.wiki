@@ -8,153 +8,153 @@ Celem dokumentu jest wprowadzenie w logikę aplikacji, załeżenia towarzyszące
 
 <b>1.1.1.	Dokument</b><br>
 
-Dokument ten przeznaczony jest głównie dla administratorów aplikacji. Po jej wdrożeniu większość zmian można wprowadzać bez znaczącej ingerencji w kod i strukturę aplikacji, co w założeniu umożliwiać ma samodzielne jej utrzymywanie i administrację.
+Dokument ten przeznaczony jest głównie dla administratorów aplikacji. Po jej wdrożeniu większość zmian można wprowadzać bez znaczącej ingerencji w kod i strukturę aplikacji, co w założeniu umożliwiać ma samodzielne jej utrzymywanie i administrację.<br>
 
 <b>1.1.2.	Aplikacja</b><br>
 
-E-RAKIETA jest aplikacją webową, dostępną dla użytkowników poprzez przeglądarkę www. Umożliwia klientom klubu rezerwację dostępnych zasobów czy miejsc na zajęciach poprzez panel użytkownika do uprzednio wprowadzonych harmonogramów przez administratorów będących pracownikami klubu.
+E-RAKIETA jest aplikacją webową, dostępną dla użytkowników poprzez przeglądarkę www. Umożliwia klientom klubu rezerwację dostępnych zasobów czy miejsc na zajęciach poprzez panel użytkownika do uprzednio wprowadzonych harmonogramów przez administratorów będących pracownikami klubu.<br>
 
-<b>2.	Założenia projektowe</b>
+<b>2.	Założenia projektowe</b><br>
 
-Głównym celem towarzyszącym projektowaniu i tworzeniu aplikacji były automatyzacja, przyspieszenie i uproszczenie rezerwacji zajęć oraz miejsc na ogólnodostępnych salach. Interfej użytkownika miał być prosty w obsłudze, dostępny przez przeglądarkę www bez konieczności instalowania żadnego dodatkowego oprogramowania.
+Głównym celem towarzyszącym projektowaniu i tworzeniu aplikacji były automatyzacja, przyspieszenie i uproszczenie rezerwacji zajęć oraz miejsc na ogólnodostępnych salach. Interfej użytkownika miał być prosty w obsłudze, dostępny przez przeglądarkę www bez konieczności instalowania żadnego dodatkowego oprogramowania.<br>
 
-<b>2.1.	Środowisko użytkownika</b>
+<b>2.1.	Środowisko użytkownika</b><br>
 
-Wymagania techniczne aplikacji ze strony użytkowników:
+Wymagania techniczne aplikacji ze strony użytkowników:<br>
 
-•	dowolny system opracyjny
-•	przeglądarka internetowa
-•	podłączenie do internetu
-•	brak blokady JavaScript oraz okien pop-up 
+•	dowolny system opracyjny<br>
+•	przeglądarka internetowa<br>
+•	podłączenie do internetu<br>
+•	brak blokady JavaScript oraz okien pop-up<br> 
 
-<b>2.2.	Wymagania dla administratora</b>
+<b>2.2.	Wymagania dla administratora</b><br>
 
-Wszelkie zmiany w ofercie klubu będą wymagały ich odzwierciedlenia w strukturze aplikacji. Jej projektowaniu przyświecał cel, aby dokonywanie tych zmian było w jak największym stopniu uproszczone, możliwe do zrealizowania przez odpowiednio przeszkolonych pracowników bez konieczności posiadania wiedzy informatycznej. 
+Wszelkie zmiany w ofercie klubu będą wymagały ich odzwierciedlenia w strukturze aplikacji. Jej projektowaniu przyświecał cel, aby dokonywanie tych zmian było w jak największym stopniu uproszczone, możliwe do zrealizowania przez odpowiednio przeszkolonych pracowników bez konieczności posiadania wiedzy informatycznej. <br>
 
-W celu umożliwienia administrowania aplikacją, konieczne jest udostępnienie środowiska o następującej charakterystyce:
+W celu umożliwienia administrowania aplikacją, konieczne jest udostępnienie środowiska o następującej charakterystyce:<br>
 
-•	System Operacyjny Windows 7 lub nowszy
-•	Microsoft Visual Studio 12
-•	MS-SQL Server Management Studio
-•	zalecane 4GB RAM
-•	ustawienia Windows Firewall umożliwiające komunikację aplikacji z bazą danych
-•	otwarty port TCP 1433 (głowna ścieżka komunikacji aplikacji z bazą danych)
-•	opcjonalne otwarcie portu 1434
-•	umożliwienie komunikacji poprzez port 443 (protokół https) 
+•	System Operacyjny Windows 7 lub nowszy<br>
+•	Microsoft Visual Studio 12<br>
+•	MS-SQL Server Management Studio<br>
+•	zalecane 4GB RAM<br>
+•	ustawienia Windows Firewall umożliwiające komunikację aplikacji z bazą danych<br>
+•	otwarty port TCP 1433 (głowna ścieżka komunikacji aplikacji z bazą danych)<br>
+•	opcjonalne otwarcie portu 1434<br>
+•	umożliwienie komunikacji poprzez port 443 (protokół https)<br> 
 
-<b>2.3.	Przebieg procesu tworzenia aplikacji</b>
+<b>2.3.	Przebieg procesu tworzenia aplikacji</b><br>
 
-Prezentowana aplikacja jest rezultatem starań utrzymania ciągłej interakcji z potencjalnymi klientami, aby praktycznie na każdym etapie mogli wyrazić swoją opinię i zasugerować ewentualne zmiany. 
+Prezentowana aplikacja jest rezultatem starań utrzymania ciągłej interakcji z potencjalnymi klientami, aby praktycznie na każdym etapie mogli wyrazić swoją opinię i zasugerować ewentualne zmiany.<br> 
 
-<b>2.4.	Metody tworzenia programu</b>
+<b>2.4.	Metody tworzenia programu</b><br>
 
-Tworzeniu aplikacji przyświecały zasady programowania techniką Agile. Dokonano starań, aby ciągła interakcja z potencjalnymi odbiorcami umożliwiła maksymalnie trafne zaadresowanie ich potrzeb. Szczegóły na temat zastosowanej techniki znajdują się pod adresem http://agilemanifesto.org/
+Tworzeniu aplikacji przyświecały zasady programowania techniką Agile. Dokonano starań, aby ciągła interakcja z potencjalnymi odbiorcami umożliwiła maksymalnie trafne zaadresowanie ich potrzeb. Szczegóły na temat zastosowanej techniki znajdują się pod adresem http://agilemanifesto.org/<br>
 
-<b>3.	Architektura</b>
+<b>3.	Architektura</b><br>
 
-Program w założeniu miał być prostą, uniwersalną, oraz lekką aplikacją, możliwą do szybkiego wdrożenia u każdego klienta. Mając na uwadze te cele, oparto się na następujących założeniach oraz technologiach:
+Program w założeniu miał być prostą, uniwersalną, oraz lekką aplikacją, możliwą do szybkiego wdrożenia u każdego klienta. Mając na uwadze te cele, oparto się na następujących założeniach oraz technologiach:<br>
 
-•	Główny szkielet aplikacji powstał w Microsoft Visual Studio
-•	VS posłużył do zbudowania poszczególnych stron html
-•	a także do podpięcia kontrolek wywołujących akcję po ich kliknięciu
-•	stworzono bazę danych Microsoft SQL
-•	zbudowane zostało połączenie aplikacji z bazą danych
-•	baza danych przechowuje informacje o użytkownikach, zasobach oraz ich wykorzystaniu
-•	zdecydowano się na ciągłą interakcje z bazą danych, i jej aktualizację w czasie rzeczywistym
-•	utrzymywane są historyczne dane dla przeszłych rezerwacji
-•	usunięcie konta użytkownika skutkuje skasowaniem informacji o nim, oraz przypisaniem uniemożliwiającego indentyfikację identyfikatora, celem umożliwienia przechowywania danych historycznych
-•	mechanizm logowania umożliwia dostęp do uprzednio stworzonego konta bez konieczności ponownego podawania swoich danych
-•	funkcja przypominania hasła umożliwia odzyskanie dostępu do konta
+•	Główny szkielet aplikacji powstał w Microsoft Visual Studio<br>
+•	VS posłużył do zbudowania poszczególnych stron html<br>
+•	a także do podpięcia kontrolek wywołujących akcję po ich kliknięciu<br>
+•	stworzono bazę danych Microsoft SQL<br>
+•	zbudowane zostało połączenie aplikacji z bazą danych<br>
+•	baza danych przechowuje informacje o użytkownikach, zasobach oraz ich wykorzystaniu<br>
+•	zdecydowano się na ciągłą interakcje z bazą danych, i jej aktualizację w czasie rzeczywistym<br>
+•	utrzymywane są historyczne dane dla przeszłych rezerwacji<br>
+•	usunięcie konta użytkownika skutkuje skasowaniem informacji o nim, oraz przypisaniem uniemożliwiającego indentyfikację identyfikatora, celem umożliwienia przechowywania danych historycznych<br>
+•	mechanizm logowania umożliwia dostęp do uprzednio stworzonego konta bez konieczności ponownego podawania swoich danych<br>
+•	funkcja przypominania hasła umożliwia odzyskanie dostępu do konta<br>
 
-<b>4.	Struktura aplikacji</b>
+<b>4.	Struktura aplikacji</b><br>
 
-Struktura aplikacji została oparta na widokach, jakie będą dostępne dla użytkowników zewnętrznych, oraz pracowników klubów. 
+Struktura aplikacji została oparta na widokach, jakie będą dostępne dla użytkowników zewnętrznych, oraz pracowników klubów. <br>
 
-Poszczególne funkcje zostały umieszczone na stronach, z których mają być udostępnione, i podpiętę do konrolek, których kliknięcie uruchamia skrypty zawierające te funkcje. 
+Poszczególne funkcje zostały umieszczone na stronach, z których mają być udostępnione, i podpiętę do konrolek, których kliknięcie uruchamia skrypty zawierające te funkcje.<br> 
 
-Na stronie startowej, podpiętej bezpośrednio pod adres www klubu, zawarte są ogólne informacje o klubie, jego lokalizacji, ofercie, itd. Możliwy jest także podgląd zajęć, dostępności miejsc czy sprzętu, jednak bez możliwości dokonywania rezerwacji czy jej anulowania.
+Na stronie startowej, podpiętej bezpośrednio pod adres www klubu, zawarte są ogólne informacje o klubie, jego lokalizacji, ofercie, itd. Możliwy jest także podgląd zajęć, dostępności miejsc czy sprzętu, jednak bez możliwości dokonywania rezerwacji czy jej anulowania.<br>
 
-Strona główna zawiera także pola tekstowe do wpisania nazwy użytkownika oraz hasła. Dostępne jest jedno logowanie zarówno dla użytkowników zewnętrznych, jak i pracowników klubu. Każdy utworzony profil ma przypisane odpowiednie role, według których udostępniane są właściwe funkcje. 
+Strona główna zawiera także pola tekstowe do wpisania nazwy użytkownika oraz hasła. Dostępne jest jedno logowanie zarówno dla użytkowników zewnętrznych, jak i pracowników klubu. Każdy utworzony profil ma przypisane odpowiednie role, według których udostępniane są właściwe funkcje.<br> 
 
-Ze strony głównej możliwe jest utworzenie nowego konta. Z założenia będzie ono zawsze kontem użytkownika zewnętrznego. Konto pracownika może utworzyć wyłącznie inny pracownik, zalogowany na siebie w systemie.
+Ze strony głównej możliwe jest utworzenie nowego konta. Z założenia będzie ono zawsze kontem użytkownika zewnętrznego. Konto pracownika może utworzyć wyłącznie inny pracownik, zalogowany na siebie w systemie.<br>
 
-Ostatnią opcją dostępną ze strony głównej jest odzyskiwanie hasła. Po jej wyborze użytkownik proszony jest o podanie adresu e-mail przypisanego do konta, na który jest wysyłany link do strony umożliwiającej zresetowanie hasła. Funkcja ta jest dostępna tylko dla kont typu użytkownik zewnętrzny. Hasło konta pracownika klubu może zresetować tylko inny pracownik lub administrator.
+Ostatnią opcją dostępną ze strony głównej jest odzyskiwanie hasła. Po jej wyborze użytkownik proszony jest o podanie adresu e-mail przypisanego do konta, na który jest wysyłany link do strony umożliwiającej zresetowanie hasła. Funkcja ta jest dostępna tylko dla kont typu użytkownik zewnętrzny. Hasło konta pracownika klubu może zresetować tylko inny pracownik lub administrator.<br>
 
-Po zalogowaniu użytkownik otrzymuje dostęp do systemu rezerwacji. Po wybraniu daty sprawdzana jest dostępność kortów w danym dniu w ramach wydzielonych odgórnie 2-godzinnych przedziałów czasowych. Następuje sprawdzenie bazy danych poprzez policzenie rezerwacji na dany dzień. Jeśli ilość rezerwacji w danym przedziale czasowym odpowiada ilości kortów, użytkownik otrzymuje informację o braku możliwości dokonania rezerwacji.
+Po zalogowaniu użytkownik otrzymuje dostęp do systemu rezerwacji. Po wybraniu daty sprawdzana jest dostępność kortów w danym dniu w ramach wydzielonych odgórnie 2-godzinnych przedziałów czasowych. Następuje sprawdzenie bazy danych poprzez policzenie rezerwacji na dany dzień. Jeśli ilość rezerwacji w danym przedziale czasowym odpowiada ilości kortów, użytkownik otrzymuje informację o braku możliwości dokonania rezerwacji.<br>
 
-Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji zawodów, system dokona rezerwacji bez względu na istniejące już zapisy. Wyświetli jednocześnie listę konfiktowych rezerwacji, z możliwością wysłania maili informujących o ich odwołaniu na adresy przypisane do kont, z których dokonano rezerwacji.
+Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji zawodów, system dokona rezerwacji bez względu na istniejące już zapisy. Wyświetli jednocześnie listę konfiktowych rezerwacji, z możliwością wysłania maili informujących o ich odwołaniu na adresy przypisane do kont, z których dokonano rezerwacji.<br>
 
-<b>4.1.	Baza danych</b>
+<b>4.1.	Baza danych</b><br>
 
-Aplikacja współpracuje z bazą danych przechowującą informacje o użytkownikach, dostępnych kortach, oraz danych historycznych.
+Aplikacja współpracuje z bazą danych przechowującą informacje o użytkownikach, dostępnych kortach, oraz danych historycznych.<br>
 
-Ze względów bezpieczeństwa informacje o użytkownikach zawarte są w dwóch tabelach.  Jedna przechowuje informacje osobiste, druga wyłącznie loginy i hasła. Login łączy obie tabele i pozwala na powiązanie zawartych informacji.
+Ze względów bezpieczeństwa informacje o użytkownikach zawarte są w dwóch tabelach.  Jedna przechowuje informacje osobiste, druga wyłącznie loginy i hasła. Login łączy obie tabele i pozwala na powiązanie zawartych informacji.<br>
 
-Przy próbie dokonania rezerwacji, użytkownik wybiera datę oraz godzinę. Po zatwierdzeniu zapytania, aplikacja odpytuje bazę danych o ilość rezerwacji na daną godzinę w wybranym dniu. Jeśli ilość rezerwacji jest równa ilości kortów, następuje odmowa, oraz wyswietlana jest wiadomość zachęcająca do wyboru innej godziny.
+Przy próbie dokonania rezerwacji, użytkownik wybiera datę oraz godzinę. Po zatwierdzeniu zapytania, aplikacja odpytuje bazę danych o ilość rezerwacji na daną godzinę w wybranym dniu. Jeśli ilość rezerwacji jest równa ilości kortów, następuje odmowa, oraz wyswietlana jest wiadomość zachęcająca do wyboru innej godziny.<br>
 
-Pracownicy klubu mają dodatkową możliwość utworzenia rezerwacji na potrzeby zawodów. System odpytuje wtedy bazę danych o wszystkie rezerwacje na wybrany czas, oraz anuluje je.  
+Pracownicy klubu mają dodatkową możliwość utworzenia rezerwacji na potrzeby zawodów. System odpytuje wtedy bazę danych o wszystkie rezerwacje na wybrany czas, oraz anuluje je.<br>  
 
-<b>5.	Przeprowadzone testy oraz sprawdzenie poprawności działania</b>
+<b>5.	Przeprowadzone testy oraz sprawdzenie poprawności działania</b><br>
 
-Scenariusze testów zostały opisane w osobnym dokumencie 'Use Cases'.
+Scenariusze testów zostały opisane w osobnym dokumencie 'Use Cases'.<br>
 
-<b>6.	Szczegóły logiki aplikacji</b>
+<b>6.	Szczegóły logiki aplikacji</b><br>
 
-Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych widokach (stronach html), w ramach których dostępne są poszczególne pola wyboru oraz nawigacji:
+Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych widokach (stronach html), w ramach których dostępne są poszczególne pola wyboru oraz nawigacji:<br>
 
-<b>6.1.	ChangePassword</b>
+<b>6.1.	ChangePassword</b><br>
 
-TextBox: CurrentPassword: użytkownik podaje dotychczasowe hasło
-TextBox: NewPassword: użytkownik podaje nowe hasło
-TextBox: ConfirmNewPassword: użytkownik podaje po raz drugi nowe hasło
-Button: CancelPushButton: anulowanie operacji, powrót do strony głównej
-Button: ChangePasswordPushButton: potwierdzenie kompletności informacji, przejście do strony ChangePasswordSuccess
+TextBox: CurrentPassword: użytkownik podaje dotychczasowe hasło<br>
+TextBox: NewPassword: użytkownik podaje nowe hasło<br>
+TextBox: ConfirmNewPassword: użytkownik podaje po raz drugi nowe hasło<br>
+Button: CancelPushButton: anulowanie operacji, powrót do strony głównej<br>
+Button: ChangePasswordPushButton: potwierdzenie kompletności informacji, przejście do strony<br> ChangePasswordSuccess<br>
 
-<b>6.2.	ChangePasswordSuccess</b>
+<b>6.2.	ChangePasswordSuccess</b><br>
     
-Text: confirmation of a successful change of a password
+Text: confirmation of a successful change of a password<br>
 
-<b>6.3.	Login</b>
-TextBox: UserName: nazwa użytkownika
-TextBox: Password: hasło użytkownika
-CheckBox: RememberMe: zapisanie danych logowania w ciasteczkach
-Hyperlink: RegisterHyperlink: 
-Button: LoginButton: zalogowanie użytkownika
+<b>6.3.	Login</b><br>
+TextBox: UserName: nazwa użytkownika<br>
+TextBox: Password: hasło użytkownika<br>
+CheckBox: RememberMe: zapisanie danych logowania w ciasteczkach<br>
+Hyperlink: RegisterHyperlink: <br>
+Button: LoginButton: zalogowanie użytkownika<br>
 
-<b>6.4.	Register</b>
+<b>6.4.	Register</b><br>
     
-TextBox: UserName: nazwa użytkownika
-TextBox: Email: adres e-mail użytkownika
-TextBox: Password: wybrane hasło
-TextBox: ConfirmPassword: powtórzenie hasła
-Button: CreateUserButton
+TextBox: UserName: nazwa użytkownika<br>
+TextBox: Email: adres e-mail użytkownika<br>
+TextBox: Password: wybrane hasło<br>
+TextBox: ConfirmPassword: powtórzenie hasła<br>
+Button: CreateUserButton<br>
 
-<b>6.5.	ChangePassword</b>
+<b>6.5.	ChangePassword</b><br>
     
-Zmiana hasła w bazie danych
+Zmiana hasła w bazie danych<br>
 
-<b>6.6.	Members</b>
+<b>6.6.	Members</b><br>
     
-Text: powitanie zarejestrowanego użytkownika
+Text: powitanie zarejestrowanego użytkownika<br>
 
-<b>6.7.	Rezerwacja</b>
-    
-
-<b>6.8.	About</b>
+<b>6.7.	Rezerwacja</b><br>
     
 
-<b>6.9.	Default</b>
+<b>6.8.	About</b><br>
     
 
-<b>6.10.	Login</b>
+<b>6.9.	Default</b><br>
+    
+
+<b>6.10.	Login</b><br>
 
 
-<b>6.11.	Profiles</b>
+<b>6.11.	Profiles</b><br>
 
-<b>6.12.	RecoverPassword</b>
+<b>6.12.	RecoverPassword</b><br>
 
-<b>7.	Bibliografia</b>
+<b>7.	Bibliografia</b><br>
 
 
-      Brad Appleton <brad@bradapp.net>
+      Brad Appleton <brad@bradapp.net><br>
       http://www.bradapp.net
