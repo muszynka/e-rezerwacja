@@ -6,22 +6,22 @@ Dokument ten opisuje charakterystykę techniczną aplikacji E-RAKIETA. Wymienion
 
 
 
-1.1.	Opis dokumentu
+<b>1.1.	Opis dokumentu</b>
 
 Celem dokumentu jest wprowadzenie w logikę aplikacji, załeżenia towarzyszące jej powstawaniu, oraz strukturę kodu:
 
-1.1.1.	Dokument
+<b>1.1.1.	Dokument</b>
 
 Dokument ten przeznaczony jest głównie dla administratorów aplikacji. Po jej wdrożeniu większość zmian można wprowadzać bez znaczącej ingerencji w kod i strukturę aplikacji, co w założeniu umożliwiać ma samodzielne jej utrzymywanie i administrację.
-1.1.2.	Aplikacja
+<b>1.1.2.	Aplikacja</b>
 
 E-RAKIETA jest aplikacją webową, dostępną dla użytkowników poprzez przeglądarkę www. Umożliwia klientom klubu rezerwację dostępnych zasobów czy miejsc na zajęciach poprzez panel użytkownika do uprzednio wprowadzonych harmonogramów przez administratorów będących pracownikami klubu.
 
-2.	Założenia projektowe
+<b>2.	Założenia projektowe</b>
 
 Głównym celem towarzyszącym projektowaniu i tworzeniu aplikacji były automatyzacja, przyspieszenie i uproszczenie rezerwacji zajęć oraz miejsc na ogólnodostępnych salach. Interfej użytkownika miał być prosty w obsłudze, dostępny przez przeglądarkę www bez konieczności instalowania żadnego dodatkowego oprogramowania.
 
-2.1.	Środowisko użytkownika
+<b>2.1.	Środowisko użytkownika</b>
 
 Wymagania techniczne aplikacji ze strony użytkowników:
 
@@ -30,7 +30,7 @@ Wymagania techniczne aplikacji ze strony użytkowników:
 •	podłączenie do internetu
 •	brak blokady JavaScript oraz okien pop-up 
 
-2.2.	Wymagania dla administratora
+<b>2.2.	Wymagania dla administratora</b>
 
 Wszelkie zmiany w ofercie klubu będą wymagały ich odzwierciedlenia w strukturze aplikacji. Jej projektowaniu przyświecał cel, aby dokonywanie tych zmian było w jak największym stopniu uproszczone, możliwe do zrealizowania przez odpowiednio przeszkolonych pracowników bez konieczności posiadania wiedzy informatycznej. 
 
@@ -45,15 +45,15 @@ W celu umożliwienia administrowania aplikacją, konieczne jest udostępnienie �
 •	opcjonalne otwarcie portu 1434
 •	umożliwienie komunikacji poprzez port 443 (protokół https) 
 
-2.3.	Przebieg procesu tworzenia aplikacji
+<b>2.3.	Przebieg procesu tworzenia aplikacji</b>
 
 Prezentowana aplikacja jest rezultatem starań utrzymania ciągłej interakcji z potencjalnymi klientami, aby praktycznie na każdym etapie mogli wyrazić swoją opinię i zasugerować ewentualne zmiany. 
 
-2.4.	Metody tworzenia programu
+<b>2.4.	Metody tworzenia programu</b>
 
 Tworzeniu aplikacji przyświecały zasady programowania techniką Agile. Dokonano starań, aby ciągła interakcja z potencjalnymi odbiorcami umożliwiła maksymalnie trafne zaadresowanie ich potrzeb. Szczegóły na temat zastosowanej techniki znajdują się pod adresem http://agilemanifesto.org/
 
-3.	Architektura
+<b>3.	Architektura</b>
 
 Program w założeniu miał być prostą, uniwersalną, oraz lekką aplikacją, możliwą do szybkiego wdrożenia u każdego klienta. Mając na uwadze te cele, oparto się na następujących założeniach oraz technologiach:
 
@@ -69,7 +69,7 @@ Program w założeniu miał być prostą, uniwersalną, oraz lekką aplikacją, 
 •	mechanizm logowania umożliwia dostęp do uprzednio stworzonego konta bez konieczności ponownego podawania swoich danych
 •	funkcja przypominania hasła umożliwia odzyskanie dostępu do konta
 
-4.	Struktura aplikacji
+<b>4.	Struktura aplikacji</b>
 
 Struktura aplikacji została oparta na widokach, jakie będą dostępne dla użytkowników zewnętrznych, oraz pracowników klubów. 
 
@@ -86,7 +86,8 @@ Ostatnią opcją dostępną ze strony głównej jest odzyskiwanie hasła. Po jej
 Po zalogowaniu użytkownik otrzymuje dostęp do systemu rezerwacji. Po wybraniu daty sprawdzana jest dostępność kortów w danym dniu w ramach wydzielonych odgórnie 2-godzinnych przedziałów czasowych. Następuje sprawdzenie bazy danych poprzez policzenie rezerwacji na dany dzień. Jeśli ilość rezerwacji w danym przedziale czasowym odpowiada ilości kortów, użytkownik otrzymuje informację o braku możliwości dokonania rezerwacji.
 
 Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji zawodów, system dokona rezerwacji bez względu na istniejące już zapisy. Wyświetli jednocześnie listę konfiktowych rezerwacji, z możliwością wysłania maili informujących o ich odwołaniu na adresy przypisane do kont, z których dokonano rezerwacji.
-4.1.	Baza danych
+
+<b>4.1.	Baza danych</b>
 
 Aplikacja współpracuje z bazą danych przechowującą informacje o użytkownikach, dostępnych kortach, oraz danych historycznych.
 
@@ -96,61 +97,66 @@ Przy próbie dokonania rezerwacji, użytkownik wybiera datę oraz godzinę. Po z
 
 Pracownicy klubu mają dodatkową możliwość utworzenia rezerwacji na potrzeby zawodów. System odpytuje wtedy bazę danych o wszystkie rezerwacje na wybrany czas, oraz anuluje je.  
 
-5.	Przeprowadzone testy oraz sprawdzenie poprawności działania
+<b>5.	Przeprowadzone testy oraz sprawdzenie poprawności działania</b>
 
 Scenariusze testów zostały opisane w osobnym dokumencie 'Use Cases'.
 
-6.	Szczegóły logiki aplikacji
+<b>6.	Szczegóły logiki aplikacji</b>
 
 Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych widokach (stronach html), w ramach których dostępne są poszczególne pola wyboru oraz nawigacji:
 
-6.1.	ChangePassword
+<b>6.1.	ChangePassword</b>
+
 TextBox: CurrentPassword: użytkownik podaje dotychczasowe hasło
 TextBox: NewPassword: użytkownik podaje nowe hasło
 TextBox: ConfirmNewPassword: użytkownik podaje po raz drugi nowe hasło
 Button: CancelPushButton: anulowanie operacji, powrót do strony głównej
 Button: ChangePasswordPushButton: potwierdzenie kompletności informacji, przejście do strony ChangePasswordSuccess
 
-6.2.	ChangePasswordSuccess
-    Text: confirmation of a successful change of a password
+<b>6.2.	ChangePasswordSuccess</b>
+    
+Text: confirmation of a successful change of a password
 
-6.3.	Login
+<b>6.3.	Login</b>
 TextBox: UserName: nazwa użytkownika
 TextBox: Password: hasło użytkownika
 CheckBox: RememberMe: zapisanie danych logowania w ciasteczkach
 Hyperlink: RegisterHyperlink: 
 Button: LoginButton: zalogowanie użytkownika
 
-6.4.	Register
+<b>6.4.	Register</b>
     
 TextBox: UserName: nazwa użytkownika
 TextBox: Email: adres e-mail użytkownika
 TextBox: Password: wybrane hasło
 TextBox: ConfirmPassword: powtórzenie hasła
 Button: CreateUserButton
-6.5.	ChangePassword
+
+<b>6.5.	ChangePassword</b>
     
 Zmiana hasła w bazie danych
-6.6.	Members
+
+<b>6.6.	Members</b>
     
 Text: powitanie zarejestrowanego użytkownika
-6.7.	Rezerwacja
+
+<b>6.7.	Rezerwacja</b>
     
 
-6.8.	About
+<b>6.8.	About</b>
     
 
-6.9.	Default
+<b>6.9.	Default</b>
     
 
-6.10.	Login
+<b>6.10.	Login</b>
 
 
-6.11.	Profiles
+<b>6.11.	Profiles</b>
 
-6.12.	RecoverPassword
+<b>6.12.	RecoverPassword</b>
 
-7.	Bibliografia
+<b>7.	Bibliografia</b>
 
 
       Brad Appleton <brad@bradapp.net>
