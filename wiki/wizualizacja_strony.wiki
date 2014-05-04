@@ -14,6 +14,6 @@
 
 
 
-== strona panelu użytkownika przed zalogowaniem ==
+== strona panelu użytkownika po zalogowaniu ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Panel administracyjny po zalogowaniu.png]
