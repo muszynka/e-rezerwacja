@@ -7,6 +7,11 @@
 [http://e-rezerwacja.googlecode.com/svn/wiki/index_screen.png]
 
 
-== strona panelu użytkownika ==
+== strona panelu użytkownika przed zalogowaniem ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/panel_glowna.png]
+
+
+== strona panelu użytkownika przed zalogowaniem ==
+
+[http://e-rezerwacja.googlecode.com/svn/wiki/Panel administracyjny po zalogowaniu.png]
