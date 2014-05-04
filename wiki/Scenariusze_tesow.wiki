@@ -10,6 +10,7 @@ Opis zmian:
 || 07-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
 || 07-04-2014 || 1.1 || TESTY etap 1 || B.Pych-Wala || 
 || 09-04-2014 || 1.2 || TESTY etap 1 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
+|| 0X-05-2014 || 2.0 || TESTY etap 2 || B.Pych-Wala || 
 ||  ||  ||  ||  || 
 
 
@@ -44,6 +45,10 @@ weryfikacja poprawności:
   * opcja przypomnienia hasła
 
 Etap II
+weryfikacja poprawności:
+  * wyszukiwanie zawodników
+  * rezerwacja kortu
+  * anulowanie rezerwacji kortu ...
 
 Etap III
 
