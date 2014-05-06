@@ -57,7 +57,7 @@ Przeglądarka internetowa Internet Explorer, Mozilla Firefox,
 Opera, Chrome.
 
    
-= 4. Scenariusze użycia =
+= 3. Scenariusze użycia =
  
 Poniżej przedstawiono przykłady użycia programu oraz jego
 wszystkie funkcjonalności. 
