@@ -11,7 +11,7 @@ Opis zmian:
 
 ||Data	|| Wersja	|| Opis	|| Autor||
 || 11-04-2014	|| 1.0 || _N/A_	 ||	 Patrycja Minor||
-|| 
+|| 06-05-2014	|| 2.0 || _N/A_	 ||	 Patrycja Minor||
 
 
 
@@ -25,7 +25,7 @@ Contents:
  
 == 1.1.        Architektura logiczna i funkcjonalna ==
  
-Rozwiązanie zostanie oparte o autorski silnik stworzony w oparciu o jeżyk Java. System stanowi aplikację dedykowaną stworzona na życzenie
+Rozwiązanie Java. System stanowi aplikację dedykowaną stworzona na życzenie
 Klienta.
 
  
@@ -38,7 +38,7 @@ Do uzupełnienia informacjami o bazie. Na czym to stoi.
  
 Podstawowy interfejs użytkownika
 stanowi zestaw stron dostępny przez przeglądarkę internetową. Zestaw ten
-stanowią strony z formularzami oraz raportami dedykowanymi. 
+stanowią strony z formularzami oraz raportami. 
 
  
 == 1.2.        Architektura techniczna ==
@@ -56,162 +56,7 @@ Wymagania techniczne do obsługi aplikacji.
 Przeglądarka internetowa Internet Explorer, Mozilla Firefox,
 Opera, Chrome.
 
- 
-= 2. Cele wdrożenia =
- 
-Wdrożenie systemu e-rezerwacji w klubie sportowym ma na
-celu:
-  
-
- * Usprawnienie rezerwacji sal sportowych przez klientów zewnętrznych.
    
-
- * Usprawnienie rezerwacji terminów dla trenerów poszczególnych dyscyplin przez klientów zewnętrznych klubu. 
-
-      
- * Usprawnienie zarządzania aktualnymi rezerwacjami trenerów oraz sal sportowych. 
-
-        
- * Usprawnienie kontroli i walidacji terminów rezerwacji. 
-
-       
- * Usprawnię kontroli czasu pracy poszczególnych trenerów. 
-
- 
-= 3. Etapy wdrożenia =
- 
-Poniżej tabela z etapami projektu wraz z ich pracochłonnością
-oraz terminami wykonania. 
-
- 
-== 3.1.        Etapy wdrożenia, pracochłonność oraz terminy. ==
-                                                  
-
-
-
-<table border="1" cellpadding="0" cellspacing="0" class="MsoTableMediumShading1Accent2" style="border-collapse: collapse; border: none; width: 576px;">
-<tbody>
-<tr>
-<td>
-<p><strong><span>ETAP</span></strong><strong><span></span></strong></p>
-</td>
-<td>
-<p><strong><span>ILOŚĆ RD</span></strong><strong><span></span></strong></p>
-</td>
-<td>
-<p><strong><span>TERMIN</span></strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP Ia: ANALIZA PRZEDWDROZENIOWA <br /> </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">-   przeprowadzenie przez Dostawce analizy przedwdrożeniowej w siedzibie Klienta oraz   stworzenie dokumentacji RAN</span></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">2</span></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">21.03.2014r.</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 1; height: 62.8pt;">
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP Ib: TWORZENIEKO ORAZ NFIGURACJA PROGRAMU</span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- stworzenie oraz konfiguracja systemu   e-rezerwacji zgodnie z dokumentem RAN</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">-przekazanie systemu do testów </span></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">10</span></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">11.04.2014r.</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 2; height: 62.8pt;">
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP Ic: TESTY WEWNETRZNE </span></strong></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">przeprowadzenie testów wewnętrznych zgodnie z dokumentem testowym</span></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></strong></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">5</span></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">31.05.2014r.</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 3; height: 62.8pt;">
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP IIa: SZKOLENIE UŻYTKOWNIKÓW KOŃCOWYCH</span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- szkolenie grupy wiodącej (1x4h) w   siedzibie Zamawiającego  obsługa systemu<strong></strong></span></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">1</span></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">06.06.2014r.</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 4; height: 62.8pt;">
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP IB: TESTY UAT</span></strong></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">przekazanie do testów zewnętrznych użytkowników końcowych</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- przeprowadzenie testów zgodnie ze   scenariuszami z pkt. 4 niniejszego dokumentu</span></p>
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">asysta przy realizacji przez Klienta testów systemu</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- 3 dni testów zakończonych   zgłoszeniem uwag </span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- 2 dni na wprowadzenie poprawek</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- 2 dni na ponowne testy i akceptację   systemu</span></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">7</span></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">20.06.2014r.</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 5; height: 62.8pt;">
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP IIc: WDROŻENIE I URUCHOMIENIE SYSTEMU </span></strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;"></span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- wprowadzanie poprawek i modyfikacji   ad hoc</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- przygotowanie do uruchomienia   produkcyjnego systemu</span></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- uruchomienie produkcyjne systemu<strong></strong></span></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">1</span></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 128;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">23.06.2014r.</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 6; height: 62.8pt;">
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="377">
-<p class="MsoNormal"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">ETAP IId: PRZYGOTOWANIE DOKUMENTACJI POWYKONAWCZEJ SYSTEMU </span></strong></p>
-<p class="MsoNormal"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">- Przygotowanie i przekazanie   dokumentacji powykonawczej systemu, stanowiącej zaktualizowany dokument RAN</span></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">1</span></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: solid #F19D64 1.0pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; background: #FADECB; mso-background-themecolor: accent2; mso-background-themetint: 63; padding: 0cm 5.4pt 0cm 5.4pt; height: 62.8pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 64;"><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">25.06.2014r.</span></p>
-</td>
-</tr>
-<tr style="mso-yfti-irow: 7; mso-yfti-lastrow: yes; height: 22.95pt;">
-<td style="width: 283.0pt; border-top: none; border-left: solid #F19D64 1.0pt; mso-border-left-themecolor: accent2; mso-border-left-themetint: 191; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: none; mso-border-top-alt: double #F19D64 2.25pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 22.95pt;" width="377">
-<p align="right" class="MsoNormal" style="text-align: right; mso-yfti-cnfc: 6;"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">SUMA:</span></strong></p>
-</td>
-<td style="width: 70.9pt; border: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; mso-border-top-alt: double #F19D64 2.25pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 22.95pt;" width="95">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 2;"><strong><span style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif;">27 RD</span></strong></p>
-</td>
-<td style="width: 77.95pt; border-top: none; border-left: none; border-bottom: solid #F19D64 1.0pt; mso-border-bottom-themecolor: accent2; mso-border-bottom-themetint: 191; border-right: solid #F19D64 1.0pt; mso-border-right-themecolor: accent2; mso-border-right-themetint: 191; mso-border-top-alt: double #F19D64 2.25pt; mso-border-top-themecolor: accent2; mso-border-top-themetint: 191; padding: 0cm 5.4pt 0cm 5.4pt; height: 22.95pt;" width="104">
-<p align="center" class="MsoNormal" style="text-align: center; mso-yfti-cnfc: 2;"><strong><span></span></strong></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-  
- 
-
-     
 = 4. Scenariusze użycia =
  
 Poniżej przedstawiono przykłady użycia programu oraz jego
