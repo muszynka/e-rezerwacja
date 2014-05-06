@@ -102,8 +102,9 @@ Klient został zarejestrowany w systemie
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
 ||     09-04-2014            ||  ...................................|| 
-
-
+  
+  
+  
 
 ===5.1.2 Identyfikator scenariusza===
 *TEST nr 2*
@@ -144,6 +145,8 @@ Klient został zalogowany w systemie
 ||     09-04-2014            ||  ...................................|| 
 
 
+
+
 ===5.1.3 Identyfikator scenariusza===
 *TEST nr 3*
 
@@ -181,7 +184,10 @@ Klient otrzymał nowe "hasło"
 ||     09-04-2014            ||  ...................................|| 
 
 
+
+
 ===5.2 Specyfikacja scenariuszy testowych Etap II===
+
 
 
 ===5.2.1 Identyfikator scenariusza===
@@ -227,6 +233,7 @@ Klient ma możliwość wyszukania wszystkich zawodników aktualnie.....
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
 ||     0x-05-2014            ||  ...................................|| 
+
 
 
 
