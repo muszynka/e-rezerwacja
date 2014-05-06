@@ -17,7 +17,7 @@ Opis zmian:
 ===AGH 2014 ===
 
 == 1. Wprowadzenie ==
-Należy wpisać krótkie wprowadzenie do dokumentu wskazujące na cel dokumentu oraz podstawę do jego opracowania.
+Celem poniższych testów jest sprawdzenie prawidłowości działania oprogramowania pn. „E-RAKIETA System e-rezerwacji w klubie sportowym” przed jego instalacją i uruchomieniem w celu wykrycia ewentualnych błędów i nieprawidłowości.
 
 ==2. Organizacja testów==
 
@@ -26,19 +26,22 @@ Etap 1 do 2013-04-12
 
 Etap 2 do 2013-05-17
 
-	
 Etap 3 do 2013-05-31
 
 ===2.2. Klasyfikacja błędów===
+*Błąd krytyczny* (ważność 3) – brak podstawowych funkcji lub wydajności produktu podczas pracy w aplikacji. Do tej grupy zaliczyć należy również błędy będące pomyłkami w np. nazewnictwie, opisach, złymi grafikami, błędną instrukcją obsługi itd.
 
+*Błąd priorytetowy* (ważność 2) – nie prawidłowe działanie lub trudności z użyciem najważniejszych funkcji programu lub brak działania oraz słaba wydajność funkcji drugiego rzędu
+
+*Błąd nie krytyczny* (ważność 1) – istnieją defekty, które wprowadzają pewne problemy w obsłudze ale nie uniemożliwiają pracy w systemie. Problemy z prawidłowym wyświetlanie stron, błędy językowe.
 
 ==3. Rodzaje testów==
-Testy funkcjonalności i użytkownika (akceptacje)
+Testy funkcjonalne(akceptacje)
 
-Testy automatyczne
+Testy niefunkcjonalne (wydajnościowe)
 
 == 4. Plan testów==
-Etap 1
+Etap I
 weryfikacja poprawności:
   * rejestracji klienta do portali
   * logowania klienta do portalu
@@ -51,32 +54,35 @@ weryfikacja poprawności:
   * anulowanie rezerwacji kortu ...
 
 Etap III
-
+.........
 
 ===5.1 Specyfikacja scenariuszy testowych Etap 1===
 
 ===5.1.1 Identyfikator scenariusza===
+
+*Warunki wstępne* – 
+Warunkiem niezbędnym do wykonania testów jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
+
 *TEST nr 1*
 
 *Cel testu *–
-Celem testu jest sprawdzenie możliwości rejestracji klienta poprzez stronę www
-
-*Warunki wstępne* – 
-Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
+Sprawdzenie możliwości rejestracji klienta poprzez stronę www
 
 *Opis przebiegu testu* – 
 
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 
-2. klient uzupełnia wymagane pola: nazwa użytkownika, e-mail, hasło, powtórz hasło.
+2. klient uzupełnia wymagane pola: nazwa użytkownika, e-mail, hasło, powtórz hasło - działanie prawidłowe
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo (np. nazwa użytkownika) lub niekompletnie wpisanych danych rejestracyjnych (np. brak nazwa użytkownika).
-  * użytkownik istnieje w bazie wpisanie danych: adres poczty elektronicznej, nazwy użytkownika
+  * nieprawidłowo - niekompletne wpisanych danych rejestracyjnych (np. brak nazwa użytkownika)
+  * użytkownik istnieje w bazie - wpisanie danych: adres poczty elektronicznej, nazwy użytkownika
 
-3. po rejestracji klient automatycznie uzyskuje dostęp do panelu
+3. po rejestracji klient automatycznie uzyskuje dostęp do panelu - działanie prawidłowe
 
-4. Dane klienta zostają zapisane w Bazie
+4. klient otrzymuje na podany adres mailowy potwierdzenie o dokonanej rejestracji - działanie prawidłowe
+
+5. Dane klienta zostają zapisane w Bazie - działanie prawidłowe
 
 *5. Oczekiwany efekt* -
 Klient został zarejestrowany w systemie 
@@ -85,13 +91,16 @@ Klient został zarejestrowany w systemie
 
 
 ||  nr testu                 || nazwa testu                         ||
-||      ...1 ...             || .rejestracja klienta na stronie www.||
-|| ......Uwagi:..............|| ....................................||
+||        *1*                || *Rejestracja klienta na stronie www*||
+||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
-||  zatwierdzono             || nie zatwierdzono                    ||
-|| ...   TEST POZYTYWNY  ... ||  ...................................|| 
+||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||                           ||błąd priorytetowy TAK/*NIE* pkt.1,2,3,4,5 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
-|| ..AGH - B. Pych - Wala... ||  ...................................||
+|| AGH - B. Pych - Wala      ||  ...................................||
 ||     09-04-2014            ||  ...................................|| 
 
 
@@ -100,22 +109,19 @@ Klient został zarejestrowany w systemie
 *TEST nr 2*
 
 *Cel testu *–
-Celem testu jest sprawdzenie możliwości logowania klienta poprzez stronę www
-
-*Warunki wstępne* – 
-Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
+Sprawdzenie możliwości logowania klienta poprzez stronę www
 
 *Opis przebiegu testu* – 
 
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 
-2. klient uzupełnia wymagane pola: nazwa użytkownika, hasło.
+2. klient uzupełnia wymagane pola: nazwa użytkownika, hasło  - działanie prawidłowe
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo niekompletnie wpisanych danych (np. brak hasła) lub niezgodność hasła z nazwą użytkownika.
+  * nieprawidłowo - niekompletnie wpisanych danych (np. brak hasła) lub niezgodność hasła z nazwą użytkownika.
   * użytkownik nie istnieje w bazie wpisanie danych
 
-3. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  
+3. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  - działanie prawidłowe 
 
 
 *4. Oczekiwany efekt* -
@@ -124,39 +130,36 @@ Klient został zalogowany w systemie
 5. Tabela wyników testu - 
 
 
-
 ||  nr testu                 || nazwa testu                         ||
-||      ...2 ...             || .logowanie klienta na stronie www.||
-|| ......Uwagi:..............|| ....................................||
+||        *2*                || *Logowanie klienta na stronie www  *||
+||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
-||  zatwierdzono             || nie zatwierdzono                    ||
-|| ...   TEST POZYTYWNY  ... ||  ...................................|| 
+||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||                           ||błąd priorytetowy TAK/*NIE* pkt.1,2,3,4,5 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
-|| ..AGH - B. Pych - Wala... ||  ...................................||
-||     09-04-2014            ||  ...................................||
-
-
+|| AGH - B. Pych - Wala      ||  ...................................||
+||     09-04-2014            ||  ...................................|| 
 
 
 ===5.1.3 Identyfikator scenariusza===
 *TEST nr 3*
 
 *Cel testu *–
-Celem testu jest sprawdzenie procedury przypomnij hasło na stronie www
-
-*Warunki wstępne* – 
-Warunkiem niezbędnym do wykonania testy jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
+Sprawdzenie procedury przypomnij hasło na stronie www
 
 *Opis przebiegu testu* – 
 
 1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej logowania/przypomnij hasło.
 
-2. klient uzupełnia pola nazwa użytkownika i uruchamia przycisk "przypomnij"
+2. klient uzupełnia pola nazwa użytkownika i uruchamia przycisk "przypomnij" - działanie prawidłowe
 
-3. klient otrzymuje na adres e-mail wygenerowane przez system hasło.
+3. klient otrzymuje na adres e-mail wygenerowane przez system hasło - działanie prawidłowe
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo -niekompletne wpisane danych 
+  * nieprawidłowo - niekompletne wpisane danych 
   * użytkownik nie istnieje w bazie danych
 
 *4. Oczekiwany efekt* -
@@ -165,11 +168,14 @@ Klient otrzymał nowe "hasło"
 5. Tabela wyników testu - 
 
 ||  nr testu                 || nazwa testu                         ||
-||      ...3 ...             || .przypomnienie hasła klienta        ||
-|| ......Uwagi:..............|| ....................................||
+||        *3*                || *Sprawdzenie procedury przypomnij hasło na stronie www*||
+||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
-||  zatwierdzono             || nie zatwierdzono                    ||
-|| ...   TEST POZYTYWNY  ... ||  ...................................|| 
+||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||                           ||błąd priorytetowy TAK/*NIE* pkt.1,2,3,4,5 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
-|| ..AGH - B. Pych - Wala... ||  ...................................||
+|| AGH - B. Pych - Wala      ||  ...................................||
 ||     09-04-2014            ||  ...................................|| 
