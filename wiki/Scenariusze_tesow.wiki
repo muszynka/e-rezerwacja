@@ -243,10 +243,12 @@ Sprawdzenie działania modułu rezerwacji kortu
 
 2. klient uruchamia moduł "zarezerwuj kort" w części Menu użytkownika  - działanie prawidłowe
 
-3. W wyszukiwarce zawodników po wpisaniu ciągu znaków i kliknięciu w guzik klient otrzymuje wszystkie rekordy zawierające te znaki - działanie prawidłowe. 
+3. klient po wpisaniu w pola daty, początku i końca gry i wciśnięciu przycisku dodaj zostaje przeniesiony na stronę potwierdzenia rezerwacji, gdzie widzi jej unikalny ID oraz szczegóły od kiedy do kiedy ma wypożyczony kort istnieje również możliwość powrotu na stronę rezerwacji po kliknięciu guzika OK - działanie prawidłowe. 
 
 *Sygnalizacja błędu* .............
-  * nieprawidłowo - brak wyników mimo prawidłowo wpisanych znaków)
+  * nieprawidłowo - brak możliwości rezerwacji mimo wolnego terminu 
+  * nieprawidłowo - pomimo prawidłowego wpisania dat rezerwacji nie następuje przeniesienie na stronę potwierdzania rezerwacji
+pomimo prawidłowego 
   * .....................
 
 3. W przypadku braku wyników klient otrzymuje komunikat ....................... - działanie prawidłowe
