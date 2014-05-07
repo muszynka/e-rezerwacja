@@ -11,7 +11,7 @@ Opis zmian:
 || 07-04-2014 || 1.1 || TESTY etap 1 || B.Pych-Wala || 
 || 09-04-2014 || 1.2 || TESTY etap 1 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
 || 02-05-2014 || 2.0 || TESTY etap 2 || B.Pych-Wala || 
-|| 04-05-2014 || 2.0 || TESTY etap 2 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
+|| 04-05-2014 || 2.1 || TESTY etap 2 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
 ||  ||  ||  ||  || 
 
 
@@ -326,4 +326,3 @@ Klient ma możliwość anulowania rezerwacji kortu. W bazie danych po anulowany 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
 ||     04-05-2014            ||  ...................................|| 
-
