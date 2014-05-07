@@ -73,25 +73,24 @@ Warunkiem niezbędnym do wykonania testów jest dostęp do komputera z zainstalo
 Sprawdzenie możliwości rejestracji klienta poprzez stronę www
 
 *Opis przebiegu testu* – 
+Klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 
-1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
-
-2. klient uzupełnia wymagane pola: nazwa użytkownika, e-mail, hasło, powtórz hasło - działanie prawidłowe
+1. klient uzupełnia wymagane pola: nazwa użytkownika, e-mail, hasło, powtórz hasło - działanie prawidłowe
 
 *Sygnalizacja błędu* 
   * nieprawidłowo - niekompletne wpisanych danych rejestracyjnych (np. brak nazwa użytkownika)
   * użytkownik istnieje w bazie - wpisanie danych: adres poczty elektronicznej, nazwy użytkownika
 
-3. po rejestracji klient automatycznie uzyskuje dostęp do panelu - działanie prawidłowe
+2. po rejestracji klient automatycznie uzyskuje dostęp do panelu - działanie prawidłowe
 
-4. klient otrzymuje na podany adres mailowy potwierdzenie o dokonanej rejestracji - działanie prawidłowe
+3. klient otrzymuje na podany adres mailowy potwierdzenie o dokonanej rejestracji - działanie prawidłowe
 
-5. Dane klienta zostają zapisane w Bazie - działanie prawidłowe
+4. Dane klienta zostają zapisane w Bazie - działanie prawidłowe
 
-*6. Oczekiwany efekt* -
+*5. Oczekiwany efekt* -
 Klient został zarejestrowany w systemie 
 
-7. Tabela wyników testu - 
+6. Tabela wyników testu - 
 
 
 ||  nr testu                 || nazwa testu                         ||
@@ -99,9 +98,9 @@ Klient został zarejestrowany w systemie
 ||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
 ||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
-||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4,5||
-||                           ||błąd priorytetowy TAK/*NIE* pkt.1,2,3,4,5 ||
-||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4||
+||                           || błąd priorytetowy TAK/*NIE* pkt.1,2,3,4 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4||
 ||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
@@ -116,22 +115,21 @@ Klient został zarejestrowany w systemie
 Sprawdzenie możliwości logowania klienta poprzez stronę www
 
 *Opis przebiegu testu* – 
+Klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 
-1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
-
-2. klient uzupełnia wymagane pola: nazwa użytkownika, hasło  - działanie prawidłowe
+1. klient uzupełnia wymagane pola: nazwa użytkownika, hasło  - działanie prawidłowe
 
 *Sygnalizacja błędu* 
   * nieprawidłowo - niekompletnie wpisanych danych (np. brak hasła) lub niezgodność hasła z nazwą użytkownika.
   * użytkownik nie istnieje w bazie wpisanie danych
 
-3. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  - działanie prawidłowe 
+2. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  - działanie prawidłowe 
 
 
-*4. Oczekiwany efekt* -
+*3. Oczekiwany efekt* -
 Klient został zalogowany w systemie 
 
-5. Tabela wyników testu - 
+4. Tabela wyników testu - 
 
 
 ||  nr testu                 || nazwa testu                         ||
@@ -139,9 +137,9 @@ Klient został zalogowany w systemie
 ||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
 ||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
-||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3||
-||                           || błąd priorytetowy TAK/*NIE* pkt.1,2,3 ||
-||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3  ||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2 ||
+||                           || błąd priorytetowy TAK/*NIE* pkt.1,2 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2    ||
 ||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
@@ -156,30 +154,29 @@ Klient został zalogowany w systemie
 Sprawdzenie procedury przypomnij hasło na stronie www
 
 *Opis przebiegu testu* – 
+Klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej logowania/przypomnij hasło.
 
-1. klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej logowania/przypomnij hasło.
+1. klient uzupełnia pola nazwa użytkownika i uruchamia przycisk "przypomnij" - działanie prawidłowe
 
-2. klient uzupełnia pola nazwa użytkownika i uruchamia przycisk "przypomnij" - działanie prawidłowe
-
-3. klient otrzymuje na adres e-mail wygenerowane przez system hasło - działanie prawidłowe
+2. klient otrzymuje na adres e-mail wygenerowane przez system hasło - działanie prawidłowe
 
 *Sygnalizacja błędu* 
   * nieprawidłowo - niekompletne wpisane danych 
   * użytkownik nie istnieje w bazie danych
 
-*4. Oczekiwany efekt* -
+*3. Oczekiwany efekt* -
 Klient otrzymał nowe "hasło" 
 
-5. Tabela wyników testu - 
+4. Tabela wyników testu - 
 
 ||  nr testu                 || nazwa testu                         ||
 ||        *3*                || *Sprawdzenie procedury przypomnij hasło na stronie www*||
 ||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
 ||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
-||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3||
-||                           || błąd priorytetowy TAK/*NIE* pkt.1,2,3 ||
-||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3  ||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2 ||
+||                           || błąd priorytetowy TAK/*NIE* pkt.1,2 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2    ||
 ||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
@@ -198,21 +195,20 @@ Klient otrzymał nowe "hasło"
 Sprawdzenie działania modułu wyszukiwarki zawodników
 
 *Opis przebiegu testu* – 
+Klient loguje się na stronę www klubu e-RAKIETA.
 
-1. klient loguje się na stronę www klubu e-RAKIETA.
+1. klient uruchamia moduł "wyświetl zawodników" w części Menu użytkownika  - działanie prawidłowe
 
-2. klient uruchamia moduł "wyświetl zawodników" w części Menu użytkownika  - działanie prawidłowe
+2. W wyszukiwarce zawodników po wpisaniu ciągu znaków i kliknięciu w przycisk "wyświetl" klient otrzymuje wszystkie rekordy zawierające te znaki - działanie prawidłowe. (dopuszczono stosowanie wszystkich znaków) 
 
-3. W wyszukiwarce zawodników po wpisaniu ciągu znaków i kliknięciu w przycisk "wyświetl" klient otrzymuje wszystkie rekordy zawierające te znaki - działanie prawidłowe. (dopuszczono stosowanie wszystkich znaków) 
-
-*Sygnalizacja błędu*
-  * nieprawidłowo - brak wyników mimo prawidłowo wpisanych znaków i istniejących rekordach w bazie
+*BŁAD*
+  * brak wyników mimo prawidłowo wpisanych znaków i istniejących rekordach w bazie
  
 
 3. W przypadku braku wyników w bazie przy prawidłowo wpisanym zapytaniu klient otrzymuje komunikat "brak wyników" - działanie prawidłowe
 
-*Sygnalizacja błędu* 
-  * nieprawidłowo - brak akcji mimo prawidłowo wpisanych znaków
+*BŁĄD* 
+  * brak akcji mimo prawidłowo wpisanych znaków
 
 
 *4. Oczekiwany efekt* -
@@ -228,7 +224,7 @@ Klient ma możliwość wyszukania wszystkich zawodników.
 ||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
 ||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3||
 ||                           || błąd priorytetowy TAK/*NIE* pkt.1,2,3||
-||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3  ||
 ||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
@@ -243,12 +239,11 @@ Klient ma możliwość wyszukania wszystkich zawodników.
 Sprawdzenie działania modułu rezerwacji kortu
 
 *Opis przebiegu testu* – 
+Klient loguje się na stronę www klubu e-RAKIETA.
 
-1. klient loguje się na stronę www klubu e-RAKIETA.
+1. klient uruchamia moduł "zarezerwuj kort" w części Menu użytkownika  - działanie prawidłowe
 
-2. klient uruchamia moduł "zarezerwuj kort" w części Menu użytkownika  - działanie prawidłowe
-
-3. klient po wpisaniu w pola daty, początku i końca gry (według określonego formatu rrrr-mm-dd)i wciśnięciu przycisku "dodaj" zostaje przeniesiony na stronę potwierdzenia rezerwacji - działanie prawidłowe. 
+2. klient po wpisaniu w pola daty, początku i końca gry (według określonego formatu rrrr-mm-dd)i wciśnięciu przycisku "dodaj" zostaje przeniesiony na stronę potwierdzenia rezerwacji - działanie prawidłowe. 
 
 *Sygnalizacja błędu* 
   * nieprawidłowo - błędny format daty
@@ -257,31 +252,31 @@ Sprawdzenie działania modułu rezerwacji kortu
   * brak możliwości rezerwacji mimo wolnego terminu 
   * pomimo prawidłowego wpisania dat rezerwacji nie następuje przeniesienie na stronę potwierdzania rezerwacji
  
-4. Klient na stronie potwierdzania rezerwacji widzi jej unikalny ID oraz szczegóły od kiedy do kiedy ma wypożyczony kort - działanie prawidłowe. 
+3. Klient na stronie potwierdzania rezerwacji widzi jej unikalny ID oraz szczegóły od kiedy do kiedy ma wypożyczony kort - działanie prawidłowe. 
 
 *BŁĄD*
   * na stronie potwierdzania rezerwacji klient nie widzi nr ID rezerwacji lub/i jej szczegółów. 
   * na stronie potwierdzania rezerwacji klient widzi  nieprawidłowe szczegóły rezerwacji lub błędny nr ID. 
 
-5. Na stronie potwierdzenia rezerwacji po wciśnięciu przycisku "OK" klient ma możliwość powrotu na stronę rezerwacji - działanie prawidłowe. 
+4. Na stronie potwierdzenia rezerwacji po wciśnięciu przycisku "OK" klient ma możliwość powrotu na stronę rezerwacji - działanie prawidłowe. 
 
 *BŁĄD*
   * po wciśnięciu przycisku "OK" klient nie zostaje "przeniesiony" na stronę rezerwacji
 
-*6. Oczekiwany efekt* -
+*5. Oczekiwany efekt* -
 Klient ma możliwość rezerwacji kortu w wybranym przez siebie i wolnym w bazie terminie oraz dokonania potwierdzenia rezerwacji
 
-7. Tabela wyników testu - 
+6. Tabela wyników testu - 
 
 
 ||  nr testu                 || nazwa testu                         ||
-||        *4*                || *Rezerwacja i potwierdzenie rezerwacji kortu*           ||
+||        *5*                || *Rezerwacja i potwierdzenie rezerwacji kortu*           ||
 ||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
 ||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
-||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4,5||
-||                           ||błąd priorytetowy TAK/*NIE* pkt.1,2,3,4,5 ||
-||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4||
+||                           ||błąd priorytetowy TAK/*NIE* pkt.1,2,3,4 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4||
 ||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
@@ -295,49 +290,40 @@ Klient ma możliwość rezerwacji kortu w wybranym przez siebie i wolnym w bazie
 Sprawdzenie działania modułu anulowania rezerwacji kortu
 
 *Opis przebiegu testu* – 
+Klient loguje się na stronę www klubu e-RAKIETA.
 
-1. klient loguje się na stronę www klubu e-RAKIETA.
+1. klient uruchamia moduł "anuluj rezerwację kortu" w części Menu użytkownika  - działanie prawidłowe
 
-2. klient uruchamia moduł "anuluj rezerwację kortu" w części Menu użytkownika  - działanie prawidłowe
-
-3. klient po wpisaniu w wymagane pole ID rezerwacji dokunuje  - działanie prawidłowe. 
+2. klient po wpisaniu w wymagane pole ID rezerwacji i wciśnięciu przycisku "anuluj " zostaje przeniesiony na stronę potwierdzenia anulowania rezerwacji - działanie prawidłowe. 
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo - błędny format daty
+  * nieprawidłowo - błędny nr ID
 
 *BŁĄD*
-  * brak możliwości rezerwacji mimo wolnego terminu 
-  * pomimo prawidłowego wpisania dat rezerwacji nie następuje przeniesienie na stronę potwierdzania rezerwacji
+  * brak możliwości anulowania rezerwacji mimo podania prawidłowego ID 
+  * pomimo prawidłowego wpisania nr ID nie następuje przeniesienie na stronę potwierdzenia anulowania rezerwacji
  
-4. Klient na stronie potwierdzania rezerwacji widzi jej unikalny ID oraz szczegóły od kiedy do kiedy ma wypożyczony kort - działanie prawidłowe. 
+3. Na stronie potwierdzenia anulowania rezerwacji po wciśnięciu przycisku "OK" klient ma możliwość powrotu na stronę anulowania rezerwacji - działanie prawidłowe. 
 
 *BŁĄD*
-  * na stronie potwierdzania rezerwacji klient nie widzi nr ID rezerwacji lub/i jej szczegółów. 
-  * na stronie potwierdzania rezerwacji klient widzi  nieprawidłowe szczegóły rezerwacji lub błędny nr ID. 
+  * po wciśnięciu przycisku "OK" klient nie zostaje "przeniesiony" na stronę anulowania rezerwacji
 
-5. Na stronie potwierdzenia rezerwacji po wciśnięciu przycisku "OK" klient ma możliwość powrotu na stronę rezerwacji - działanie prawidłowe. 
+*4. Oczekiwany efekt* -
+Klient ma możliwość anulowania rezerwacji kortu. W bazie danych po anulowany termin rezerwacji jest ponownie dostępny dla wszystkich użytkowników.
 
-*BŁĄD*
-  * po wciśnięciu przycisku "OK" klient nie zostaje "przeniesiony" na stronę rezerwacji
-
-*6. Oczekiwany efekt* -
-Klient ma możliwość rezerwacji kortu w wybranym przez siebie i wolnym w bazie terminie oraz dokonania potwierdzenia rezerwacji
-
-7. Tabela wyników testu - 
+5. Tabela wyników testu - 
 
 
 ||  nr testu                 || nazwa testu                         ||
-||        *4*                || *Rezerwacja i potwierdzenie rezerwacji kortu*           ||
+||        *6*                || *Anulowanie rezerwacji kortu i potwierdzenie*           ||
 ||  Uwagi:                   || ....................................||
 ||    *Rezultat:*            ||                                     ||
 ||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
-||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3,4,5||
-||                           ||błąd priorytetowy TAK/*NIE* pkt.1,2,3,4,5 ||
-||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3,4,5||
+||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2,3||
+||                           || błąd priorytetowy TAK/*NIE* pkt.1,2,3 ||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3||
 ||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
 ||     04-05-2014            ||  ...................................|| 
-
-
 
