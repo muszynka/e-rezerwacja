@@ -21,49 +21,13 @@ Contents:
 <wiki:toc max_depth="4" />
 
    
-= 1. E-rakieta – informacje ogólne =
- 
-== 1.1.        Architektura logiczna i funkcjonalna ==
- 
-Rozwiązanie Java. System stanowi aplikację dedykowaną stworzona na życzenie
-Klienta.
-
- 
-=== 1.1.1.        Warstwa bazy danych ===
- 
-Do uzupełnienia informacjami o bazie. Na czym to stoi. 
-
- 
-=== 1.1.2.        Warstwa interfejsu użytkownika ===
- 
-Podstawowy interfejs użytkownika
-stanowi zestaw stron dostępny przez przeglądarkę internetową. Zestaw ten
-stanowią strony z formularzami oraz raportami. 
-
- 
-== 1.2.        Architektura techniczna ==
- 
-Opis architektury technicznej. 
-
- 
-=== 1.2.1.        Wymagania ===
- 
-Wymagania techniczne do obsługi aplikacji. 
-
- 
-=== 1.2.2.        Wymagania – stanowisko użytkownika końcowego systemu ===
- 
-Przeglądarka internetowa Internet Explorer, Mozilla Firefox,
-Opera, Chrome.
-
-   
-= 3. Scenariusze użycia =
+= 1. Scenariusze użycia =
  
 Poniżej przedstawiono przykłady użycia programu oraz jego
 wszystkie funkcjonalności. 
 
  
-== 4.1.        Rejestracja użytkownika ==
+== 1.1.        Rejestracja użytkownika ==
  
 Rejestracja nowego użytkownika odbywa się poprzez dedykowana
 stronę WWW. Przejść na nią można za pomocą linku „Zarejestruj się” dostępnego
@@ -81,7 +45,7 @@ Użytkownik, który chce się zarejestrować wypełnia odpowiednie
 pola w formularzu:
 
  
-=== 4.1.1.        Pola formularza ===
+=== 1.1.1.        Pola formularza ===
                                             
 
 <div class="WordSection1">
@@ -112,13 +76,11 @@ pola w formularzu:
 <td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
 </td>
-<td style="width: 8.0cm; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Imię osoby rejestrującej</span></p>
-</td>
+
 </tr>
 <tr>
 <td style="width: 106.35pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko</span></strong></p>
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwa użytkownika</span></strong></p>
 </td>
 <td style="width: 47.9pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
