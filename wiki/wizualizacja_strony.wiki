@@ -2,49 +2,59 @@
 
 = Wizualizacja stron e-RAKIETA =
 
-== strona główna www ==
+== <u>strona główna www</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/index_screen.png]
 
 ---------------------------------------------------------------
+---------------------------------------------------------------
 
-== strona panelu użytkownika przed zalogowaniem ==
+== <u>strona panelu użytkownika przed zalogowaniem</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/panel_glowna.png]
 
 ---------------------------------------------------------------
+---------------------------------------------------------------
 
-== strona panelu użytkownika po zalogowaniu ==
+== <u>strona panelu użytkownika po zalogowaniu</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Panel_adm_zal.png]
 
-
+---------------------------------------------------------------
 ---------------------------------------------------------------
 
-
-== rejestracja użytkownika ==
+== <u>rejestracja użytkownika</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Rejestracja.png]
 
-
+---------------------------------------------------------------
 ---------------------------------------------------------------
 
-== przypomnienie hasła ==
+== <u>przypomnienie hasła</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Przyp_hasla.png]
 
-
+---------------------------------------------------------------
 ---------------------------------------------------------------
 
+== <u>rezerwacja kortu</u> ==
 
-== rezerwacja kortu - potwierdzenie ==
+[http://e-rezerwacja.googlecode.com/svn/wiki/Rezerwacja.png]
+
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+== <u>rezerwacja kortu - potwierdzenie</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Potwierdzenie.png]
 
 ---------------------------------------------------------------
+---------------------------------------------------------------
 
-== wyszukiwarka zawodników ==
+== <u>wyszukiwarka zawodników</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Wyszuk_zawod.png]
 
+---------------------------------------------------------------
 ---------------------------------------------------------------
