@@ -14,6 +14,11 @@ Opis zmian:
 ||  ||  ||  ||  || 
 
 
+Contents:
+
+
+<wiki:toc max_depth="4" />
+
 ===AGH 2014 ===
 
 == 1. Wprowadzenie ==
@@ -56,14 +61,12 @@ weryfikacja poprawności:
 Etap III
 .........
 
-===5.1 Specyfikacja scenariuszy testowych Etap 1===
+==5.1 Specyfikacja scenariuszy testowych Etap 1==
 
 *Warunki wstępne* – 
 Warunkiem niezbędnym do wykonania testów jest dostęp do komputera z zainstalowaną przeglądarką internetową oraz dostępem do sieci Internet
 
-===5.1.1 Identyfikator scenariusza===
-
-*TEST nr 1*
+===5.1.1 *TEST nr 1 - Rejestracja*===
 
 *Cel testu *–
 Sprawdzenie możliwości rejestracji klienta poprzez stronę www
@@ -106,8 +109,7 @@ Klient został zarejestrowany w systemie
   
   
 
-===5.1.2 Identyfikator scenariusza===
-*TEST nr 2*
+===5.1.2 *TEST nr 2 - Logowanie*===
 
 *Cel testu *–
 Sprawdzenie możliwości logowania klienta poprzez stronę www
@@ -147,8 +149,7 @@ Klient został zalogowany w systemie
 
 
 
-===5.1.3 Identyfikator scenariusza===
-*TEST nr 3*
+===5.1.3 *TEST nr 3 - Przypomnienie hasła*===
 
 *Cel testu *–
 Sprawdzenie procedury przypomnij hasło na stronie www
@@ -186,13 +187,11 @@ Klient otrzymał nowe "hasło"
 
 
 
-===5.2 Specyfikacja scenariuszy testowych Etap II===
+==5.2 Specyfikacja scenariuszy testowych Etap II==
 
 
 
-===5.2.1 Identyfikator scenariusza===
-
-*TEST nr 4*
+===5.2.1 *TEST nr 4 - Wyszukiwanie zawodników*===
 
 *Cel testu *–
 Sprawdzenie działania modułu wyszukiwarki zawodników
@@ -237,9 +236,7 @@ Klient ma możliwość wyszukania wszystkich zawodników aktualnie.....
 
 
 
-===5.2.2 Identyfikator scenariusza===
-
-*TEST nr 5*
+===5.2.2 *TEST nr 5 - Rezerwacja kortu*===
 
 *Cel testu *–
 Sprawdzenie działania modułu rezerwacji kortu
