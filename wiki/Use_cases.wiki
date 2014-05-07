@@ -65,11 +65,6 @@ pola w formularzu:
 <td style="width: 8.0cm; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
 <p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Uwagi</span></strong></p>
 </td>
-</tr>
-<tr>
-<td style="width: 106.35pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Imię</span></strong></p>
-</td>
 <td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
@@ -89,7 +84,7 @@ pola w formularzu:
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Data i godzina</span></p>
 </td>
 <td style="width: 8.0cm; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko osoby rejestrującej</span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwa użytkownika, który się rejestruje</span></p>
 </td>
 </tr>
 <tr>
@@ -161,7 +156,7 @@ Następnie klika przycisk „Rejestruj”.
 System automatycznie wykona następujące akcje:
 
    
-=== 4.1.2.        Akcje ===
+=== 1.1.2.        Akcje ===
            
                
 <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
@@ -230,12 +225,12 @@ Po poprawnej rejestracji użytkownik dostaje dostęp do panelu
 klienta, gdzie może zarządzać kontem oraz dokonywać rejestracji. 
 
    
-=== 4.1.3.        Prezentacja graficzna ===
+=== 1.1.3.        Prezentacja graficzna ===
  
 _Uzupełnić BPM 2.0-owym wykresem procesu rejestracji._
 
    
-== 4.2.        Logowanie do systemu ==
+== 2.1.        Logowanie do systemu ==
  
 Logowanie do systemu istniejącego użytkownika odbywa się
 poprzez dedykowana stronę WWW „Logowanie”. Przejść na nią można za pomocą linku
@@ -253,7 +248,7 @@ Użytkownik, który chce się zalogować wypełnia odpowiednie pola
 w formularzu:
 
  
-=== 4.2.1.        Pola formularza ===
+=== 2.1.1.        Pola formularza ===
                     
  <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
 <tbody>
@@ -309,7 +304,7 @@ Następnie klika przycisk „Zaloguj”.
 System automatycznie wykona następujące akcje:
 
    
-=== 4.2.2.        Akcje ===
+=== 1.1.2.        Akcje ===
                           
 <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
 <tbody>
@@ -377,12 +372,12 @@ Po poprawnym logowaniu użytkownik system przenosi go do panelu
 klienta.
 
    
-=== 4.2.3.        Prezentacja graficzna ===
+=== 2.2.1.        Prezentacja graficzna ===
  
 _Uzupełnić BPM 2.0-owym wykresem procesu logowania._
 
    
-== 4.3.        Przypomnienie hasła ==
+== 3.1.        Przypomnienie hasła ==
  
 Użytkownik, który chce zalogować się od swojego konta jednak
 zapomniał swojego hasła może skorzystać z przypomnienia. Przypomnienie hasła
@@ -400,7 +395,7 @@ _Uzupełnić wyglądem witryny_
 Użytkownik, który zapomniał hasła musi wypełnić pola:
 
  
-=== 4.3.1.        Pola formularza ===
+=== 3.1.1.        Pola formularza ===
                     
 <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
 <tbody>
@@ -419,22 +414,16 @@ Użytkownik, który zapomniał hasła musi wypełnić pola:
 </td>
 </tr>
 <tr>
-<td style="width: 106.35pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Imię </span></strong></p>
-</td>
 <td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
 </td>
-<td style="width: 8.0cm; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Imię osoby.</span></p>
-</td>
 </tr>
 <tr>
 <td style="width: 106.35pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko</span></strong></p>
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwa użytkownika</span></strong></p>
 </td>
 <td style="width: 47.9pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
@@ -443,7 +432,7 @@ Użytkownik, który zapomniał hasła musi wypełnić pola:
 <p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
 </td>
 <td style="width: 8.0cm; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwisko osoby.</span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwa użytkownika.</span></p>
 </td>
 </tr>
 </tbody>
@@ -453,7 +442,7 @@ Użytkownik, który zapomniał hasła musi wypełnić pola:
 Wy wysłaniu informacji mailowo system przechodzi do ekranu
 logowania. 
 
-=== 4.3.2.	Akcje ===
+=== 3.1.2.	Akcje ===
 
 <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
 <tbody>
@@ -487,13 +476,13 @@ logowania.
 </tr>
 <tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes; height: 130.35pt;">
 <td style="width: 92.15pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja Imienia i   nazwiska</span></strong></p>
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja nazwy użytkownika</span></strong></p>
 </td>
 <td style="width: 155.95pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy dane wpisane w polach   "Imię" i "Nazwisko" występują w bazie klientów. Sprawdzi on również czy   występuje, choć jedna taka para. Jeśli nie zgłosi błąd. W przypadku wykrycia   wykona działania. </span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy dane wpisane w polach   "Nazwa użytkownia" występują w bazie klientów. Sprawdzi on również czy   występuje, choć jedna taka para. Jeśli nie zgłosi błąd. W przypadku wykrycia   wykona działania. </span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 97.25pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System utworzy notyfikacje mailową, w której wpisze dane z   kolumny "Hasło" oraz wyśle ją pod adres podany w kolumnie "E-mail" dla danego   użytkownika. </span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System utworzy notyfikacje mailową, w której wpisze nowo wygenerowane hasło oraz wyśle ją pod adres podany w kolumnie "E-mail" dla danego   użytkownika. </span></p>
 </td>
 <td style="width: 115.15pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="154">
 <p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu "Podanego użytkownika nie ma w   naszej bazie, popraw go lub zarejestruj nowego użytkownika"</span></p>
@@ -503,20 +492,20 @@ logowania.
 </table>
 
    
-=== 4.3.3.        Prezentacja graficzna ===
+=== 3.2.1.        Prezentacja graficzna ===
  
 _Uzupełnić BPM 2.0-owym wykresem procesu przypomnienia._
 
    
-== 4.1.        Rezerwacja terminu trenera ==
+== 4.1.        Wyszukiwanie zawodników ==
  
-== 4.2.        Rezerwacja Sali ==
+== 5.2.        Rezerwacja kortu ==
  
-== 4.3.        Od rezerwowanie Sali ==
+== 6.3.        Odrezerwowanie kortu ==
  
-== 4.4.        Od rezerwowanie terminu trenera ==
+== 4.4.        Odrezerwowanie terminu trenera ==
  
-== 4.5.        Sprawdzenie rezerwacji u danego trenera lub Sali ==
+== 4.5.        Sprawdzenie rezerwacji u danego trenera lub kortu==
  
 == 4.6.        Raport z godzin przepracowanych przez trenera ==
       
