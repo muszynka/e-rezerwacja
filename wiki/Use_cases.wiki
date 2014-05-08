@@ -498,6 +498,138 @@ _Uzupełnić BPM 2.0-owym wykresem procesu przypomnienia._
 
    
 == 1.4.        Wyszukiwanie zawodników ==
+
+ 
+Logowanie do systemu istniejącego użytkownika odbywa się
+poprzez moduł na stronie WWW „Wyświetl zawodników”. Przejść na nią można za pomocą linku dostępnego na witrynie Klienta. 
+
+ 
+<b> Wygląd witryny: </b>
+
+   
+_Uzupełnić wyglądem witryny_
+
+   
+Użytkownik, który chce wyszukać zawodników wypełnia odpowiednie pola
+w formularzu Menu w module "wyświetl zawodników:
+
+ 
+=== 1.2.1.        Pola formularza ===
+                    
+ <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
+<tbody>
+<tr>
+<td style="width: 106.35pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa pola</span></strong></p>
+</td>
+<td style="width: 47.9pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"></span></strong></p>
+</td>
+<td style="width: 106.3pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Typ pola</span></strong></p>
+</td>
+<td style="width: 8.0cm; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Uwagi</span></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 106.35pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Wpisz nazwisko zawodnika</span></strong></p>
+</td>
+<td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+</td>
+<td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
+</td>
+<td style="width: 8.0cm; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Nazwa użytkownika.   System sprawdza czy nazwisko istnieje w bazie. </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+   
+Następnie klika przycisk „Wyświetl”.
+
+ 
+System automatycznie wykona następujące akcje:
+
+   
+=== 1.2.2.        Akcje ===
+                          
+<table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
+<tbody>
+<tr>
+<td style="width: 92.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa   akcji</span></strong></p>
+</td>
+<td style="width: 155.95pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Opis</span></strong></p>
+</td>
+<td style="width: 97.25pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Poprawne   wykonanie </span></strong></p>
+</td>
+<td style="width: 115.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Błąd</span></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 92.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja wymaganych   pól</span></strong></p>
+</td>
+<td style="width: 155.95pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Klient wpisuje ciąg znaków. </span></p>
+</td>
+<td style="width: 97.25pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przeszukuje bazę danych. </span></p>
+</td>
+<td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System zwraca rekordy zawierające poszukiwane znaki."</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 92.15pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja adresu   e-mail</span></strong></p>
+</td>
+<td style="width: 155.95pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy adres e-mail podany w   formularzu istnieje w bazie danych. W przypadku nie wykrycia zgłasza błąd.</span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
+</td>
+<td style="width: 97.25pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do następnej akcji. </span></p>
+</td>
+<td style="width: 115.15pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu "Podanej nazwy użytkownika nie ma w   naszej bazie, popraw ją lub zarejestruj nowego użytkownika "Wyświetlany jest również link "Przypomnij hasło"</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 92.15pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja hasła</span></strong></p>
+</td>
+<td style="width: 155.95pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy hasło podane w formularzu istnieje w bazie danych oraz czy nazwa użytkownika jest jego "parą". W przypadku nie wykrycia lub błędnej pary zgłasza błąd.</span></p>
+</td>
+<td style="width: 97.25pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Zalogowanie użytkownika oraz przejście do panelu   zarządzania klienta. </span></p>
+</td>
+<td style="width: 115.15pt; border: none; border-bottom: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu "Podane hasło nie zgadza się z   wpisaną nazwą użytkownika. Sprawdź hasło."</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+   
+Po poprawnym logowaniu użytkownik system przenosi go do panelu
+klienta.
+
+   
+=== 1.2.3.        Prezentacja graficzna ===
+ 
+_Uzupełnić BPM 2.0-owym wykresem wyszukiwania zawodników._
+
+   
+
  
 == 1.5.        Rezerwacja kortu ==
  
