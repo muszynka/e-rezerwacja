@@ -333,7 +333,7 @@ System automatycznie wykona następujące akcje:
 <p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do kolejnych akcji. </span></p>
 </td>
 <td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat "Wypełnij wszystkie pola, które   są oznaczone, jako wymagane."</span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat "Wypełnij wszystkie pola, które   są oznaczone jako wymagane."</span></p>
 </td>
 </tr>
 <tr>
@@ -341,7 +341,7 @@ System automatycznie wykona następujące akcje:
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja adresu   e-mail</span></strong></p>
 </td>
 <td style="width: 155.95pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy adres e-mail podany w   formularzu istnieje w bazie danych. W przypadku nie wykrycia zgłasza błąd.</span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy adres e-mail podany w   formularzu istnieje w bazie danych. W przypadku, gdy nie wykryje, zgłasza błąd.</span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 97.25pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
 <p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do następnej akcji. </span></p>
@@ -411,14 +411,6 @@ Użytkownik, który zapomniał hasła musi wypełnić pola:
 </td>
 <td style="width: 8.0cm; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
 <p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Uwagi</span></strong></p>
-</td>
-</tr>
-<tr>
-<td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
 </td>
 </tr>
 <tr>
@@ -511,7 +503,7 @@ _Uzupełnić wyglądem witryny_
 
    
 Użytkownik, który chce wyszukać zawodników wypełnia odpowiednie pola
-w formularzu Menu w module "wyświetl zawodników:
+w formularzu Menu w module "wyświetl zawodników".
 
  
 === 1.4.1.        Pola formularza ===
@@ -603,7 +595,7 @@ _Uzupełnić BPM 2.0-owym wykresem wyszukiwania zawodników._
  
 == 1.5.        Rezerwacja i potwierdzenie rezerwacji kortu ==
 
-Użytkownik, który chce zarezerwować kort. Musi się zalogować na stronę klubu. Przejść do Menu użytkownika i nacisnąć na moduł "Zarezerwuj kort".
+Użytkownik, który chce zarezerwować kort, musi się zalogować na stronę klubu. Przejść do Menu użytkownika i nacisnąć na moduł "Zarezerwuj kort".
  
 <b> Wygląd witryny: </b>
 
@@ -665,8 +657,99 @@ Zalogowany uzytkownik, aby zarezerwować kort musi wypełnić pola:
 
    
 Wy wysłaniu informacji mailowo system przechodzi do ekranu
-logowania. 
+potwierdzającego rezerwację. Jednocześnie użytkownik otrzymuje jej numer, którym się może później posługiwać w celu zidentyfikowania rezerwacji. 
 
+=== 1.5.2.	Akcje ===
+
+<table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
+<tbody>
+<tr>
+<td style="width: 92.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa   akcji</span></strong></p>
+</td>
+<td style="width: 155.95pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Opis</span></strong></p>
+</td>
+<td style="width: 97.25pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Poprawne   wykonanie </span></strong></p>
+</td>
+<td style="width: 115.15pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Błąd</span></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 92.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="123">
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja wymaganych   pól</span></strong></p>
+</td>
+<td style="width: 155.95pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System sprawdza czy pole zostało wypełnione poprawnie"<span style="color: red;">R</span>". Jeśli nie   zgłasza. </span></p>
+</td>
+<td style="width: 97.25pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System anuluje rezerwację, udostępniając kort innym użytkownikom. </span></p>
+</td>
+<td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat "Błedny numer ID."</span></p>
+</td>
+</tbody>
+</table>
+
+   
+=== 1.5.3.        Prezentacja graficzna ===
+ 
+_Uzupełnić BPM 2.0-owym wykresem procesu przypomnienia._
+
+
+
+
+== 1.6.        Odrezerwowanie kortu ==
+
+Użytkownik, który chce anulować rezerwację, musi się zalogować na stronę klubu. Przejść do Menu użytkownika i nacisnąć na moduł "Anuluj rezerwację kortu".
+ 
+<b> Wygląd witryny: </b>
+
+   
+_Uzupełnić wyglądem witryny_
+
+   
+Zalogowany użytkownik, aby anolować rezerwację musi wypełnić pola:
+
+ 
+=== 1.5.1.        Pola formularza ===
+                    
+<table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
+<tbody>
+<tr>
+<td style="width: 106.35pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Nazwa pola</span></strong></p>
+</td>
+<td style="width: 47.9pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"></span></strong></p>
+</td>
+<td style="width: 106.3pt; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Typ pola</span></strong></p>
+</td>
+<td style="width: 8.0cm; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
+<p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Uwagi</span></strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 106.35pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">ID rezerwacji</span></strong></p>
+</td>
+<td style="width: 47.9pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
+</td>
+<td style="width: 106.3pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Numer</span></p>
+</td>
+<td style="width: 8.0cm; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
+<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Numer rezerwacji, która ma zostać anulowana.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+   
 === 1.5.2.	Akcje ===
 
 <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
@@ -715,17 +798,6 @@ logowania.
 </tr>
 </tbody>
 </table>
-
-   
-=== 1.5.3.        Prezentacja graficzna ===
- 
-_Uzupełnić BPM 2.0-owym wykresem procesu przypomnienia._
-
-
-
-
-== 1.6.        Odrezerwowanie kortu ==
-
 
  
 == 1.7.        Odrezerwowanie terminu trenera ==
