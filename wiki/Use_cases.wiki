@@ -633,14 +633,6 @@ Zalogowany uzytkownik, aby zarezerwować kort musi wypełnić pola:
 </td>
 </tr>
 <tr>
-<td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E R</span></p>
-</td>
-</tr>
-<tr>
 <td style="width: 106.35pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Podaj datę i godzinę rozpoczęcia gry </span></strong></p>
 </td>
@@ -698,27 +690,27 @@ logowania.
 <p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja wymaganych   pól</span></strong></p>
 </td>
 <td style="width: 155.95pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System sprawdza czy wszystkie pola określone w formularzu,   jako wymagane"<span style="color: red;">R</span>" są uzupełnione. Jeśli nie   zgłasza błąd. </span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System sprawdza czy wszystkie pola określone w formularzu,   jako wymagane"<span style="color: red;">R</span>" są uzupełnione. Jeśli nie   zgłasza. </span></p>
 </td>
 <td style="width: 97.25pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="130">
 <p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System przechodzi do kolejnych akcji. </span></p>
 </td>
 <td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat "Wypełnij wszystkie pola, które   są oznaczone, jako wymagane."</span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat "Błędny format daty."</span></p>
 </td>
 </tr>
 <tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes; height: 130.35pt;">
 <td style="width: 92.15pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="123">
-<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Walidacja nazwy użytkownika</span></strong></p>
+<p class="MsoNormal"><strong><span style="font-size: 10.0pt; line-height: 115%;">Sprawdzanie dostępności kortu</span></strong></p>
 </td>
 <td style="width: 155.95pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="208">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy dane wpisane w polach   "Nazwa użytkownia" występują w bazie klientów. Sprawdzi on również czy   występuje, choć jedna taka para. Jeśli nie zgłosi błąd. W przypadku wykrycia   wykona działania. </span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri;">System sprawdza czy kort nie został już zarezerwowany. </span><span style="font-size: 10.0pt; line-height: 115%;"></span></p>
 </td>
 <td style="width: 97.25pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="130">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System utworzy notyfikacje mailową, w której wpisze nowo wygenerowane hasło oraz wyśle ją pod adres podany w kolumnie "E-mail" dla danego   użytkownika. </span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Klient otrzyma numer ID dla swojej rezerwacji. </span></p>
 </td>
 <td style="width: 115.15pt; border: none; border-bottom: solid #C00000 1.5pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt; height: 130.35pt;" valign="top" width="154">
-<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Wyświetlenie komunikatu "Podanego użytkownika nie ma w   naszej bazie, popraw go lub zarejestruj nowego użytkownika"</span></p>
+<p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">Klient nie ma możliwości rezerwacji wybranego terminu"</span></p>
 </td>
 </tr>
 </tbody>
@@ -729,8 +721,12 @@ logowania.
  
 _Uzupełnić BPM 2.0-owym wykresem procesu przypomnienia._
 
- 
+
+
+
 == 1.6.        Odrezerwowanie kortu ==
+
+
  
 == 1.7.        Odrezerwowanie terminu trenera ==
  
