@@ -65,13 +65,6 @@ pola w formularzu:
 <td style="width: 8.0cm; border-top: solid #DC002E 1.5pt; border-left: none; border-bottom: solid #DC002E 1.5pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="302">
 <p class="MsoNormal"><strong><span style="font-size: 13.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;">Uwagi</span></strong></p>
 </td>
-<td style="width: 47.9pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="64">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">E</span><span style="font-size: 10.0pt; line-height: 115%; color: red;"> R</span><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;"></span></p>
-</td>
-<td style="width: 106.3pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
-<p class="MsoNormal"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 115%;">Pole tekstowe</span></p>
-</td>
-
 </tr>
 <tr>
 <td style="width: 106.35pt; background: #F2F2F2; mso-background-themecolor: background1; mso-background-themeshade: 242; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="142">
@@ -690,6 +683,9 @@ potwierdzającego rezerwację. Jednocześnie użytkownik otrzymuje jej numer, kt
 <td style="width: 115.15pt; border: none; mso-border-top-alt: solid #DC002E 1.5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top" width="154">
 <p class="MsoNormal"><span style="font-size: 10.0pt; line-height: 115%;">System wyświetla komunikat "Błedny numer ID."</span></p>
 </td>
+</tr>
+
+
 </tbody>
 </table>
 
@@ -714,7 +710,7 @@ _Uzupełnić wyglądem witryny_
 Zalogowany użytkownik, aby anolować rezerwację musi wypełnić pola:
 
  
-=== 1.5.1.        Pola formularza ===
+=== 1.6.1        Pola formularza ===
                     
 <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 650px;">
 <tbody>
@@ -750,7 +746,7 @@ Zalogowany użytkownik, aby anolować rezerwację musi wypełnić pola:
 </table>
 
    
-=== 1.5.2.	Akcje ===
+=== 1.6.2.	Akcje ===
 
 <table border="1" cellpadding="1" cellspacing="1" class="WebconTable1" style="border-collapse: collapse; width: 614px;">
 <tbody>
