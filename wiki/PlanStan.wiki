@@ -12,22 +12,23 @@ Opis zmian:
 || Data	      || Wersja	|| Opis	        || Autor ||
 || 17.03.2014 || 1.0	|| Rozpoczęcie	||E.Kunstman ||
 || 11.04.2014 || 2.0	|| Pierwsze podsumowanie ||	E.Kunstman||
+|| 10.05.2014 || 3.0    || Drugie podsumowanie || E.Kunstman ||
 
 = Details =
 
 
 1.	Wstęp
 
-Celem niniejszego dokumentu jest wyznaczenie przewidywanego harmonogramu prac oraz sprawozdanie jego realizacji dla projektu e-RAKIETA
+Celem niniejszego dokumentu jest wyznaczenie przewidywanego harmonogramu prac oraz sprawozdanie z realizacji projektu e-RAKIETA
 
 1.1.	Role w projekcie
 
-|| Osoba	|| Rola||
-|| Ewa Kunstman	|| Zarządzanie projektem||
-|| Patrycja Minor ||	Analityk ||
-|| Beata Pych - Wala ||	Configuration Manager, Tester ||
-|| Michał Słabicki || Software development || 
-|| Tomasz Wojsław || Architekt || 
+|| Osoba	|| Rola || zakres obowiązków ||
+|| Ewa Kunstman	|| Zarządzanie projektem|| rozdzial prac, nadzor nad dokumentacja, stworzenie dokumentów harmonogramu, wizji, PlanStan ||
+|| Patrycja Minor ||	Analityk || rozpisanie Use Case'ów, recenzja wizji ||
+|| Beata Pych - Wala ||	Configuration Manager, Tester || wybór i administracja repozytorium projektu ||
+|| Michał Słabicki || Software development || stworzenie aplikacji ||
+|| Tomasz Wojsław || Architekt || rozpisanie designów ||
 
 1.2.	Odnośniki
 
@@ -40,9 +41,9 @@ https://code.google.com/p/e-rezerwacja/
 || Elaboration	|| E1 || ustalenie repozytorium, Implementacja strony www oraz wstępnych funkcji systemu(logowanie, rejestrowanie i przypomnienie hasła || Repozytorium, Test case’y 1 etapu, Use case’y 1 etapu, || 26.03.2014-11.04.2014 ||
 || Elaboration || E2 || dodatkowe funkcje systemu|| Test case’y 2 etapu, Use case’y 2 etapu,|| 12.04.2014 – 16.04.2014||
 || Construction	|| C1 || implementacja dodatkowych funkcji, testy	|| Raport testów, działające funkcje po stronie klienta|| 16.04.2014 – 05.05.2014||
-|| Construction	|| C2 || Implementacja dodatkowych funkcji dla obsługi systemu|| Raport testów, działające funkcje po stronie klienta|| 06.05.2014 – 20.05.2014||
-|| Construction	|| C3	|| Poprawa usterek	|| Bezbłędnie działający prototyp, pozwala na pełną e-rezerwacje kortów i panel administratora|| 20.05.2014 – 30.05.2014||
-|| Transition	|| T1	|| Testy akceptacyjne, przekazanie do klienta|| Wdrożony system, usunięte błędy	|| 30.05.2014 – 31.05.2014 ||
+|| Construction	|| C2 || Implementacja dodatkowych funkcji dla obsługi systemu|| Raport testów, działające funkcje po stronie klienta|| 06.05.2014 – 15.05.2014||
+|| Construction	|| C3	|| Poprawa usterek	|| Bezbłędnie działający prototyp, pozwala na pełną e-rezerwacje kortów i panel administratora|| 15.05.2014 – 20.05.2014||
+|| Transition	|| T1	|| Testy akceptacyjne, przekazanie do klienta|| Wdrożony system, usunięte błędy	|| 21.05.2014 – 31.05.2014 ||
 
 
 
