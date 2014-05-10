@@ -71,7 +71,7 @@ Spis wizualizacji:
 ---------------------------------------------------------------
 ---------------------------------------------------------------
 
-== <u>potwierdzenie anulowania rezerwacji kortu</u> ==
+== <u>anulowanie rezerwacji kortu - potwierdzenie</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Potwierdzenie_anulowania.png]
 
