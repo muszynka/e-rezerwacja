@@ -1,3 +1,20 @@
+#summary PlanStan to opis wykonanych prac i stanu na moment bieżący.
+
+= Introduction =
+
+e-RAKIETA
+System e-rezerwacji w klubie tenisowym
+Dokumentacja Techniczna
+AGH 2014
+
+Opis zmian:
+|| Data	      || Wersja	|| Opis	        || Autor ||
+|| 17.03.2014 || 1.0	|| Rozpoczęcie	||T.Wojsław ||
+|| 27.04.2014 || 2.0	|| Pierwsze podsumowanie ||	T.Wojsław ||
+|| 12.05.2014 || 2.1    || recenzja || M.Słabicki ||
+
+= Details =
+
 <b>1.	Wprowadzenie</b><br>
 
 Dokument ten opisuje charakterystykę techniczną aplikacji E-RAKIETA. Wymienione są główne fukcje aplikacji, opisany interfejs użytkownika, kod aplikacji, a także sposób przechowywania informacji w bazie danych.<br><br>
