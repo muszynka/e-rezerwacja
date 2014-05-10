@@ -6,13 +6,14 @@
 e-RAKIETA
 System e-rezerwacji w klubie tenisowym
 Stan Prac  - PLAN STAN
-AGH 20014
+AGH 2014
 
 Opis zmian:
 || Data	      || Wersja	|| Opis	        || Autor ||
 || 17.03.2014 || 1.0	|| Rozpoczęcie	||E.Kunstman ||
 || 11.04.2014 || 2.0	|| Pierwsze podsumowanie ||	E.Kunstman||
 || 10.05.2014 || 3.0    || Drugie podsumowanie || E.Kunstman ||
+|| 12.05.2014 || 3.1    || recenzja || B.Pych-Wala ||
 
 = Details =
 
