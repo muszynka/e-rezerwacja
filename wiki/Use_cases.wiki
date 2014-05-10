@@ -10,8 +10,9 @@ Autor: _Patrycja Minor_
 Opis zmian:
 
 ||Data	|| Wersja	|| Opis	|| Autor||
-|| 11-04-2014	|| 1.0 || _N/A_	 ||	 Patrycja Minor||
-|| 06-05-2014	|| 2.0 || _N/A_	 ||	 Patrycja Minor||
+|| 11-04-2014	|| 1.0 || _N/A_	 ||	 P.Minor||
+|| 06-05-2014	|| 2.0 || _N/A_	 ||	 P.Minor||
+|| 10-05-2014   || 2.1 || recenzja || E.Kunstman ||
 
 
 
@@ -29,10 +30,8 @@ wszystkie funkcje.
  
 == 1.1.        Rejestracja użytkownika ==
  
-Rejestracja nowego użytkownika odbywa się poprzez dedykowana
-stronę WWW. Przejść na nią można za pomocą linku „Zarejestruj się” dostępnego
-na witrynie logowania. Ten sam link może być udostępniony również w innych
-miejscach systemu. 
+Rejestracja nowego użytkownika odbywa się poprzez dedykowaną
+stronę WWW. Przejść na nią można za pomocą linku „Zarejestruj się” dostępnego na witrynie logowania. Ten sam link może być udostępniony również w innych miejscach systemu. 
 
  
 <b> Wygląd witryny: </b>
