@@ -21,7 +21,7 @@ Dokument ten opisuje charakterystykę techniczną aplikacji E-RAKIETA. Wymienion
 
 <b>1.1.	Opis dokumentu</b><br>
 
-Celem dokumentu jest wprowadzenie w logikę aplikacji, załeżenia towarzyszące jej powstawaniu, oraz strukturę kodu:<br>
+Celem dokumentu jest wprowadzenie w logikę aplikacji, założenia towarzyszące jej powstawaniu, oraz strukturę kodu:<br>
 
 <b>1.1.1.	Dokument</b><br>
 
@@ -33,13 +33,13 @@ E-RAKIETA jest aplikacją webową, dostępną dla użytkowników poprzez przegl�
 
 <b>2.	Założenia projektowe</b><br>
 
-Głównym celem towarzyszącym projektowaniu i tworzeniu aplikacji były automatyzacja, przyspieszenie i uproszczenie rezerwacji zajęć oraz miejsc na ogólnodostępnych salach. Interfej użytkownika miał być prosty w obsłudze, dostępny przez przeglądarkę www bez konieczności instalowania żadnego dodatkowego oprogramowania.<br>
+Głównym celem towarzyszącym projektowaniu i tworzeniu aplikacji były automatyzacja, przyspieszenie i uproszczenie rezerwacji zajęć oraz miejsc na ogólnodostępnych salach. Interfejs użytkownika miał być prosty w obsłudze, dostępny przez przeglądarkę www bez konieczności instalowania żadnego dodatkowego oprogramowania.<br>
 
 <b>2.1.	Środowisko użytkownika</b><br>
 
 Wymagania techniczne aplikacji ze strony użytkowników:<br>
 
-•	dowolny system opracyjny<br>
+•	dowolny system operacyjny<br>
 •	przeglądarka internetowa<br>
 •	podłączenie do internetu<br>
 •	brak blokady JavaScript oraz okien pop-up<br> 
@@ -55,7 +55,7 @@ W celu umożliwienia administrowania aplikacją, konieczne jest udostępnienie �
 •	MS-SQL Server Management Studio<br>
 •	zalecane 4GB RAM<br>
 •	ustawienia Windows Firewall umożliwiające komunikację aplikacji z bazą danych<br>
-•	otwarty port TCP 1433 (głowna ścieżka komunikacji aplikacji z bazą danych)<br>
+•	otwarty port TCP 1433 (główna ścieżka komunikacji aplikacji z bazą danych)<br>
 •	opcjonalne otwarcie portu 1434<br>
 •	umożliwienie komunikacji poprzez port 443 (protokół https)<br> 
 
@@ -79,7 +79,7 @@ Program w założeniu miał być prostą, uniwersalną, oraz lekką aplikacją, 
 •	baza danych przechowuje informacje o użytkownikach, zasobach oraz ich wykorzystaniu<br>
 •	zdecydowano się na ciągłą interakcje z bazą danych, i jej aktualizację w czasie rzeczywistym<br>
 •	utrzymywane są historyczne dane dla przeszłych rezerwacji<br>
-•	usunięcie konta użytkownika skutkuje skasowaniem informacji o nim, oraz przypisaniem uniemożliwiającego indentyfikację identyfikatora, celem umożliwienia przechowywania danych historycznych<br>
+•	usunięcie konta użytkownika skutkuje skasowaniem informacji o nim, oraz przypisaniem uniemożliwiającego identyfikację identyfikatora, celem umożliwienia przechowywania danych historycznych<br>
 •	mechanizm logowania umożliwia dostęp do uprzednio stworzonego konta bez konieczności ponownego podawania swoich danych<br>
 •	funkcja przypominania hasła umożliwia odzyskanie dostępu do konta<br>
 
@@ -87,7 +87,7 @@ Program w założeniu miał być prostą, uniwersalną, oraz lekką aplikacją, 
 
 Struktura aplikacji została oparta na widokach, jakie będą dostępne dla użytkowników zewnętrznych, oraz pracowników klubów. <br>
 
-Poszczególne funkcje zostały umieszczone na stronach, z których mają być udostępnione, i podpiętę do konrolek, których kliknięcie uruchamia skrypty zawierające te funkcje.<br> 
+Poszczególne funkcje zostały umieszczone na stronach, z których mają być udostępnione, i podpięte do kontrolek, których kliknięcie uruchamia skrypty zawierające te funkcje.<br> 
 
 Na stronie startowej, podpiętej bezpośrednio pod adres www klubu, zawarte są ogólne informacje o klubie, jego lokalizacji, ofercie, itd. Możliwy jest także podgląd zajęć, dostępności miejsc czy sprzętu, jednak bez możliwości dokonywania rezerwacji czy jej anulowania.<br>
 
@@ -99,7 +99,7 @@ Ostatnią opcją dostępną ze strony głównej jest odzyskiwanie hasła. Po jej
 
 Po zalogowaniu użytkownik otrzymuje dostęp do systemu rezerwacji. Po wybraniu daty sprawdzana jest dostępność kortów w danym dniu w ramach wydzielonych odgórnie 2-godzinnych przedziałów czasowych. Następuje sprawdzenie bazy danych poprzez policzenie rezerwacji na dany dzień. Jeśli ilość rezerwacji w danym przedziale czasowym odpowiada ilości kortów, użytkownik otrzymuje informację o braku możliwości dokonania rezerwacji.<br>
 
-Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji zawodów, system dokona rezerwacji bez względu na istniejące już zapisy. Wyświetli jednocześnie listę konfiktowych rezerwacji, z możliwością wysłania maili informujących o ich odwołaniu na adresy przypisane do kont, z których dokonano rezerwacji.<br>
+Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji zawodów, system dokona rezerwacji bez względu na istniejące już zapisy. Wyświetli jednocześnie listę konfliktowych rezerwacji, z możliwością wysłania maili informujących o ich odwołaniu na adresy przypisane do kont, z których dokonano rezerwacji.<br>
 
 <b>4.1.	Baza danych</b><br>
 
@@ -107,7 +107,7 @@ Aplikacja współpracuje z bazą danych przechowującą informacje o użytkownik
 
 Ze względów bezpieczeństwa informacje o użytkownikach zawarte są w dwóch tabelach.  Jedna przechowuje informacje osobiste, druga wyłącznie loginy i hasła. Login łączy obie tabele i pozwala na powiązanie zawartych informacji.<br>
 
-Przy próbie dokonania rezerwacji, użytkownik wybiera datę oraz godzinę. Po zatwierdzeniu zapytania, aplikacja odpytuje bazę danych o ilość rezerwacji na daną godzinę w wybranym dniu. Jeśli ilość rezerwacji jest równa ilości kortów, następuje odmowa, oraz wyswietlana jest wiadomość zachęcająca do wyboru innej godziny.<br>
+Przy próbie dokonania rezerwacji, użytkownik wybiera datę oraz godzinę. Po zatwierdzeniu zapytania, aplikacja odpytuje bazę danych o ilość rezerwacji na daną godzinę w wybranym dniu. Jeśli ilość rezerwacji jest równa ilości kortów, następuje odmowa, oraz wyświetlana jest wiadomość zachęcająca do wyboru innej godziny.<br>
 
 Pracownicy klubu mają dodatkową możliwość utworzenia rezerwacji na potrzeby zawodów. System odpytuje wtedy bazę danych o wszystkie rezerwacje na wybrany czas, oraz anuluje je.<br>  
 
