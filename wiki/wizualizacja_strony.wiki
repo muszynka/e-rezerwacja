@@ -1,5 +1,10 @@
 #summary wizualizacja.
 
+
+Spis wizualizacji:
+
+<wiki:toc max_depth="4" />
+
 = Wizualizacja stron e-RAKIETA =
 
 == <u>strona główna www</u> ==
