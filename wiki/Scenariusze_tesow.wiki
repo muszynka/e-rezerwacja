@@ -15,8 +15,7 @@ Opis zmian:
 || 12-10-2014 || 2.2 || recenzja || P.Minor || 
 
 
-Contents:
-
+Zawartość:
 
 <wiki:toc max_depth="4" />
 
