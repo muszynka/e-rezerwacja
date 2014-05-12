@@ -21,6 +21,13 @@ Spis wizualizacji:
 ---------------------------------------------------------------
 ---------------------------------------------------------------
 
+== <u>strona logowania - widok osadzony w na stronie www</u> ==
+
+[http://e-rezerwacja.googlecode.com/svn/wiki/panel_zalog.png]
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+
 == <u>strona panelu użytkownika po zalogowaniu</u> ==
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/Panel_adm_zal.png]
