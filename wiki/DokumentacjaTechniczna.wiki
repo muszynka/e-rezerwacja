@@ -29,11 +29,11 @@ Dokument ten przeznaczony jest głównie dla administratorów aplikacji. Po jej 
 
 <b>1.1.2.	Aplikacja</b><br>
 
-E-RAKIETA jest aplikacją webową, dostępną dla użytkowników poprzez przeglądarkę www. Umożliwia klientom klubu rezerwację dostępnych zasobów czy miejsc na zajęciach poprzez panel użytkownika do uprzednio wprowadzonych harmonogramów przez administratorów będących pracownikami klubu.<br>
+E-RAKIETA jest aplikacją webową, dostępną dla użytkowników poprzez przeglądarkę www. Umożliwia klientom klubu rezerwację dostępnych kortów czy miejsc na zajęciach poprzez panel użytkownika do uprzednio wprowadzonych harmonogramów przez administratorów będących pracownikami klubu.<br>
 
 <b>2.	Założenia projektowe</b><br>
 
-Głównym celem towarzyszącym projektowaniu i tworzeniu aplikacji były automatyzacja, przyspieszenie i uproszczenie rezerwacji zajęć oraz miejsc na ogólnodostępnych salach. Interfejs użytkownika miał być prosty w obsłudze, dostępny przez przeglądarkę www bez konieczności instalowania żadnego dodatkowego oprogramowania.<br>
+Głównym celem towarzyszącym projektowaniu i tworzeniu aplikacji były automatyzacja, przyspieszenie i uproszczenie rezerwacji zajęć oraz miejsc na ogólnodostępnych kortach. Interfejs użytkownika miał być prosty w obsłudze, dostępny przez przeglądarkę www bez konieczności instalowania żadnego dodatkowego oprogramowania.<br>
 
 <b>2.1.	Środowisko użytkownika</b><br>
 
@@ -89,7 +89,7 @@ Struktura aplikacji została oparta na widokach, jakie będą dostępne dla uży
 
 Poszczególne funkcje zostały umieszczone na stronach, z których mają być udostępnione, i podpięte do kontrolek, których kliknięcie uruchamia skrypty zawierające te funkcje.<br> 
 
-Na stronie startowej, podpiętej bezpośrednio pod adres www klubu, zawarte są ogólne informacje o klubie, jego lokalizacji, ofercie, itd. Możliwy jest także podgląd zajęć, dostępności miejsc czy sprzętu, jednak bez możliwości dokonywania rezerwacji czy jej anulowania.<br>
+Na stronie startowej, podpiętej bezpośrednio pod adres www klubu, zawarte są ogólne informacje o klubie, jego lokalizacji, ofercie, itd. Możliwy jest także podgląd zajęć, dostępności kortów, jednak bez możliwości dokonywania rezerwacji czy jej anulowania.<br>
 
 Strona główna zawiera także pola tekstowe do wpisania nazwy użytkownika oraz hasła. Dostępne jest jedno logowanie zarówno dla użytkowników zewnętrznych, jak i pracowników klubu. Każdy utworzony profil ma przypisane odpowiednie role, według których udostępniane są właściwe funkcje.<br> 
 
