@@ -121,7 +121,7 @@ Pracownicy klubu mają dodatkową możliwość utworzenia rezerwacji na potrzeby
 
 Scenariusze testów zostały opisane w osobnym dokumencie 'Use Cases'.<br>
 
-<b>6.	Szczegóły logiki aplikacji</b><br>
+<b>6.	Architektura aplikacji</b><br>
 
 Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych widokach (stronach html), w ramach których dostępne są poszczególne pola wyboru oraz nawigacji:<br>
 
