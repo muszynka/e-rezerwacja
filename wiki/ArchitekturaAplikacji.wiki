@@ -1,0 +1,33 @@
+1.	Szczegóły logiki aplikacji
+Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych widokach (stronach html), w ramach których dostępne są poszczególne pola wyboru oraz nawigacji:
+1.1.	ChangePassword
+TextBox - CurrentPassword - użytkownik podaje dotychczasowe hasło
+TextBox - NewPassword - użytkownik podaje nowe hasło
+TextBox - ConfirmNewPassword - użytkownik podaje po raz drugi nowe hasło
+Button: CancelPushButton - anulowanie operacji, powrót do strony głównej
+Button: ChangePasswordPushButton - potwierdzenie kompletności informacji, przejście do strony
+ChangePasswordSuccess
+1.2.	ChangePasswordSuccess - 
+Text: confirmation of a successful change of a password
+1.3.	Login
+TextBox - UserName - nazwa użytkownika
+TextBox - Password - hasło użytkownika
+CheckBox - RememberMe - zapisanie danych logowania w ciasteczkach
+Hyperlink - RegisterHyperlink -  
+Button: LoginButton - zalogowanie użytkownika
+1.4.	Register
+TextBox - UserName - nazwa użytkownika
+TextBox - Email - adres e-mail użytkownika
+TextBox - Password - wybrane hasło
+TextBox - ConfirmPassword - powtórzenie hasła
+Button - CreateUserButton - 
+1.5.	ChangePassword - 
+Zmiana hasła w bazie danych
+1.6.	Members
+Text: powitanie zarejestrowanego użytkownika
+1.7.	Rezerwacja
+1.8.	About
+1.9.	Default
+1.10.	Login
+1.11.	Profiles
+1.12.	RecoverPassword
