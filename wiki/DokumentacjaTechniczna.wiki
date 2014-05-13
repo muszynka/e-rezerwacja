@@ -105,7 +105,7 @@ Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji z
 
 Aplikacja współpracuje z bazą danych przechowującą informacje o użytkownikach, dostępnych kortach, oraz danych historycznych.<br>
 
-[http://e-rezerwacja.googlecode.com/svn/wiki/index_BD_tabele1.png]
+[img]=[http://e-rezerwacja.googlecode.com/svn/wiki/index_BD_tabele1.png]
 
 Ze względów bezpieczeństwa informacje o użytkownikach zawarte są w dwóch tabelach.  Jedna przechowuje informacje osobiste, druga wyłącznie loginy i hasła. Login łączy obie tabele i pozwala na powiązanie zawartych informacji.<br>
 
