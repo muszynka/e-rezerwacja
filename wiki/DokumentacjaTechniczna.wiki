@@ -105,11 +105,11 @@ Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji z
 
 Aplikacja współpracuje z bazą danych przechowującą informacje o użytkownikach, dostępnych kortach, oraz danych historycznych.<br>
 
-<img>http://e-rezerwacja.googlecode.com/svn/wiki/index_BD_tabele1.png
+<img src="http://e-rezerwacja.googlecode.com/svn/wiki/index_BD_tabele1.png" alt="Lamp" width="15" height="15">
 
 Ze względów bezpieczeństwa informacje o użytkownikach zawarte są w dwóch tabelach.  Jedna przechowuje informacje osobiste, druga wyłącznie loginy i hasła. Login łączy obie tabele i pozwala na powiązanie zawartych informacji.<br>
 
- [http://e-rezerwacja.googlecode.com/svn/wiki/index_BD_tabele2.png]
+[http://e-rezerwacja.googlecode.com/svn/wiki/index_BD_tabele2.png]
 
 Przy próbie dokonania rezerwacji, użytkownik wybiera datę oraz godzinę. Po zatwierdzeniu zapytania, aplikacja odpytuje bazę danych o ilość rezerwacji na daną godzinę w wybranym dniu. Jeśli ilość rezerwacji jest równa ilości kortów, następuje odmowa, oraz wyświetlana jest wiadomość zachęcająca do wyboru innej godziny.<br>
 
