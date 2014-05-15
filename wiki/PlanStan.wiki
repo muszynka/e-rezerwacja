@@ -37,12 +37,17 @@ https://code.google.com/p/e-rezerwacja/
 
 2. Dokumentacja projektu
 
-WIZJA - autor E.Kunstman , recenzent B.Pych-Wala
-USE CASE'Y - autor P.Minor, recenzent E. Kunstman
-TEST CASE'Y - autor B. PychWala, recenzent - P.Minor
-DOK. TECHNICZNA - autor T. Wojslaw , recenzent - M. Slabicki
+WIZJA - autor E. Kunstman, recenzent B. Pych-Wala
+
+USE CASE'Y - autor P. Minor, recenzent E. Kunstman
+
+TEST CASE'Y - autor B. Pych-Wala, recenzent - P.Minor
+
+DOK. TECHNICZNA - autor T. Wojsław , recenzent - M. Słabicki
+
 HARMONOGRAM PROJEKTU - autor E. Kunstman, recenzent P. Minor
-PLAN STAN - autor E.Kunstman, recenzent B.Pych-Wala
+
+PLAN STAN - autor E. Kunstman, recenzent B. Pych-Wala
 
 
 2.	Harmonogram
