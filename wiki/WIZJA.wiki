@@ -13,8 +13,11 @@ Opis zmian:
 || 10-04-2014 || 3.0 || Wersja 3.0 || E.Kunstman||
 || 13-04-2014 || 3.5 || Recenzja 1 || B.Pych-Wala||
 || 15-05-2014 || 4.0 || Wersja 4.0 || E.Kunstman ||
+|| 15-04-2014 || 4.5 || Recenzja 2 || B.Pych-Wala||
 
+Zawartość:
 
+<wiki:toc max_depth="4" />
 ===AGH 2014 ===
 
 ==1 Wstęp ==
@@ -48,7 +51,7 @@ Microsoft Solution Framework  (MSF)ver. 3
 ==2 Opis problemu ==
 
 *Problem* 
-Obecny system rezerwacji terminów wymaga od klientów klubu kontaktu telefonicznego, wysłania maila lub osobistej wizyty w klubie. Klient musi ustnie przekazać rejestratorce, które zajęcia i jaki termin oraz którego trenera chce wybrać a ona po sprawdzeniu dostępności miejsc w kalendarzu elektronicznym udziela informacji o dostępnych terminach i dokonuje zapisu. Nie udostępniony został klientom żaden interfejs umożliwiający im samodzielny podgląd dostępnych miejsc/terminów lub dobór zajęć u ulubionego trenera. Klienci narzekają na długi czas oczekiwania na połączenie telefoniczne i brak możliwości samodzielnego sprawdzenia dostępnych terminów. Właściciel obiektu jest zmuszony prowadzić niewygodny rejestr rezerwacji oraz często odbiera zbędne zapytania telefoniczne, o dawno już zajęte terminy. Przyjmowanie zgłoszeń telefonicznych ograniczone jest do godzin pracy recepcji, a przede wszystkim niepotrzebnie absorbuje recepcjonistę. 
+Obecny system rezerwacji terminów wymaga od klientów klubu kontaktu telefonicznego, wysłania maila lub osobistej wizyty w klubie. Klient musi ustnie przekazać rejestratorce, które zajęcia, termin oraz którego trenera chce wybrać a ona po sprawdzeniu dostępności miejsc w kalendarzu elektronicznym udziela informacji o dostępności i dokonuje zapisu. Nie udostępniony został klientom żaden interfejs umożliwiający im samodzielny podgląd dostępnych miejsc/terminów lub dobór zajęć u ulubionego trenera. Klienci narzekają na długi czas oczekiwania na połączenie telefoniczne i brak możliwości samodzielnego sprawdzenia dostępnych terminów. Właściciel obiektu jest zmuszony prowadzić niewygodny rejestr rezerwacji oraz często odbiera zbędne zapytania telefoniczne, o dawno już zajęte terminy. Przyjmowanie zgłoszeń telefonicznych ograniczone jest do godzin pracy recepcji, a przede wszystkim niepotrzebnie absorbuje recepcjonistę. 
 Dodatkowo brak jest łatwo dostępnej informacji o klientach korzystających z usług klubu.
 
 *Przyczyna* 
@@ -57,7 +60,7 @@ Dodatkowo planowana jest rozbudowa klubu o kolejne placówki w całej Polsce.
 
 *Rozwiązanie* 
 Zastosowanie systemu e-rezerwacji umożliwi podniesienie standardu usług klubu Raquet s.c., poprzez wyeliminowanie przestarzałych metod rejestracji, których prowadzenie zabiera zazwyczaj dużo czasu oraz angażuje wielu pracowników, oraz może być frustrujące dla użytkowników klubu. 
-Zastąpione one bedą nowoczesną formą komunikacji przez Internet. Nowoczesny sposób komunikacji z użytkownikami wpłynie znacząco na podniesienie prestiżu firmy dając jej klientom poczucie zrozumienia i otwartości ze strony klubu. System e-rezerwacji może stać się kluczowym narzędziem komunikacji z użytkownikami oraz przyczyni się do łatwiejszego zarządzania klubem gdyż umożliwi uzyskanie rzetelniejszej informacji o rzeczywistym stanie rezerwacji, umożliwiając klientom łatwiejsze zapisywanie się na zajęcia jak i rezygnację z dokonanej rezerwacji. 
+Zastąpione one będą nowoczesną formą komunikacji przez Internet. Nowoczesny sposób komunikacji z użytkownikami wpłynie znacząco na podniesienie prestiżu firmy dając jej klientom poczucie zrozumienia i otwartości ze strony klubu. System e-rezerwacji może stać się kluczowym narzędziem komunikacji z użytkownikami oraz przyczyni się do łatwiejszego zarządzania klubem, gdyż umożliwi uzyskanie rzetelniejszej informacji o rzeczywistym stanie rezerwacji oraz łatwiejsze zapisywanie się na zajęcia jak i rezygnację z dokonanej rezerwacji. 
 Możliwe będzie usprawnienie procesu obsługi rezerwacji przez recepcję Klubu zarówno dla klientów indywidualnych jak również umożliwi organizację i sprawne prowadzenie zawodów.
 System ponadto da możliwość zbierania podstawowych informacji i statystyk o klientach.
 Samo uruchomienie zapisów internetowych na zajęcia spowoduje, że pracownicy recepcji będą mieć więcej czasu na opiekę nad klientami i sprzedaż nowych produktów.
@@ -159,4 +162,4 @@ Dokumentacja techniczna powinna zawierać dokument SAD. Diagramy UML powinny zos
 
   * zbyt krótki czas realizacji, prawdopodobieństwo (4), skutki (8)
 
-  * zmiana wymagan ze strony klienta w trakcie realizacji projektu, prawdopodobieństwo (9), skutki (8)
+  * zmiana wymagań ze strony klienta w trakcie realizacji projektu, prawdopodobieństwo (9), skutki (8)
