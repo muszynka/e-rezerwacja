@@ -216,9 +216,7 @@ klienta, gdzie może zarządzać kontem oraz dokonywać rezerwacji.
 == 1.2.        Logowanie do systemu ==
  
 Logowanie do systemu istniejącego użytkownika odbywa się
-poprzez dedykowana stronę WWW „Logowanie”. Przejść na nią można za pomocą linku
-„Zaloguj się” dostępnego na witrynie Klienta. Ten sam link może być
-udostępniony również w innych miejscach strony www Klienta. 
+poprzez dedykowana stronę WWW „Logowanie”. Przejść na nią można za pomocą linku „Zaloguj się” dostępnego na witrynie Klienta. Ten sam link może być udostępniony również w innych miejscach strony www Klienta. 
 
  
    
@@ -354,10 +352,7 @@ klienta.
 == 1.3.        Przypomnienie hasła ==
  
 Użytkownik, który chce zalogować się od swojego konta jednak
-zapomniał swojego hasła może skorzystać z przypomnienia. Przypomnienie hasła
-jest witryną dedykowaną. Przejść na nią można za pomocą linku „Przypomnij
-hasło” wyświetlanego w trakcie nieudanego logowania. Ten sam link może być
-udostępniony również w innych miejscach systemu. 
+zapomniał swojego hasła może skorzystać z przypomnienia. Przypomnienie hasła jest witryną dedykowaną. Przejść na nią można za pomocą linku „Przypomnij hasło” wyświetlanego w trakcie nieudanego logowania. Ten sam link może być udostępniony również w innych miejscach systemu. 
 
  
    
@@ -551,7 +546,7 @@ Po poprawnych wykonaniu czynności, klient otrzymuje listę zawodników zapisany
  
 == 1.5.        Rezerwacja i potwierdzenie rezerwacji kortu ==
 
-Użytkownik, który chce zarezerwować kort, musi się zalogować na stronę klubu. Przejść do Menu użytkownika i nacisnąć na moduł "Zarezerwuj kort".
+Użytkownik, który chce zarezerwować kort, musi się zalogować poprzez stronę klubu. Przejść do Menu użytkownika i nacisnąć na opcję "Zarezerwuj kort".
  
 <b> Wygląd witryny: </b>
 
@@ -612,8 +607,8 @@ Zalogowany uzytkownik, aby zarezerwować kort musi wypełnić pola:
 </table>
 
    
-Wy wysłaniu informacji mailowo system przechodzi do ekranu
-potwierdzającego rezerwację. Jednocześnie użytkownik otrzymuje jej numer, którym się może później posługiwać w celu zidentyfikowania rezerwacji. 
+Po wysłaniu informacji mailowo system przechodzi do ekranu
+potwierdzającego rezerwację. Jednocześnie użytkownik otrzymuje jej numer, którym się może później posługiwać w celu jednoznacznego identyfikowania rezerwacji. 
 
 === 1.5.2.	Akcje ===
 
@@ -656,10 +651,10 @@ potwierdzającego rezerwację. Jednocześnie użytkownik otrzymuje jej numer, kt
 
 == 1.6.        Odrezerwowanie kortu ==
 
-Użytkownik, który chce anulować rezerwację, musi się zalogować na stronę klubu. Przejść do Menu użytkownika i nacisnąć na moduł "Anuluj rezerwację kortu".
+Użytkownik, który chce anulować rezerwację, musi się zalogować na stronie klubu. Przejść do Menu użytkownika i nacisnąć na opcję "Anuluj rezerwację kortu".
 
    
-Zalogowany użytkownik, aby anolować rezerwację musi wypełnić pola:
+Zalogowany użytkownik, aby anulować rezerwację musi wypełnić pola:
 
  
 === 1.6.1        Pola formularza ===
@@ -748,9 +743,9 @@ Zalogowany użytkownik, aby anolować rezerwację musi wypełnić pola:
 </table>
 
  
-== 1.7.        Odrezerwowanie terminu trenera ==
+== 1.7.        Anulowanie terminu ==
  
-== 1.8.        Sprawdzenie rezerwacji u danego trenera lub kortu==
+== 1.8.        Sprawdzenie rezerwacji u danego trenera lub na danym korcie ==
  
 == 1.9.        Raport z godzin przepracowanych przez trenera ==
       
