@@ -14,6 +14,7 @@ Opis zmian:
 || 11.04.2014 || 2.0	|| Pierwsze podsumowanie ||	E.Kunstman||
 || 10.05.2014 || 3.0    || Drugie podsumowanie || E.Kunstman ||
 || 12.05.2014 || 3.1    || recenzja || B.Pych-Wala ||
+|| 16.05.2014 || 4.0    || Aktualizacja || E.Kunstman-Michalek  ||
 
 = Details =
 
@@ -25,11 +26,11 @@ Celem niniejszego dokumentu jest wyznaczenie przewidywanego harmonogramu prac or
 1.1.	Role w projekcie
 
 || Osoba﻿  || Rola || zakres obowiązków ||
-|| Ewa Kunstman﻿  || Zarządzanie projektem|| rozdzial prac, nadzór nad dokumentacja, stworzenie dokumentów harmonogramu, wizji, PlanStan ||
+|| Ewa Kunstman﻿  || Zarządzanie projektem|| rozdział prac, nadzór nad dokumentacją, stworzenie dokumentów harmonogramu, wizji, Plan Stan, koordynowanie postępów projektu ||
 || Patrycja Minor ||﻿  Analityk || rozpisanie Use Case'ów, recenzja dokumentów ||
 || Beata Pych - Wala ||﻿  Configuration Manager, Tester || wybór, konfiguracja i administracja repozytorium projektu, Utworzenie strony www e-RAKIETA (htlm) z której dostępny jest panel użytkownika,  wizualizacja stron e-RAKIETA (przy współpracy z Michałem), zdefiniowanie przypadków testowych, zarządzanie testami aplikacji, przeprowadzenie testów ||
 || Michał Słabicki || Software development || wykonanie strony html klubu tenisowego z podstawowymi funkcjami (informacje o klubie, aktualności, dane kontaktowe) + stworzenie i zaimplementowanie panelu klienta klubu ||
-|| Tomasz Wojsław || Architekt || rozpisanie designów ||
+|| Tomasz Wojsław || Architekt || opis struktury systemu ||
 
 1.2.	Odnośniki
 
@@ -67,17 +68,27 @@ PLAN STAN - autor E. Kunstman, recenzent B. Pych-Wala
 3.1.	Zadania i spodziewany produkt
 	Stworzenie dokumentu wizji oraz dokumentu stanu prac
 3.2.	Wykonane testy
-	Brak
+Brak
 3.3.	Efekty realizacji
-	Analiza stanu zastanego, problemów które ma rozwiązać system, konstrukcja wstępnych wymagań funkcjonalnych i niefunkcjonalnych.
+Analiza stanu zastanego, problemów które ma rozwiązać system, konstrukcja wstępnych wymagań funkcjonalnych i niefunkcjonalnych.
 
 4.	Realizacja iteracji I1
 4.1.	Zadania i spodziewany produkt
-	Stworzenie dokumentu test case’ów i use case’ów
+Stworzenie strony www na której działać będzie aplikacja. Utworzenie test case’ów i use case’ów i na ich podstawie kodu aplikacji umożliwiającej na tym etapie rejestrację oraz logowanie użytkowników
 4.2.	Wykonane testy
   * Testy rejestracji
   * Testy logowania
   * Testy przypomnienia hasła
+4.3.	Efekty realizacji
+działająca strona www w podstawowej formie graficznej umożliwiająca zaimplementowanie w niej aplikacji z podstawowymi funkcjami rejestracji i logowania.
 
-1.3.	Efekty realizacji
+5.	Realizacja iteracji I2
+5.1.	Zadania i spodziewany produkt
+Utworzenie test case’ów i use case’ów dla rezerwacji i anulowania rezerwacji kortów oraz możliwość wyszukiwania informacji o zawodnikach i na ich podstawie kodu aplikacji umożliwiającej na tym etapie skorzystanie z tych dodatkowych funkcji
+5.2.	Wykonane testy
+  * wyszukiwanie zawodników
+  * rezerwacja kortu i potwierdzenie rezerwacji
+  * anulowanie rezerwacji kortu i potwierdzenie anulowania
+5.3.	Efekty realizacji
+Działająca strona www w podstawowej formie graficznej wraz z dostępną z niej aplikacją umożliwiającą rejestrowanie i logowanie użytkowników, ich wyszukiwanie a także rezerwację i anulowanie rezerwacji kortów.
 	
