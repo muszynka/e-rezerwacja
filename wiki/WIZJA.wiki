@@ -13,7 +13,7 @@ Opis zmian:
 || 10-04-2014 || 3.0 || Wersja 3.0 || E.Kunstman||
 || 13-04-2014 || 3.5 || Recenzja 1 || B.Pych-Wala||
 || 15-05-2014 || 4.0 || Wersja 4.0 || E.Kunstman ||
-|| 15-04-2014 || 4.5 || Recenzja 2 || B.Pych-Wala||
+|| 15-05-2014 || 4.5 || Recenzja 2 || B.Pych-Wala||
 
 Zawartość:
 
@@ -22,7 +22,7 @@ Zawartość:
 
 ==1 Wstęp ==
 
-Celem niniejszego dokumentu jest ogólne nakreślenie i scharakteryzowanie projektu, którego efektem końcowym będzie stworzenie systemu do obsługi e-rezerwacji dla sieci klubów sportowych– Raquet s.c. Dokument ‘Project vision’ dostarczy informacji na temat ogólnego przeznaczenia systemu i sposobu w jaki będzie wykorzystywany a także komu głównie ma służyć i jaki sposób będzie realizował te założenia. Wszelkie decyzje odnośnie wdrożenia nie są tu podejmowane i opisane zostaną w następnych dokumentach.
+Celem niniejszego dokumentu jest ogólne nakreślenie i scharakteryzowanie projektu, którego efektem końcowym będzie stworzenie systemu do obsługi e-rezerwacji dla sieci klubów sportowych– Raquet s.c. Dokument ‘WIZJA’ dostarczy informacji na temat ogólnego przeznaczenia systemu i sposobu w jaki będzie wykorzystywany a także komu głównie ma służyć i jaki sposób będzie realizował te założenia. Wszelkie decyzje odnośnie wdrożenia nie są tu podejmowane i opisane zostaną w następnych dokumentach.
 
 ===1.1. Słownik ===
 
@@ -87,7 +87,8 @@ Brak zewnętrznych podsystemów.
 E-rezerwacje e-RAKIETA to system, umieszczony w formie interaktywnego kalendarza rezerwacji na stronie www klubu. Umożliwia samodzielne dokonanie rezerwacji terminu zajęć, podgląd zrobionych rezerwacji i śledzenie zwalniających się terminów. Ma służyć głównie wygodzie użytkowników klubu i zwiększeniu ich zadowolenia z korzystania z tej akurat firmy. Kalendarz dostępności jest interaktywny, pobiera i wyświetla dane o dostępności "w locie", z centralnego serwera systemu rezerwacji. Rezerwujący może przeglądać (w cyklach tygodniowych) stan dostępności terminów zajęć, a w przypadku wolnego terminu, klikając na konkretnej godzinie i rodzaju zajęć i zostaje przeniesiony do systemu rezerwacji, gdzie proces jest kontynuowany przez potwierdzenie danych użytkownika i potwierdzenie dokonania rezerwacji terminu. 
 
 ==5 Wymagania klienta i ich priorytety ==
-System umożliwia wykonanie następujących czynności: 
+
+System e-rezerwacji umożliwia wykonanie następujących czynności: 
 
   * dostępność 24h na dobę – szybszy i prostszy kontakt z klientami klubu pełna automatyzacja dokonywania rezerwacji terminów
   * precyzyjne wskazywanie wolnych terminów oraz jednoznaczne oznaczenie tych już zajętych
@@ -97,7 +98,7 @@ System umożliwia wykonanie następujących czynności:
   * możliwość usunięcia uprzednio dokonanej rezerwacji
   * możliwość ustawienia monitów dla terminów, które ulegną zwolnieniu
   * zabezpieczenie przed możliwością jednoczesnego zarezerwowania (w tym samym terminie) kortu przez 2 lub więcej osób
-  * łatwa integracja systemu ze stroną internetową klubu Raquet s.c.
+  * stworzenie nowej strony internetowej dla klubu Raquet s.c., w której możliwe będzie zaimplementowanie systemu e-rezerwacji
   * możliwość przesyłania raportów z harmonogramem na kolejne dni
   * automatyczne notyfikacje przez SMSy/emaile w momencie potwierdzenia rezerwacji wsparcie przyjmowania rezerwacji telefonicznych – możliwe ustawienie rezerwacji za użytkownika możliwość eksportu zgłoszonych rezerwacji do pliku w formacie .xls (Excel).
 
