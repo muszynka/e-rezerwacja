@@ -743,9 +743,3 @@ Zalogowany użytkownik, aby anulować rezerwację musi wypełnić pola:
 </table>
 
  
-== 1.7.        Anulowanie terminu ==
- 
-== 1.8.        Sprawdzenie rezerwacji u danego trenera lub na danym korcie ==
- 
-== 1.9.        Raport z godzin przepracowanych przez trenera ==
-      
