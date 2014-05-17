@@ -12,7 +12,7 @@ Opis zmian:
 || 09-04-2014 || 1.2 || TESTY etap 1 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
 || 02-05-2014 || 2.0 || TESTY etap 2 || B.Pych-Wala || 
 || 04-05-2014 || 2.1 || TESTY etap 2 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
-|| 12-10-2014 || 2.2 || recenzja || P.Minor || 
+|| 17-05-2014 || 2.2 || recenzja || P.Minor || 
 
 
 Zawartość:
@@ -119,10 +119,10 @@ Klient uruchamia stronę www klubu e-RAKIETA w części dotyczącej rejestracji.
 1. klient uzupełnia wymagane pola: nazwa użytkownika, hasło  - działanie prawidłowe
 
 *Sygnalizacja błędu* 
-  * nieprawidłowo - niekompletnie wpisanych danych (np. brak hasła) lub niezgodność hasła z nazwą użytkownika.
+  * nieprawidłowo - niekompletnie wpisane dane (np. brak hasła) lub niezgodność hasła z nazwą użytkownika.
   * użytkownik nie istnieje w bazie wpisanie danych
 
-2. po zalogowaniu klient ma dostęp do dodatkowych funkcjonalności  - działanie prawidłowe 
+2. po zalogowaniu klient ma dostęp do dodatkowych funkcji  - działanie prawidłowe 
 
 
 *3. Oczekiwany efekt* -
@@ -198,10 +198,10 @@ Klient loguje się na stronę www klubu e-RAKIETA.
 
 1. klient uruchamia moduł "wyświetl zawodników" w części Menu użytkownika  - działanie prawidłowe
 
-2. W wyszukiwarce zawodników po wpisaniu ciągu znaków i kliknięciu w przycisk "wyświetl" klient otrzymuje wszystkie rekordy zawierające te znaki - działanie prawidłowe. (dopuszczono stosowanie wszystkich znaków) 
+2. W wyszukiwarce zawodników po wpisaniu ciągu znaków i kliknięciu w przycisk "wyświetl" klient otrzymuje wszystkie rekordy zawierające te znaki - działanie prawidłowe (dopuszczono stosowanie wszystkich znaków) 
 
 *BŁAD*
-  * brak wyników mimo prawidłowo wpisanych znaków i istniejących rekordach w bazie
+  * brak wyników mimo prawidłowo wpisanych znaków i przy istniejących rekordach w bazie
  
 
 3. W przypadku braku wyników w bazie przy prawidłowo wpisanym zapytaniu klient otrzymuje komunikat "brak wyników" - działanie prawidłowe
@@ -242,7 +242,7 @@ Klient loguje się na stronę www klubu e-RAKIETA.
 
 1. klient uruchamia moduł "zarezerwuj kort" w części Menu użytkownika  - działanie prawidłowe
 
-2. klient po wpisaniu w pola daty, początku i końca gry (według określonego formatu rrrr-mm-dd)i wciśnięciu przycisku "dodaj" zostaje przeniesiony na stronę potwierdzenia rezerwacji - działanie prawidłowe. 
+2. klient po wpisaniu w pola daty, początku i końca gry (według określonego formatu rrrr-mm-dd) i wciśnięciu przycisku "dodaj" zostaje przeniesiony na stronę potwierdzenia rezerwacji - działanie prawidłowe. 
 
 *Sygnalizacja błędu* 
   * nieprawidłowo - błędny format daty
@@ -308,7 +308,7 @@ Klient loguje się na stronę www klubu e-RAKIETA.
   * po wciśnięciu przycisku "OK" klient nie zostaje "przeniesiony" na stronę anulowania rezerwacji
 
 *4. Oczekiwany efekt* -
-Klient ma możliwość anulowania rezerwacji kortu. W bazie danych po anulowany termin rezerwacji jest ponownie dostępny dla wszystkich użytkowników.
+Klient ma możliwość anulowania rezerwacji kortu. W bazie danych anulowany termin rezerwacji jest ponownie dostępny dla wszystkich użytkowników.
 
 5. Tabela wyników testu - 
 
