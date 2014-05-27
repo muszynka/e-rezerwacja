@@ -132,7 +132,7 @@ TextBox: NewPassword: użytkownik podaje nowe hasło<br>
 TextBox: ConfirmNewPassword: użytkownik podaje po raz drugi nowe hasło<br>
 Button: CancelPushButton: anulowanie operacji, powrót do strony głównej<br>
 Button: ChangePasswordPushButton: potwierdzenie kompletności informacji, przejście do strony<br> ChangePasswordSuccess<br>
-
+ 
 <b>6.2.	ChangePasswordSuccess</b><br>
     
 Text: confirmation of a successful change of a password<br>
