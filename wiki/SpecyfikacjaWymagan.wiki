@@ -1,0 +1,26 @@
+#Summary Specyfikacja wymagań systemu.
+
+Opis zmian: 
+|| Data || Wersja || Opis || Autor ||  
+|| 27-05-2014 || 0.5 || przygotowanie dokumentu || P.Minor ||  
+|| ??-05-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
+|| ??-05-2014 || ?.? || recenzja || E.Kunstman-Michałek || 
+
+
+=*SPECYFIKACJA WYMAGAŃ SYSTEMU*=
+==1. Wymagania funkcjonalne==
+1.1 Rejestracja – system umożliwia klientowi rejestrację poprzez podanie nazwy użytkownika, adresu e-mailowego oraz hasła.
+1.2 Logowanie – użytkownik ma możliwość logowania do systemu podając nazwę i hasło
+1.3 Przypomnienie hasła – zarejestrowany użytkownik ma możliwość odzyskania dostępu do swojego profilu poprzez reset hasła. Nowe hasło zostanie mu wysłane na adres e-mail, podany w trakcie rejestracji.
+1.4 Wyszukiwanie zawodników – użytkownik ma dostęp do bazy zawierającej rekordy z danymi dotyczącymi zawodników
+1.5 Rezerwowanie kortu – użytkownik ma możliwość rezerwacji kortu tenisowego. Każda rezerwacja jest potwierdzona przez system.
+1.6 Anulowanie rezerwacji – system ma umożliwić rezygnację z rezerwacji.
+
+
+==2. Wymagania niefunkcjonalne==
+2.1 Wymaganie niezawodności
+- system jest dostępny 24/7; ewentualna konserwacja systemu przebiegać będzie w godzinach najmniejszego ruchu na stronie.
+- czas naprawy maksymalnie 24 godz.
+2.2 Wymagania wydajności:
+- system musi obsłużyć wielu użytkowników jednocześnie, przy czym powinien być zachowany priorytet kolejności.
+
