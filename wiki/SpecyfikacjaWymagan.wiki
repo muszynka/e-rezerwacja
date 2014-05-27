@@ -1,5 +1,14 @@
 #Summary Specyfikacja wymagań systemu.
 
+<h1>E-RAKIETA System</h1>
+
+
+<h2>E-rezerwacji w klubie sportowym </h2>
+
+
+Autor: _Patrycja Minor_ 
+
+
 Opis zmian: 
 || Data || Wersja || Opis || Autor ||  
 || 27-05-2014 || 0.5 || przygotowanie dokumentu || P.Minor ||  
@@ -7,7 +16,14 @@ Opis zmian:
 || ??-05-2014 || ?.? || recenzja || E.Kunstman-Michałek || 
 
 
+Contents:
+
+
+<wiki:toc max_depth="4" />
+
+
 =*SPECYFIKACJA WYMAGAŃ SYSTEMU*=
+
 ==*1. Wymagania funkcjonalne==
 
 1.1 Rejestracja – system umożliwia klientowi rejestrację poprzez podanie nazwy użytkownika, adresu e-mailowego oraz hasła.
@@ -25,7 +41,7 @@ Opis zmian:
 
 ==*2. Wymagania niefunkcjonalne*==
 
-2.1 Wymaganie niezawodności
+2.1 Wymaganie niezawodności:
 
 - system jest dostępny 24/7; ewentualna konserwacja systemu przebiegać będzie w godzinach najmniejszego ruchu na stronie.
 
@@ -34,3 +50,31 @@ Opis zmian:
 2.2 Wymagania wydajności:
 
 - system musi obsłużyć wielu użytkowników jednocześnie, przy czym powinien być zachowany priorytet kolejności.
+- system musi dawać możliwość poszerzania o kolejne funkcje.
+
+2.3 Wymagania wsparcia:
+
+- błędy krytyczne naprawa do 24 godz.
+- błędy niekrytyczne reakcja do 72 godz.
+
+2.4 Wymagania dotyczące architektury systemu:
+
+-
+
+2.5 Wymagania dotyczące integracji:
+
+- system powinien współpracować z przeglądarkami: Firefox, Mozilla, Explorer, Opera, Chrome.
+
+2.6 Wymagania dotyczące dokumentacji i pomocy użytkownika:
+
+- webowa wersja powinna zawierać "Podręcznik użytkownika". 
+
+2.7 Wymagania dotyczące interfejsów:
+
+2.7.1 Interfejs użytkownika
+
+2.7.2 Interfejs sprzętowy
+2.7.3 Interfejs programowy
+2.7.4 Interfejs komunikacyjny
+
+2.8 Wymagania licencyjne i prawne:
