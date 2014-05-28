@@ -7,36 +7,36 @@ Opis zmian:
 || 07-04-2014 || 0.5 || Rozpoczęcie prac || E.Kunstman ||  
 || 07-04-2014 || 1.0 || Wstępna wersja || E.Kunstman ||  
 || 10-04-2014 || 2.0 || wersja z tabelka z openproj || E.Kunstman ||
-|| 13-04-2014 || 3.0 || poprawione iteracjie || E.Kunstman ||
+|| 13-04-2014 || 3.0 || poprawione iteracje || E.Kunstman ||
 || 15-04-2014 || Recenzja || || P.Minor ||
  
 
 = Introduction =
 
-Ten dokument zawiera rozpiskę harmonogramu z openproj.
+Ten dokument zawiera rozpisany harmonogram przeniesiony z openproj.
 
 
 = Details =
 
 || NAZWA || CZAS TRWANIA || START || ZAKONCZENIE || WYMAGANE ETAPY || RESOURCE ||
 || *Przygotowanie*  || 7 days﻿ || 3/17/14 8:00 AM﻿ || 3/25/14 5:00 PM || || ||
-|| Zgromadzic materialy  || 6 days﻿ || 3/17/14 8:00 AM || 3/24/14 5:00 PM || || Ewa;Patrycja;Michal;Beata;Tomasz ||
+|| Gromadzenie materiałów   || 6 days﻿ || 3/17/14 8:00 AM || 3/24/14 5:00 PM || || Ewa;Patrycja;Michal;Beata;Tomasz ||
 || Poszukac gotowych projektow	|| 3 days	|| 3/17/14 8:00 AM  ||  3/19/14 5:00 PM  ||  ||   Michal||
-|| zrobic zebranie z ekipa	|| 1 day?  ||  3/25/14 8:00 AM	|| 3/25/14 5:00 PM	|| 2;3	|| Ewa||
+|| zebranie teamu	|| 1 day?  ||  3/25/14 8:00 AM	|| 3/25/14 5:00 PM	|| 2;3	|| Ewa||
 || project kickoff	|| 0 days	|| 3/25/14 5:00 PM	|| 3/25/14 5:00 PM	|| 4	|| Ewa||
 || *Iteracja 1*	|| 20 days?	|| 3/26/14 8:00 AM	|| 5/5/14 5:00 PM		|| || ||
-|| repozytorium i configuracja	|| 2 days	|| 3/26/14 8:00 AM	|| 3/27/14 5:00 PM	|| 5	|| Beata||
-|| rozpisanie wizji projektu	|| 3 days	|| 3/26/14 8:00 AM	|| 3/28/14 5:00 PM	|| 5	|| Ewa||
+|| repozytorium i konfiguracja	|| 2 days	|| 3/26/14 8:00 AM	|| 3/27/14 5:00 PM	|| 5	|| Beata||
+|| spisanie wizji projektu	|| 3 days	|| 3/26/14 8:00 AM	|| 3/28/14 5:00 PM	|| 5	|| Ewa||
 || rozpisanie scenariuszów testów	|| 3 days	|| 3/31/14 8:00 AM	|| 4/2/14 5:00 PM	|| 8	|| Beata||
-|| rozpisanie user case'ow	|| 3 days	|| 3/31/14 8:00 AM	|| 4/2/14 5:00 PM	|| 8	|| Patrycja||
+|| rozpisanie use case'ow	|| 3 days	|| 3/31/14 8:00 AM	|| 4/2/14 5:00 PM	|| 8	|| Patrycja||
 || przygotowanie strony www	|| 3 days	|| 3/31/14 8:00 AM	|| 4/2/14 5:00 PM	|| 8  ||  Beata||
-|| stworzenie pierwszej czesci kodu	|| 5 days	|| 4/3/14 8:00 AM	|| 4/9/14 5:00 PM	|| 10	|| Michal||
+|| stworzenie pierwszej czesci kodu - logowanie	|| 5 days	|| 4/3/14 8:00 AM	|| 4/9/14 5:00 PM	|| 10	|| Michal||
 || testy 1	|| 1 day?	|| 4/10/14 8:00 AM	|| 4/10/14 5:00 PM	||12	|| Beata ||
 || milestone 1 	|| 1 day?	|| 4/11/14 8:00 AM  ||  4/11/14 5:00 PM	|| 13  ||  Ewa;Patrycja;Michal;Beata;Tomasz||
 || *Iteracja 2*	|| 7 days?	|| 4/14/14 8:00 AM	|| 4/24/14 5:00 PM		|| || ||
 || rozpisanie scenariuszów testów	|| 3 days	|| 4/14/14 8:00 AM	|| 4/16/14 5:00 PM	|| 14	|| Beata||
-|| rozpisanie user case'ow	|| 3 days	|| 4/14/14 8:00 AM	|| 4/16/14 5:00 PM	|| 14	|| Patrycja||
-|| stworzenie drugiej czesci kodu	|| 5 days	|| 4/17/14 8:00 AM	|| 4/23/14 5:00 PM	|| 17	|| Michal||
+|| rozpisanie use case'ow	|| 3 days	|| 4/14/14 8:00 AM	|| 4/16/14 5:00 PM	|| 14	|| Patrycja||
+|| stworzenie drugiej czesci kodu -rezerwacji	|| 5 days	|| 4/17/14 8:00 AM	|| 4/23/14 5:00 PM	|| 17	|| Michal||
 || zebranie dokumentacji	|| 1 day?	|| 4/24/14 8:00 AM	|| 4/24/14 5:00 PM	|| 18	|| Patrycja ||
 || rozpisac architekture	|| 2.25 days	|| 4/14/14 8:00 AM	|| 4/16/14 10:00 AM	|| 14	|| Tomasz ||
 || milestone2	|| 0 days	|| 4/16/14 10:00 AM	|| 4/16/14 10:00 AM	|| 20	|| Ewa;Patrycja;Michal;Beata;Tomasz||
