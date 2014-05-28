@@ -161,7 +161,8 @@ Zmiana hasła w bazie danych<br>
 Text: powitanie zarejestrowanego użytkownika<br>
 
 <b>6.7.	Rezerwacja</b><br>
-    
+
+[https://code.google.com/p/e-rezerwacja/source/browse/trunk/klubTenisowy/grafika/diagram_sekw.png]
 
 <b>6.8.	About</b><br>
     
