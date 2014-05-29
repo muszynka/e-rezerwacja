@@ -170,10 +170,22 @@ Informacje na temat programu. <br>
 Button: Return<br>
 
 <b>6.9.	Default</b><br>
-    
+
+Hyperlink: Rejestracja <br>
+Hyperlink: Przypomnienie <br>
+Hyperlink: ChangePassword <br>
+Hyperlink: Members<br>
+Hyperlink: Rezerwacja <br>   
 
 <b>6.10.	Login</b><br>
 
+Hyperlink: Rejestracja (Register) <br>
+Textbox: Username <br>
+Validation: Username <br>
+Textbox: Password <br>
+Validation: Password <br>
+Checkbox: Remember me <br>
+Button: Submit (Login) <br>
 
 <b>6.11.	Profiles</b><br>
 
