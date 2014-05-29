@@ -40,6 +40,8 @@ https://code.google.com/p/e-rezerwacja/
 
 WIZJA - autor E. Kunstman, recenzent B. Pych-Wala
 
+SPECYFIKACJA WYMAGAŃ - autor P. Minor, recenzent E. Kunstman
+
 USE CASE'Y - autor P. Minor, recenzent E. Kunstman
 
 TEST CASE'Y - autor B. Pych-Wala, recenzent - P.Minor
