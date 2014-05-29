@@ -81,8 +81,4 @@ Contents:
 
 ====2.7.2 Interfejs sprzętowy====
 
-====2.7.3 Interfejs programowy====
-
-====2.7.4 Interfejs komunikacyjny====
-
 ===2.8 Wymagania licencyjne i prawne===
