@@ -11,8 +11,8 @@ Autor: _Patrycja Minor_
 
 Opis zmian: 
 || Data || Wersja || Opis || Autor ||  
-|| 27-05-2014 || 0.5 || przygotowanie dokumentu || P.Minor ||  
-|| 28-05-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
+|| 27-03-2014 || 0.5 || przygotowanie dokumentu || P.Minor ||  
+|| 23-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
 || 28-05-2014 || 1.5 || recenzja || E.Kunstman-Michałek || 
 
 
