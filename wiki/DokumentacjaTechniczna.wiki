@@ -166,6 +166,8 @@ Text: powitanie zarejestrowanego użytkownika<br>
 
 <b>6.8.	About</b><br>
     
+Informacje na temat programu. <br>
+Button: Return<br>
 
 <b>6.9.	Default</b><br>
     
@@ -175,7 +177,13 @@ Text: powitanie zarejestrowanego użytkownika<br>
 
 <b>6.11.	Profiles</b><br>
 
+Button: Ustaw kod pocztowy <br>
+Text: setPostalCode <br>
+
 <b>6.12.	RecoverPassword</b><br>
+
+Button: Przypomnij <br>
+Text: Pytanie o zapomniane hasło, i polecenie podania loginu. <br>
 
 <b>7.	Bibliografia</b><br>
 
