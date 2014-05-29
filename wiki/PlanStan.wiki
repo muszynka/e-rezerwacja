@@ -55,40 +55,71 @@ PLAN STAN - autor E. Kunstman, recenzent B. Pych-Wala
  
 || Faza || Iteracja || Główne cele || Produkty || Termin ||
 || Inception || I1 || Badanie wykonalności projektu, Rozpoznanie możliwości rozwoju || Dokumenty Wizji i Stanu Prac || 17.03.2014-25.03.2014 ||
-|| Elaboration	|| E1 || ustalenie repozytorium, Implementacja strony www oraz wstępnych funkcji systemu(logowanie, rejestrowanie i przypomnienie hasła || Repozytorium, Test case’y 1 etapu, Use case’y 1 etapu, || 26.03.2014-11.04.2014 ||
-|| Elaboration || E2 || dodatkowe funkcje systemu|| Test case’y 2 etapu, Use case’y 2 etapu,|| 12.04.2014 – 16.04.2014||
-|| Construction	|| C1 || implementacja dodatkowych funkcji, testy	|| Raport testów, działające funkcje po stronie klienta|| 16.04.2014 – 05.05.2014||
-|| Construction	|| C2 || Implementacja dodatkowych funkcji dla obsługi systemu|| Raport testów, działające funkcje po stronie klienta|| 06.05.2014 – 15.05.2014||
+|| Elaboration	|| E1 || ustalenie repozytorium, implementacja strony www, zebranie wymagań klienta || Repozytorium, strona www klubu || 26.03.2014-11.04.2014 ||
+|| Elaboration || E2 || opis wymaganych funkcji systemu i przypadków uzycia || dokument Use case’y || 12.04.2014 – 16.04.2014||
+|| Construction	|| C1 || implementacja wstępnych funkcji systemu (logowanie, rejestrowanie i przypomnienie hasła), testy	|| Test case’y 1 etapu, Raport testów, działające funkcje po stronie klienta || 16.04.2014 – 05.05.2014||
+|| Construction	|| C2 || Implementacja kolejnych funkcji obsługi systemu (rezerwacja terminu i anulowanie rezerwacji)|| Test case’y 2 etapu, Raport testów, działające funkcje po stronie klienta || 06.05.2014 – 15.05.2014||
 || Construction	|| C3	|| Poprawa usterek	|| Bezbłędnie działający prototyp, pozwala na pełną e-rezerwacje kortów i panel administratora|| 15.05.2014 – 20.05.2014||
-|| Transition	|| T1	|| Testy akceptacyjne, przekazanie do klienta|| Wdrożony system, usunięte błędy	|| 21.05.2014 – 31.05.2014 ||
+|| Transition	|| T1	|| Testy akceptacyjne, uzupełniona dokumentacja, przekazanie do klienta || Wdrożony system, usunięte błędy	|| 21.05.2014 – 31.05.2014 ||
 
 
 
-3.	Realizacja iteracji I0
+3.	Realizacja iteracji I1
 3.1.	Zadania i spodziewany produkt
 	Stworzenie dokumentu wizji oraz dokumentu stanu prac
 3.2.	Wykonane testy
 Brak
 3.3.	Efekty realizacji
-Analiza stanu zastanego, problemów które ma rozwiązać system, konstrukcja wstępnych wymagań funkcjonalnych i niefunkcjonalnych.
+Analiza stanu zastanego, problemów które ma rozwiązać system.
 
-4.	Realizacja iteracji I1
+4.	Realizacja iteracji E1
 4.1.	Zadania i spodziewany produkt
-Stworzenie strony www na której działać będzie aplikacja. Utworzenie test case’ów i use case’ów i na ich podstawie kodu aplikacji umożliwiającej na tym etapie rejestrację oraz logowanie użytkowników
+	Utworzenie repozytorium dla projektu e-rakieta. Stworzenie strony www na której zaimplementowana będzie aplikacja e-rezerwacje. Analiza wstępnych wymagań funkcjonalnych i niefunkcjonalnych. 
 4.2.	Wykonane testy
+Brak
+4.3.	Efekty realizacji
+Repozytorium projektu, działająca strona www w podstawowej formie graficznej umożliwiająca zaimplementowanie w niej aplikacji, dokument "Specyfikacja wymagań"
+
+5.	Realizacja iteracji E2
+5.1.	Zadania i spodziewany produkt
+Spisanie przypadków użycia 
+5.2.	Wykonane testy
+Brak
+5.3.	Efekty realizacji
+dokument "use case"
+
+
+6.	Realizacja iteracji C1
+6.1.	Zadania i spodziewany produkt
+Rozpisanie przypadków testowych dla etapu 1 oraz na ich podstawie kodu aplikacji umożliwiającej na tym etapie rejestrację oraz logowanie użytkowników
+6.2.	Wykonane testy
   * Testy rejestracji
   * Testy logowania
   * Testy przypomnienia hasła
-4.3.	Efekty realizacji
+6.3.	Efekty realizacji
 działająca strona www w podstawowej formie graficznej umożliwiająca zaimplementowanie w niej aplikacji z podstawowymi funkcjami rejestracji i logowania.
 
-5.	Realizacja iteracji I2
+7.	Realizacja iteracji C2
+7.1.	Zadania i spodziewany produkt
+Rozpisanie przypadków testowych dla funkcji rezerwacji i anulowania rezerwacji kortów oraz możliwość wyszukiwania informacji o zawodnikach i na ich podstawie kodu aplikacji umożliwiającej skorzystanie z tych dodatkowych funkcji.
+7.2.	Wykonane testy
+  * wyszukiwanie zawodników
+  * rezerwacja kortu i potwierdzenie rezerwacji
+  * anulowanie rezerwacji kortu i potwierdzenie anulowania
+7.3.	Efekty realizacji
+Działająca strona www w podstawowej formie graficznej wraz z dostępną z niej aplikacją umożliwiającą rejestrowanie i logowanie użytkowników, ich wyszukiwanie a także rezerwację i anulowanie rezerwacji kortów.
+
+5.	Realizacja iteracji T1
 5.1.	Zadania i spodziewany produkt
-Utworzenie test case’ów i use case’ów dla rezerwacji i anulowania rezerwacji kortów oraz możliwość wyszukiwania informacji o zawodnikach i na ich podstawie kodu aplikacji umożliwiającej na tym etapie skorzystanie z tych dodatkowych funkcji
+Przetestowanie aplikacji przez klienta, podpisanie protokołu odbioru
 5.2.	Wykonane testy
+testy akceptacyjne wszystkich funkcji:
+  * rejestracji
+  * logowania
+  * przypomnienia hasła
   * wyszukiwanie zawodników
   * rezerwacja kortu i potwierdzenie rezerwacji
   * anulowanie rezerwacji kortu i potwierdzenie anulowania
 5.3.	Efekty realizacji
-Działająca strona www w podstawowej formie graficznej wraz z dostępną z niej aplikacją umożliwiającą rejestrowanie i logowanie użytkowników, ich wyszukiwanie a także rezerwację i anulowanie rezerwacji kortów.
+protokół odbioru przekazanych prac
 	
