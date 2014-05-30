@@ -127,11 +127,11 @@ Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych wi
 
 <b>6.1.	ChangePassword</b><br>
 
-TextBox: CurrentPassword: użytkownik podaje dotychczasowe hasło<br>
-TextBox: NewPassword: użytkownik podaje nowe hasło<br>
-TextBox: ConfirmNewPassword: użytkownik podaje po raz drugi nowe hasło<br>
-Button: CancelPushButton: anulowanie operacji, powrót do strony głównej<br>
-Button: ChangePasswordPushButton: potwierdzenie kompletności informacji, przejście do strony<br> ChangePasswordSuccess<br>
+TextBox 'CurrentPassword' -  użytkownik podaje dotychczasowe hasło<br>
+TextBox 'NewPassword' - użytkownik podaje nowe hasło<br>
+TextBox 'ConfirmNewPassword' - użytkownik podaje po raz drugi nowe hasło<br>
+Button 'CancelPushButton' - anulowanie operacji, powrót do strony głównej<br>
+Button 'ChangePasswordPushButton' - potwierdzenie kompletności informacji, przejście do strony<br> ChangePasswordSuccess<br>
  
 <b>6.2.	ChangePasswordSuccess</b><br>
     
