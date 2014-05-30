@@ -42,7 +42,7 @@ Wymagania techniczne aplikacji ze strony użytkowników:<br>
 •	dowolny system operacyjny<br>
 •	przeglądarka internetowa<br>
 •	podłączenie do internetu<br>
-•	brak blokady JavaScript oraz okien pop-up<br> 
+•	brak blokady Java Script oraz okien pop-up<br> 
 
 <b>2.2.	Wymagania dla administratora</b><br>
 
@@ -171,11 +171,11 @@ Button 'Return'<br>
 
 <b>6.9.	Default</b><br>
 
-Hyperlink Rejestracja <br>
-Hyperlink Przypomnienie <br>
-Hyperlink ChangePassword <br>
-Hyperlink Members<br>
-Hyperlink Rezerwacja <br>   
+Hyperlink 'Rejestracja' <br>
+Hyperlink 'Przypomnienie' <br>
+Hyperlink 'Change Password' <br>
+Hyperlink 'Members'<br>
+Hyperlink 'Rezerwacja' <br>   
 
 <b>6.10.	Login </b><br>
 
@@ -192,7 +192,7 @@ Button: Submit (Login) <br>
 Button: Ustaw kod pocztowy <br>
 Text: setPostalCode <br>
 
-<b>6.12.	RecoverPassword</b><br>
+<b>6.12.	Recover Password</b><br>
 
 Button: Przypomnij <br>
 Text: Pytanie o zapomniane hasło, i polecenie podania loginu. <br>
