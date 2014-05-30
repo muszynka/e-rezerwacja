@@ -361,7 +361,7 @@ strona www oraz panel klienta działają prawidłowo niezależnie od przeglądar
 ||  zatwierdzono bez uwag    || *TEST POZYTYWNY*                    ||
 ||      UWAGI                || błąd niekrytyczny TAK/*NIE* pkt.1,2 ||
 ||                           || błąd priorytetowy TAK/*NIE* pkt.1,2 ||
-||                           || błąd krytyczny TAK/*NIE* pkt.1,2,3||
+||                           || błąd krytyczny TAK/*NIE* pkt.1,2    ||
 ||                           ||                                     || 
 ||        Wykonawca          ||             Zamawiający             || 
 || AGH - B. Pych - Wala      ||  ...................................||
