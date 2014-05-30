@@ -125,11 +125,11 @@ Przypadki testowe zostały opisane w osobnym dokumencie 'Scenariusze Testów'.<b
 
 Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych widokach (stronach html), w ramach których dostępne są poszczególne pola wyboru oraz nawigacji:<br>
 
-<b>6.1. ChangePassword</b><br>
+<b>6.1. Change Password</b><br>
 
-TextBox 'Current Password' -  użytkownik podaje dotychczasowe hasło<br>
-TextBox 'New Password' - użytkownik podaje nowe hasło<br>
-TextBox 'Confirm New Password' - użytkownik podaje po raz drugi nowe hasło<br>
+Text Box 'Current Password' -  użytkownik podaje dotychczasowe hasło<br>
+Text Box 'New Password' - użytkownik podaje nowe hasło<br>
+Text Box 'Confirm New Password' - użytkownik podaje po raz drugi nowe hasło<br>
 Button 'Cancel Push Button' - anulowanie operacji, powrót do strony głównej<br>
 Button 'Change Password Push Button' - potwierdzenie kompletności informacji, przejście do strony<br> Change Password Success<br>
  
@@ -137,26 +137,26 @@ Button 'Change Password Push Button' - potwierdzenie kompletności informacji, p
     
 Text: confirmation of a successful change of a password<br>
 
-<b>6.3.	Login</b><br>
-TextBox: UserName: nazwa użytkownika<br>
-TextBox: Password: hasło użytkownika<br>
-CheckBox: RememberMe: zapisanie danych logowania w ciasteczkach<br>
-Hyperlink: RegisterHyperlink: <br>
-Button: LoginButton: zalogowanie użytkownika<br>
+<b>6.3.	Login </b><br>
+Text Box 'User Name' - nazwa użytkownika<br>
+Text Box 'Password' - hasło użytkownika<br>
+Check Box 'Remember Me' - zapisanie danych logowania w ciasteczkach<br>
+Hyperlink 'Register Hyperlink' - <br>
+Button 'Login Button' - zalogowanie użytkownika<br>
 
-<b>6.4.	Register</b><br>
+<b>6.4.	Register </b><br>
     
-TextBox: UserName: nazwa użytkownika<br>
-TextBox: Email: adres e-mail użytkownika<br>
-TextBox: Password: wybrane hasło<br>
-TextBox: ConfirmPassword: powtórzenie hasła<br>
-Button: CreateUserButton<br>
+Text Box 'User Name' - nazwa użytkownika<br>
+Text Box 'E-mail - adres e-mail użytkownika<br>
+Text Box 'Password' - wybrane hasło<br>
+Text Box 'Confirm Password' - powtórzenie hasła<br>
+Button 'Create User Button'<br>
 
-<b>6.5.	ChangePassword</b><br>
+<b>6.5.	Change Password</b><br>
     
 Zmiana hasła w bazie danych<br>
 
-<b>6.6.	Members</b><br>
+<b>6.6.	Members </b><br>
     
 Text: powitanie zarejestrowanego użytkownika<br>
 
