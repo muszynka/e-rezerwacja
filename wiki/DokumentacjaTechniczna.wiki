@@ -125,7 +125,7 @@ Przypadki testowe zostały opisane w osobnym dokumencie 'Scenariusze Testów'.<b
 
 Jak napisano powyżej, struktura aplikacji została oparta na poszczególnych widokach (stronach html), w ramach których dostępne są poszczególne pola wyboru oraz nawigacji:<br>
 
-<b>6.1.	ChangePassword</b><br>
+<b>6.1. ChangePassword</b><br>
 
 TextBox 'CurrentPassword' -  użytkownik podaje dotychczasowe hasło<br>
 TextBox 'NewPassword' - użytkownik podaje nowe hasło<br>
