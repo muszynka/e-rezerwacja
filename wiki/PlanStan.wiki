@@ -28,8 +28,8 @@ Celem niniejszego dokumentu jest wyznaczenie przewidywanego harmonogramu prac or
 || Osoba﻿  || Rola || zakres obowiązków ||
 || Ewa Kunstman﻿  || Zarządzanie projektem|| rozdział prac, nadzór nad dokumentacją, stworzenie dokumentów harmonogramu, wizji, Plan Stan, koordynowanie postępów projektu ||
 || Patrycja Minor ||﻿  Analityk || rozpisanie Use Case'ów, recenzja dokumentów ||
-|| Beata Pych - Wala ||﻿  Configuration Manager, Tester || wybór, konfiguracja i administracja repozytorium projektu, Utworzenie strony www e-RAKIETA (htlm) z której dostępny jest panel użytkownika,  wizualizacja stron e-RAKIETA (przy współpracy z Michałem), zdefiniowanie przypadków testowych, zarządzanie testami aplikacji, przeprowadzenie testów ||
-|| Michał Słabicki || Software development || wykonanie strony html klubu tenisowego z podstawowymi funkcjami (informacje o klubie, aktualności, dane kontaktowe) + stworzenie i zaimplementowanie panelu klienta klubu ||
+|| Beata Pych - Wala ||﻿  Configuration Manager, Tester || wybór, konfiguracja i administracja repozytorium projektu, Utworzenie strony www e-RAKIETA (htlm) z podstawowymi funkcjami (informacje o klubie, aktualności, dane kontaktowe) z której dostępny jest panel użytkownika,  wizualizacja stron e-RAKIETA (przy współpracy z Michałem), zdefiniowanie przypadków testowych, zarządzanie testami aplikacji, przeprowadzenie testów ||
+|| Michał Słabicki || Software development || Stworzenie i zaimplementowanie (na stronie www) panelu klienta klubu z funkcją rejestracji, logowania i rezerwacji kortów,przygotowanie wyszukiwarki zawodników oraz utworzenie bazy danych dla aplikacji ||
 || Tomasz Wojsław || Architekt || opis struktury systemu ||
 
 1.2.	Odnośniki
