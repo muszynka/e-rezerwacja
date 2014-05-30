@@ -13,6 +13,7 @@ Opis zmian:
 || 02-05-2014 || 2.0 || TESTY etap 2 || B.Pych-Wala || 
 || 04-05-2014 || 2.1 || TESTY etap 2 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala || 
 || 17-05-2014 || 2.2 || recenzja || P.Minor || 
+|| 28-05-2014 || 2.1 || TESTY etap 3 - przeprowadzone z wynikiem pozytywnym || B.Pych-Wala ||
 
 
 Zawartość:
