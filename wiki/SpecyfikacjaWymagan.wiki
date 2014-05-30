@@ -11,8 +11,8 @@ Autor: _Patrycja Minor_
 
 Opis zmian: 
 || Data || Wersja || Opis || Autor ||  
-|| 27-03-2014 || 0.5 || przygotowanie dokumentu || P.Minor ||  
-|| 23-04-2014 || 1.0 || Wstępna wersja || B.Pych-Wala || 
+|| 22-05-2014 || 0.5 || przygotowanie dokumentu || P.Minor ||  
+|| 23-05-2014 || 1.0 || Wstępna wersja || P.Minor || 
 || 28-05-2014 || 1.5 || recenzja || E.Kunstman-Michałek || 
 
 
@@ -94,11 +94,17 @@ Ponadto proponowane rozwiązanie wymaga licencji umożliwiających wykorzystanie
 ===2.9 Wymagania sprzętowe oraz techniczne===
 
 - System wymaga serwera bazodanowego. Zdecydowanie zalecane jest by serwer SQL był maszyną fizyczną, natomiast serwer webowy maszyną wirtualną. 
-Wymagania minimalne systemu zostały szczegółowo opisane poniżej.
-a.	Fizyczny serwer SQL: 
-a.a.	Zalecany: 1x6Core, 16 GB RAM, 600 GB HDD RAID 10.
-a.b.	Minimalny: 1x4Core, 12 GB RAM, 300 GB HDD.
-b.	Wirtualny serwer aplikacyjny (Maszyna do interfejsu webowego):
-b.a.	Zalecany: 4 rdzenie, 16 GB RAM, 300 GB HDD.
-b.b.	Minimalny: 2 rdzenie, 8 GB RAM, 300 GB HDD.
 
+Wymagania minimalne systemu zostały szczegółowo opisane poniżej.
+
+a.	Fizyczny serwer SQL: 
+
+a.a.	Zalecany: 1x6Core, 16 GB RAM, 600 GB HDD RAID 10.
+
+a.b.	Minimalny: 1x4Core, 12 GB RAM, 300 GB HDD.
+
+b.	Wirtualny serwer aplikacyjny (Maszyna do interfejsu webowego):
+
+b.a.	Zalecany: 4 rdzenie, 16 GB RAM, 300 GB HDD.
+
+b.b.	Minimalny: 2 rdzenie, 8 GB RAM, 300 GB HDD.
