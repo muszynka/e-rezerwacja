@@ -18,5 +18,6 @@ Ten dokument zawiera rozpisany harmonogram przeniesiony z openproj.
 
 = Details =
 
-[http://e-rezerwacja.googlecode.com/svn/wiki//harmonogram%20ERakieta%201.jpg]
-[http://e-rezerwacja.googlecode.com/svn/wiki//harmonogram%20ERakieta%202.jpg]
+[http://e-rezerwacja.googlecode.com/svn/wiki/harmonogram%20ERakieta%201.jpg]
+
+[http://e-rezerwacja.googlecode.com/svn/wiki/harmonogram%20ERakieta%202.JPG]
