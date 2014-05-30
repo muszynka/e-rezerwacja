@@ -63,35 +63,7 @@ Contents:
 - błędy krytyczne naprawa do 24 godz.
 - błędy niekrytyczne reakcja do 72 godz.
 
-===2.4 Wymagania dotyczące architektury systemu===
-
--
-
-===2.5 Wymagania dotyczące integracji===
-
-- system powinien współpracować z przeglądarkami: Internet Explorer, Google Chrome, Mozilla Firefox, Safari, Opera.
-
-===2.6 Wymagania dotyczące dokumentacji i pomocy użytkownika===
-
-- webowa wersja powinna zawierać "Podręcznik użytkownika". 
-
-===2.7 Wymagania dotyczące interfejsów===
-
-====2.7.1 Interfejs użytkownika====
-
-- Wymagana jest przeglądarka internetowa.
-Podstawowy interfejs użytkownika stanowi zestaw stron dostępny przez przeglądarkę internetową i udostępniany przez aplikację. Zestaw ten stanowią formularze edycyjne do rezerwowania sal oraz trenerów. 
-
-====2.7.2 Interfejs administratora
-Interfejs administratora składa się podobnie jak użytkownika z zestawu stron. Ponadto poszerzony będzie o witryny zbiorczej prezentacji danych (raporty w formie graficznej prezentujące dostępności sal oraz trenerów).
-
-===2.8 Wymagania licencyjne i prawne===
-
-- Prawa autorskie i majątkowe do systemu zostaną przekazane Zamawiającemu. 
-Prawa autorskie i majątkowe do wszystkich komponentów stworzonych na potrzeby Zamawiającego w trakcie projektu wdrożeniowego (w szczególności do wszystkich komponentów integracyjnych oraz akcji zostaną przekazane Zamawiającemu wraz z kodem źródłowym.
-Ponadto proponowane rozwiązanie wymaga licencji umożliwiających wykorzystanie oprogramowania Microsoft SQL Server w wersji 2005 wzwyż
-
-===2.9 Wymagania sprzętowe oraz techniczne===
+===2.4 Wymagania sprzętowe oraz techniczne===
 
 - System wymaga serwera bazodanowego. Zdecydowanie zalecane jest by serwer SQL był maszyną fizyczną, natomiast serwer webowy maszyną wirtualną. 
 
@@ -108,3 +80,28 @@ b.	Wirtualny serwer aplikacyjny (Maszyna do interfejsu webowego):
 b.a.	Zalecany: 4 rdzenie, 16 GB RAM, 300 GB HDD.
 
 b.b.	Minimalny: 2 rdzenie, 8 GB RAM, 300 GB HDD.
+
+
+===2.5 Wymagania dotyczące integracji===
+
+- system powinien współpracować z przeglądarkami: Internet Explorer, Google Chrome, Mozilla Firefox, Safari, Opera.
+
+===2.6 Wymagania dotyczące dokumentacji i pomocy użytkownika===
+
+- webowa wersja powinna zawierać "Podręcznik użytkownika". 
+
+===2.7 Wymagania dotyczące interfejsów===
+
+====2.7.1 Interfejs użytkownika====
+
+- Wymagana jest przeglądarka internetowa.
+Podstawowy interfejs użytkownika stanowi zestaw stron dostępny przez przeglądarkę internetową i udostępniany przez aplikację. Zestaw ten stanowią formularze edycyjne do rezerwowania sal oraz trenerów. 
+
+====2.7.2 Interfejs administratora====
+Interfejs administratora składa się podobnie jak użytkownika z zestawu stron. Ponadto poszerzony będzie o witryny zbiorczej prezentacji danych (raporty w formie graficznej prezentujące dostępności sal oraz trenerów).
+
+===2.8 Wymagania licencyjne i prawne===
+
+- Prawa autorskie i majątkowe do systemu zostaną przekazane Zamawiającemu. 
+Prawa autorskie i majątkowe do wszystkich komponentów stworzonych na potrzeby Zamawiającego w trakcie projektu wdrożeniowego (w szczególności do wszystkich komponentów integracyjnych oraz akcji zostaną przekazane Zamawiającemu wraz z kodem źródłowym.
+Ponadto proponowane rozwiązanie wymaga licencji umożliwiających wykorzystanie oprogramowania Microsoft SQL Server w wersji 2005 wzwyż
