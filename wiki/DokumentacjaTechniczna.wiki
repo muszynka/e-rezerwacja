@@ -1,4 +1,4 @@
-#summary PlanStan to opis wykonanych prac i stanu na moment bieżący.
+#summary Dokumentacja Techniczna - SAD.
 
 = Introduction =
 
@@ -119,7 +119,7 @@ Pracownicy klubu mają dodatkową możliwość utworzenia rezerwacji na potrzeby
 
 <b>5.	Przeprowadzone testy oraz sprawdzenie poprawności działania</b><br>
 
-Scenariusze testów zostały opisane w osobnym dokumencie 'Use Cases'.<br>
+Przypadki testowe zostały opisane w osobnym dokumencie 'Scenariusze Testów'.<br>
 
 <b>6.	Architektura aplikacji</b><br>
 
