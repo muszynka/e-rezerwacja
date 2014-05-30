@@ -101,7 +101,7 @@ Po zalogowaniu użytkownik otrzymuje dostęp do systemu rezerwacji. Po wybraniu 
 
 Gdy pracownik klubu wybierze funkcję rezerwacji czasu na potrzeby organizacji zawodów, system dokona rezerwacji bez względu na istniejące już zapisy. Wyświetli jednocześnie listę konfliktowych rezerwacji, z możliwością wysłania maili informujących o ich odwołaniu na adresy przypisane do kont, z których dokonano rezerwacji.<br>
 
-<b>4.1.	Baza danych</b><br>
+<b>4.1.	Baza danych </b><br>
 
 Aplikacja współpracuje z bazą danych przechowującą informacje o użytkownikach, dostępnych kortach, oraz danych historycznych.<br>
 
@@ -164,20 +164,20 @@ Text: powitanie zarejestrowanego użytkownika<br>
 
 [http://e-rezerwacja.googlecode.com/svn/wiki/diagram_sekw.png]
 
-<b>6.8.	About</b><br>
+<b>6.8.	About </b><br>
     
 Informacje na temat programu. <br>
-Button: Return<br>
+Button 'Return'<br>
 
 <b>6.9.	Default</b><br>
 
-Hyperlink: Rejestracja <br>
-Hyperlink: Przypomnienie <br>
-Hyperlink: ChangePassword <br>
-Hyperlink: Members<br>
-Hyperlink: Rezerwacja <br>   
+Hyperlink Rejestracja <br>
+Hyperlink Przypomnienie <br>
+Hyperlink ChangePassword <br>
+Hyperlink Members<br>
+Hyperlink Rezerwacja <br>   
 
-<b>6.10.	Login</b><br>
+<b>6.10.	Login </b><br>
 
 Hyperlink: Rejestracja (Register) <br>
 Textbox: Username <br>
