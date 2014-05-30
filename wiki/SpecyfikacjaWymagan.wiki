@@ -95,10 +95,10 @@ b.b.	Minimalny: 2 rdzenie, 8 GB RAM, 300 GB HDD.
 ====2.7.1 Interfejs użytkownika====
 
 - Wymagana jest przeglądarka internetowa.
-Podstawowy interfejs użytkownika stanowi zestaw stron dostępny przez przeglądarkę internetową i udostępniany przez aplikację. Zestaw ten stanowią formularze edycyjne do rezerwowania sal oraz trenerów. 
+Podstawowy interfejs użytkownika stanowi zestaw stron dostępny przez przeglądarkę internetową i udostępniany przez aplikację. Zestaw ten stanowią formularze edycyjne do rezerwowania kortów oraz trenerów. 
 
 ====2.7.2 Interfejs administratora====
-Interfejs administratora składa się podobnie jak użytkownika z zestawu stron. Ponadto poszerzony będzie o witryny zbiorczej prezentacji danych (raporty w formie graficznej prezentujące dostępności sal oraz trenerów).
+Interfejs administratora składa się podobnie jak użytkownika z zestawu stron. Ponadto poszerzony będzie o witryny zbiorczej prezentacji danych (raporty w formie graficznej prezentujące dostępności kortów oraz trenerów).
 
 ===2.8 Wymagania licencyjne i prawne===
 
