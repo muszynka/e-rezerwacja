@@ -136,6 +136,7 @@ Działająca strona www w podstawowej formie graficznej wraz z dostępną z niej
 Przetestowanie aplikacji przez klienta, podpisanie protokołu odbioru
 
 8.2.	Wykonane testy
+
 testy akceptacyjne wszystkich funkcji:
   * rejestracji
   * logowania
@@ -143,6 +144,8 @@ testy akceptacyjne wszystkich funkcji:
   * wyszukiwanie zawodników
   * rezerwacja kortu i potwierdzenie rezerwacji
   * anulowanie rezerwacji kortu i potwierdzenie anulowania
+oraz sprawdzenie poprawności działania panelu klienta i prezentacji strony www niezależnie od użytej przeglądarki
+
 
 8.3.	Efekty realizacji
 protokół odbioru przekazanych prac
