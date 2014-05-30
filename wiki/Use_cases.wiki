@@ -649,7 +649,7 @@ potwierdzającego rezerwację. Jednocześnie użytkownik otrzymuje jej numer, kt
 
 
 
-== 1.6.        Odrezerwowanie kortu ==
+== 1.6.        Anulowanie rezerwacji kortu ==
 
 Użytkownik, który chce anulować rezerwację, musi się zalogować na stronie klubu. Przejść do Menu użytkownika i nacisnąć na opcję "Anuluj rezerwację kortu".
 
